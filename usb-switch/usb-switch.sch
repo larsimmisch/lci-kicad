@@ -98,8 +98,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 1900 2800 2300
 Wire Wire Line
-	3650 2200 3650 2300
-Wire Wire Line
 	3400 800  3400 800 
 Wire Wire Line
 	3400 800  3400 1000
