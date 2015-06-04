@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by Cvpcb (2015-01-07 BZR 5357)-product   date = Mittwoch, 29. April 2015 15:28:20
+
+BeginCmp
+TimeStamp = /5540039E;
+Reference = FB1;
+ValeurCmp = Double_choke;
+IdModule  = lci-relays:double_choke;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E5992;
+Reference = IC1;
+ValeurCmp = 4N25;
+IdModule  = Sockets_DIP:DIP-6__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E6CAB;
+Reference = P1;
+ValeurCmp = input;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E6CF6;
+Reference = P2;
+ValeurCmp = power;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EA2D7;
+Reference = P3;
+ValeurCmp = output;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E5967;
+Reference = Q1;
+ValeurCmp = BC307;
+IdModule  = Housings_TO-92:TO-92_Inline_Narrow_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E5A6F;
+Reference = R1;
+ValeurCmp = 470;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E6DB4;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E963F;
+Reference = RL1;
+ValeurCmp = Omron_G6K;
+IdModule  = lci-relays:Omron-G6K;
+EndCmp
+
+EndListe

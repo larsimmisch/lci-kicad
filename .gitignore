@@ -1,0 +1,7 @@
+.DS_Store
+*.bak
+*.bck
+*.kicad_pcb-bak
+*-cache.lib
+gerber/
+_autosave*
