@@ -1,4 +1,4 @@
-update=Mittwoch, 04. März 2015 16:30:31
+update=Sonntag, 07. Juni 2015 22:53:34
 last_client=kicad
 [general]
 version=1
@@ -13,4 +13,5 @@ LibName4=transistors
 LibName5=texas
 LibName6=digital-audio
 LibName7=analog_switches
-LibName8=lars
+LibName8=TAS5701
+LibName9=device
