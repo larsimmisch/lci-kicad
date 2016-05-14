@@ -8,6 +8,7 @@ LIBS:digital-audio
 LIBS:analog_switches
 LIBS:TAS5701
 LIBS:device
+LIBS:lci-kicad
 LIBS:3-way-class-d-cache
 EELAYER 25 0
 EELAYER END
