@@ -1,5 +1,5 @@
-update=Samstag, 14. Mai 2016 'u15' 19:15:46
-last_client=eeschema
+update=Dienstag, 09. August 2016 'u26' 12:26:12
+last_client=kicad
 [general]
 version=1
 [eeschema]
@@ -13,6 +13,5 @@ LibName4=transistors
 LibName5=texas
 LibName6=digital-audio
 LibName7=analog_switches
-LibName8=TAS5701
-LibName9=device
-LibName10=lci-kicad
+LibName8=device
+LibName9=lci-kicad

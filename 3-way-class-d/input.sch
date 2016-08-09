@@ -1,0 +1,259 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:audio
+LIBS:conn
+LIBS:transistors
+LIBS:texas
+LIBS:digital-audio
+LIBS:analog_switches
+LIBS:device
+LIBS:lci-kicad
+LIBS:3-way-class-d-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DIR9001 U?
+U 1 1 57A9D70D
+P 6150 4050
+F 0 "U?" H 6150 4100 50  0000 C CNN
+F 1 "DIR9001" H 6150 4000 50  0000 C CNN
+F 2 "" H 6150 3950 60  0000 C CNN
+F 3 "" H 6150 3950 60  0000 C CNN
+	1    6150 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4500 5250 4500
+Wire Wire Line
+	4600 4650 5250 4650
+$Comp
+L +3.3V #PWR?
+U 1 1 57A9D96F
+P 4250 4500
+F 0 "#PWR?" H 4250 4350 50  0001 C CNN
+F 1 "+3.3V" H 4250 4640 50  0000 C CNN
+F 2 "" H 4250 4500 60  0000 C CNN
+F 3 "" H 4250 4500 60  0000 C CNN
+	1    4250 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4500 4250 4500
+Wire Wire Line
+	4400 4650 4250 4650
+Wire Wire Line
+	4250 4650 4250 4500
+$Comp
+L R_Small R?
+U 1 1 57A9D9DE
+P 4850 5350
+F 0 "R?" H 4880 5370 50  0000 L CNN
+F 1 "10k" H 4880 5310 50  0000 L CNN
+F 2 "" H 4850 5350 60  0000 C CNN
+F 3 "" H 4850 5350 60  0000 C CNN
+	1    4850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 57A9DA56
+P 4650 5350
+F 0 "R?" H 4680 5370 50  0000 L CNN
+F 1 "10k" H 4680 5310 50  0000 L CNN
+F 2 "" H 4650 5350 60  0000 C CNN
+F 3 "" H 4650 5350 60  0000 C CNN
+	1    4650 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 5250 4650 4500
+Connection ~ 4650 4500
+Wire Wire Line
+	4850 5250 4850 4650
+Connection ~ 4850 4650
+$Comp
+L GNDPWR #PWR?
+U 1 1 57A9DB0C
+P 4650 5600
+F 0 "#PWR?" H 4650 5400 50  0001 C CNN
+F 1 "GNDPWR" H 4650 5470 50  0000 C CNN
+F 2 "" H 4650 5550 60  0000 C CNN
+F 3 "" H 4650 5550 60  0000 C CNN
+	1    4650 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 5600 4650 5450
+Wire Wire Line
+	4650 5600 4850 5600
+Wire Wire Line
+	4850 5600 4850 5450
+$Comp
+L Jumper_NC_Small JP?
+U 1 1 57A9DD2F
+P 4500 4500
+F 0 "JP?" H 4500 4580 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 4510 4440 50  0001 C CNN
+F 2 "" H 4500 4500 60  0000 C CNN
+F 3 "" H 4500 4500 60  0000 C CNN
+	1    4500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Small JP?
+U 1 1 57A9DD52
+P 4500 4650
+F 0 "JP?" H 4500 4730 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 4510 4590 50  0001 C CNN
+F 2 "" H 4500 4650 60  0000 C CNN
+F 3 "" H 4500 4650 60  0000 C CNN
+	1    4500 4650
+	1    0    0    -1  
+$EndComp
+Text Notes 2950 4700 0    60   ~ 0
+24Bit/MSB/I2S* H  H\n24Bit/MSB/LJ   H  L\n24Bit/MSB/RJ   L  H\n16Bit/MSB/RJ   L  L
+Text Notes 3600 4300 0    60   ~ 12
+FMT1 FMT0
+Text GLabel 6350 6950 3    60   Input ~ 12
+AGND-SPDIF
+$Comp
+L R_Small R?
+U 1 1 57A9E269
+P 6350 6350
+F 0 "R?" H 6380 6370 50  0000 L CNN
+F 1 "680" H 6380 6310 50  0000 L CNN
+F 2 "" H 6350 6350 60  0000 C CNN
+F 3 "" H 6350 6350 60  0000 C CNN
+	1    6350 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 57A9E2C5
+P 6350 6550
+F 0 "C?" H 6360 6620 50  0000 L CNN
+F 1 "0.068uF" H 6360 6470 50  0000 L CNN
+F 2 "" H 6350 6550 60  0000 C CNN
+F 3 "" H 6350 6550 60  0000 C CNN
+	1    6350 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 57A9E30B
+P 6000 6450
+F 0 "C?" H 6010 6520 50  0000 L CNN
+F 1 "4.6nF" H 6010 6370 50  0000 L CNN
+F 2 "" H 6000 6450 60  0000 C CNN
+F 3 "" H 6000 6450 60  0000 C CNN
+	1    6000 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 5150 6350 6250
+$Comp
+L Crystal_Small Y?
+U 1 1 57A9E6E2
+P 5850 5500
+F 0 "Y?" H 5850 5600 50  0000 C CNN
+F 1 "12.288MHz" H 5850 5400 50  0000 C CNN
+F 2 "" H 5850 5500 60  0000 C CNN
+F 3 "" H 5850 5500 60  0000 C CNN
+	1    5850 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 57A9E9A9
+P 5750 5250
+F 0 "R?" H 5780 5270 50  0000 L CNN
+F 1 "470" H 5780 5210 50  0000 L CNN
+F 2 "" H 5750 5250 60  0000 C CNN
+F 3 "" H 5750 5250 60  0000 C CNN
+	1    5750 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 5350 5750 5650
+Wire Wire Line
+	5900 5150 5950 5150
+Wire Wire Line
+	5950 5150 5950 5650
+$Comp
+L C_Small C?
+U 1 1 57A9EB1A
+P 5750 5750
+F 0 "C?" H 5760 5820 50  0000 L CNN
+F 1 "33pF" H 5760 5670 50  0000 L CNN
+F 2 "" H 5750 5750 60  0000 C CNN
+F 3 "" H 5750 5750 60  0000 C CNN
+	1    5750 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 57A9EBA4
+P 5950 5750
+F 0 "C?" H 5960 5820 50  0000 L CNN
+F 1 "33pF" H 5960 5670 50  0000 L CNN
+F 2 "" H 5950 5750 60  0000 C CNN
+F 3 "" H 5950 5750 60  0000 C CNN
+	1    5950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 57A9ED2D
+P 5750 6000
+F 0 "#PWR?" H 5750 5800 50  0001 C CNN
+F 1 "GNDPWR" H 5750 5870 50  0000 C CNN
+F 2 "" H 5750 5950 60  0000 C CNN
+F 3 "" H 5750 5950 60  0000 C CNN
+	1    5750 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 6550 6000 6700
+Wire Wire Line
+	6000 6200 6000 6350
+Wire Wire Line
+	6350 6200 6000 6200
+Connection ~ 6350 6200
+Wire Wire Line
+	6350 6950 6350 6650
+Wire Wire Line
+	6000 6700 6350 6700
+Connection ~ 6350 6700
+Wire Wire Line
+	5750 5850 5750 6000
+Wire Wire Line
+	5950 5850 5950 5900
+Wire Wire Line
+	5950 5900 5750 5900
+Connection ~ 5750 5900
+$Comp
+L GNDPWR #PWR?
+U 1 1 57A9F4AD
+P 4700 4150
+F 0 "#PWR?" H 4700 3950 50  0001 C CNN
+F 1 "GNDPWR" H 4700 4020 50  0000 C CNN
+F 2 "" H 4700 4100 60  0000 C CNN
+F 3 "" H 4700 4100 60  0000 C CNN
+	1    4700 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 4150 4700 4150
+$EndSCHEMATC

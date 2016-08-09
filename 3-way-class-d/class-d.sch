@@ -6,7 +6,6 @@ LIBS:transistors
 LIBS:texas
 LIBS:digital-audio
 LIBS:analog_switches
-LIBS:TAS5701
 LIBS:device
 LIBS:lci-kicad
 LIBS:3-way-class-d-cache
@@ -14,7 +13,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title "TAS5701"
 Date ""
 Rev ""
