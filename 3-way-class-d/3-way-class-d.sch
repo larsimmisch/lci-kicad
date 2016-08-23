@@ -32,7 +32,7 @@ $EndSheet
 $Sheet
 S 2550 3100 1550 1200
 U 57A9B7AF
-F0 "Input" 60
-F1 "Input.sch" 60
+F0 "input" 60
+F1 "input.sch" 60
 $EndSheet
 $EndSCHEMATC

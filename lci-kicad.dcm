@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74AHC1GU04
+D 74AHC1GU04
+K logic inverter
+F http://www.ti.com/lit/ds/symlink/sn74ahc1gu04.pdf
+$ENDCMP
+#
+$CMP 74HC1GU04
+D 74AHC1GU04
+K logic inverter
+F http://www.ti.com/lit/ds/symlink/sn74ahc1gu04.pdf
+$ENDCMP
+#
 $CMP DIR9001
 D  96-kHz, 24-Bit Digital Audio Interface Receiver (TSSOP-28)
 K digital audio interface receiver spdif
@@ -10,6 +22,12 @@ $CMP INA134
 D Audio Differential line receiver
 K TI INA134
 F http://www.ti.com/lit/ds/symlink/ina134.pdf
+$ENDCMP
+#
+$CMP PLR135
+D Fiber optic receiver
+K photolink opical fiber receiver
+F http://www.everlight.com/file/ProductFile/PLR135-T10.pdf
 $ENDCMP
 #
 #End Doc Library
