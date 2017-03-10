@@ -30,4 +30,9 @@ K photolink opical fiber receiver
 F http://www.everlight.com/file/ProductFile/PLR135-T10.pdf
 $ENDCMP
 #
+$CMP TLE2426
+D Rail splitter - precision virtual ground
+F http://www.ti.com/lit/ds/symlink/tle2426.pdf
+$ENDCMP
+#
 #End Doc Library

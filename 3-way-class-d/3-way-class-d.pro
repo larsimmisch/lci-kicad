@@ -1,4 +1,4 @@
-update=Montag, 15. August 2016 'u42' 16:42:30
+update=2017 March 09, Thursday 15:34:44
 last_client=kicad
 [general]
 version=1
@@ -10,8 +10,8 @@ LibName1=power
 LibName2=audio
 LibName3=conn
 LibName4=transistors
-LibName5=texas
-LibName6=digital-audio
-LibName7=analog_switches
-LibName8=device
-LibName9=lci-kicad
+LibName5=digital-audio
+LibName6=analog_switches
+LibName7=device
+LibName8=lci-kicad
+LibName9=library-repos/kicad-library/library/linear
