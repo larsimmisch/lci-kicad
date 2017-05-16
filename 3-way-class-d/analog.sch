@@ -34,11 +34,11 @@ F 3 "" H 8450 3550 60  0000 C CNN
 	1    8450 3750
 	1    0    0    -1  
 $EndComp
-Text GLabel 9300 4050 2    60   Input ~ 12
+Text GLabel 9300 4050 2    60   Output ~ 12
 LRCLK
-Text GLabel 9700 4150 2    60   Input ~ 12
+Text GLabel 9700 4150 2    60   Output ~ 12
 SCLK
-Text GLabel 10050 4250 2    60   Input ~ 12
+Text GLabel 10050 4250 2    60   Output ~ 12
 MCLK
 $Comp
 L GNDPWR #PWR11
@@ -710,4 +710,49 @@ F 3 "" H 2500 6000 60  0000 C CNN
 	1    2500 6000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Led_Small D?
+U 1 1 58C2FA90
+P 9900 3250
+F 0 "D?" H 9850 3375 50  0000 L CNN
+F 1 "LED" H 9850 3150 50  0000 L CNN
+F 2 "" V 9900 3250 60  0000 C CNN
+F 3 "" V 9900 3250 60  0000 C CNN
+	1    9900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 58C2FB7F
+P 10100 3250
+F 0 "R?" H 10130 3270 50  0000 L CNN
+F 1 "470" H 10130 3210 50  0000 L CNN
+F 2 "" H 10100 3250 60  0000 C CNN
+F 3 "" H 10100 3250 60  0000 C CNN
+	1    10100 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9150 3250 9800 3250
+$Comp
+L +3.3V #PWR?
+U 1 1 58C30782
+P 10200 3250
+F 0 "#PWR?" H 10200 3100 50  0001 C CNN
+F 1 "+3.3V" H 10200 3390 50  0000 C CNN
+F 2 "" H 10200 3250 60  0000 C CNN
+F 3 "" H 10200 3250 60  0000 C CNN
+	1    10200 3250
+	0    1    1    0   
+$EndComp
+Text Notes 9850 3550 0    60   ~ 0
+overflow
+Wire Notes Line
+	9800 3000 10450 3000
+Wire Notes Line
+	10450 3000 10450 3600
+Wire Notes Line
+	10450 3600 9800 3600
+Wire Notes Line
+	9800 3600 9800 3000
 $EndSCHEMATC

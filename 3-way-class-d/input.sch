@@ -195,12 +195,12 @@ $EndComp
 $Comp
 L GNDPWR #PWR16
 U 1 1 57A9F4AD
-P 7150 2600
-F 0 "#PWR16" H 7150 2400 50  0001 C CNN
-F 1 "GNDPWR" H 7150 2470 50  0000 C CNN
-F 2 "" H 7150 2550 60  0000 C CNN
-F 3 "" H 7150 2550 60  0000 C CNN
-	1    7150 2600
+P 7100 2600
+F 0 "#PWR16" H 7100 2400 50  0001 C CNN
+F 1 "GNDPWR" H 7100 2470 50  0000 C CNN
+F 2 "" H 7100 2550 60  0000 C CNN
+F 3 "" H 7100 2550 60  0000 C CNN
+	1    7100 2600
 	0    1    1    0   
 $EndComp
 NoConn ~ 9500 2300
@@ -693,13 +693,9 @@ $EndComp
 Text GLabel 950  4400 0    60   Input ~ 0
 DSEL
 Wire Wire Line
-	7050 2950 7100 2950
+	7050 2950 7700 2950
 Wire Wire Line
-	7100 2950 7700 2950
-Wire Wire Line
-	7050 3100 7300 3100
-Wire Wire Line
-	7300 3100 7700 3100
+	7050 3100 7700 3100
 Wire Wire Line
 	6850 2950 6700 2950
 Wire Wire Line
@@ -719,9 +715,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 4050 7300 3900
 Wire Wire Line
-	8700 3600 8700 4650
-Wire Wire Line
-	8700 4650 8700 4700
+	8700 3600 8700 4700
 Wire Wire Line
 	8200 3800 8200 4100
 Wire Wire Line
@@ -736,25 +730,19 @@ Wire Wire Line
 	8700 4650 8350 4650
 Connection ~ 8700 4650
 Wire Wire Line
-	8700 5100 8700 5150
-Wire Wire Line
-	8700 5150 8700 5400
+	8700 5100 8700 5400
 Wire Wire Line
 	8350 5150 8700 5150
 Connection ~ 8700 5150
 Wire Wire Line
-	8200 4300 8200 4350
-Wire Wire Line
-	8200 4350 8200 4450
+	8200 4300 8200 4450
 Wire Wire Line
 	8400 4300 8400 4350
 Wire Wire Line
 	8400 4350 8200 4350
 Connection ~ 8200 4350
 Wire Wire Line
-	7150 2600 7250 2600
-Wire Wire Line
-	7250 2600 7700 2600
+	7300 2600 7700 2600
 Wire Wire Line
 	8750 1000 8750 1400
 Wire Wire Line
@@ -782,9 +770,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 3600 10400 3600
 Wire Wire Line
-	9950 3600 10050 3600
-Wire Wire Line
-	10050 3600 10200 3600
+	9950 3600 10200 3600
 Wire Wire Line
 	10900 2650 10900 2800
 Wire Wire Line
@@ -799,28 +785,20 @@ Wire Wire Line
 	10050 3850 10050 3600
 Connection ~ 10050 3600
 Wire Wire Line
-	6450 2150 6450 2250
-Wire Wire Line
-	6450 2250 6450 2400
+	6450 2150 6450 2400
 Connection ~ 6450 2250
 Wire Wire Line
 	7500 2250 7700 2250
 Wire Wire Line
 	7300 2250 6450 2250
 Wire Wire Line
-	6650 2400 7250 2400
-Wire Wire Line
-	7250 2400 7700 2400
-Wire Wire Line
-	7250 2600 7250 2400
-Connection ~ 7250 2400
-Connection ~ 7250 2600
+	6650 2400 7700 2400
+Connection ~ 7450 2400
+Connection ~ 7450 2600
 Wire Wire Line
 	4000 2750 7700 2750
 Wire Wire Line
-	2500 4150 2500 4200
-Wire Wire Line
-	2500 4200 2500 4250
+	2500 4150 2500 4250
 Wire Wire Line
 	2150 3700 2150 4200
 Wire Wire Line
@@ -831,9 +809,7 @@ Wire Wire Line
 Wire Wire Line
 	950  2800 950  2950
 Wire Wire Line
-	1150 1550 1150 1600
-Wire Wire Line
-	1150 1600 1150 1700
+	1150 1550 1150 1700
 Wire Wire Line
 	1550 1400 1550 1600
 Wire Wire Line
@@ -848,15 +824,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 1300 2650 1600
 Wire Wire Line
-	2200 1100 2300 1100
-Wire Wire Line
-	2300 1100 2650 1100
+	2200 1100 2650 1100
 Wire Wire Line
 	3600 900  3600 700 
 Wire Wire Line
-	3600 1100 3600 1300
-Wire Wire Line
-	3600 1300 3600 1950
+	3600 1100 3600 1950
 Wire Wire Line
 	3600 1950 3250 1950
 Wire Wire Line
@@ -867,21 +839,15 @@ Connection ~ 2300 1100
 Wire Wire Line
 	1350 3300 2150 3300
 Wire Wire Line
-	4050 1100 4150 1100
+	4050 1100 4450 1100
 Wire Wire Line
-	4150 1100 4450 1100
-Wire Wire Line
-	4150 1000 4150 1100
-Wire Wire Line
-	4150 1100 4150 1300
+	4150 1000 4150 1300
 Connection ~ 4150 1100
 Wire Wire Line
 	3850 1100 3600 1100
 Connection ~ 3600 1300
 Wire Wire Line
-	4150 1500 4150 1600
-Wire Wire Line
-	4150 1600 4150 1750
+	4150 1500 4150 1750
 Wire Wire Line
 	4450 1300 4450 1600
 Wire Wire Line
@@ -908,9 +874,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 3500 1700 3500
 Wire Wire Line
-	1150 3750 1150 3850
-Wire Wire Line
-	1150 3850 1150 3950
+	1150 3750 1150 3950
 Connection ~ 1150 3850
 Wire Wire Line
 	700  3750 950  3750
@@ -919,10 +883,21 @@ Wire Wire Line
 Wire Wire Line
 	1150 3850 1700 3850
 Wire Wire Line
-	1700 3500 1700 3850
-Wire Wire Line
-	1700 3850 1700 4400
+	1700 3500 1700 4400
 Wire Wire Line
 	1700 4400 950  4400
 Connection ~ 1700 3850
+Wire Wire Line
+	7450 2600 7450 2400
+$Comp
+L R_Small R?
+U 1 1 58C2DF75
+P 7200 2600
+F 0 "R?" H 7230 2620 50  0000 L CNN
+F 1 "4.99k" H 7230 2560 50  0000 L CNN
+F 2 "" H 7200 2600 60  0000 C CNN
+F 3 "" H 7200 2600 60  0000 C CNN
+	1    7200 2600
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
