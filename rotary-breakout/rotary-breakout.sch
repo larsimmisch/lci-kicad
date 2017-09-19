@@ -1,0 +1,208 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:lci-relays
+LIBS:rotary-breakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR01
+U 1 1 59BEE643
+P 2400 2150
+F 0 "#PWR01" H 2400 1900 50  0001 C CNN
+F 1 "GND" H 2400 2000 50  0000 C CNN
+F 2 "" H 2400 2150 50  0001 C CNN
+F 3 "" H 2400 2150 50  0001 C CNN
+	1    2400 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 59BEE67D
+P 2950 1500
+F 0 "#PWR02" H 2950 1250 50  0001 C CNN
+F 1 "GND" H 2950 1350 50  0000 C CNN
+F 2 "" H 2950 1500 50  0001 C CNN
+F 3 "" H 2950 1500 50  0001 C CNN
+	1    2950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 59BEE695
+P 3550 2250
+F 0 "#PWR03" H 3550 2000 50  0001 C CNN
+F 1 "GND" H 3550 2100 50  0000 C CNN
+F 2 "" H 3550 2250 50  0001 C CNN
+F 3 "" H 3550 2250 50  0001 C CNN
+	1    3550 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR04
+U 1 1 59BEE6AD
+P 3050 1200
+F 0 "#PWR04" H 3050 1050 50  0001 C CNN
+F 1 "VCC" H 3050 1350 50  0000 C CNN
+F 2 "" H 3050 1200 50  0001 C CNN
+F 3 "" H 3050 1200 50  0001 C CNN
+	1    3050 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 2150 2600 2150
+Wire Wire Line
+	2600 2050 2600 1850
+Wire Wire Line
+	2600 1850 2750 1850
+Wire Wire Line
+	2500 2250 2600 2250
+Wire Wire Line
+	2500 1200 2500 2250
+Wire Wire Line
+	2350 1200 2650 1200
+Wire Wire Line
+	2950 1200 2950 1500
+$Comp
+L R_Small R3
+U 1 1 59BEE9A7
+P 3600 1800
+F 0 "R3" H 3630 1820 50  0000 L CNN
+F 1 "R_Small" H 3630 1760 50  0001 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 3600 1800 50  0001 C CNN
+F 3 "" H 3600 1800 50  0001 C CNN
+	1    3600 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L VCC #PWR05
+U 1 1 59BEE9DE
+P 3600 1900
+F 0 "#PWR05" H 3600 1750 50  0001 C CNN
+F 1 "VCC" H 3600 2050 50  0000 C CNN
+F 2 "" H 3600 1900 50  0001 C CNN
+F 3 "" H 3600 1900 50  0001 C CNN
+	1    3600 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 59BEEA0E
+P 2350 1300
+F 0 "R1" H 2380 1320 50  0000 L CNN
+F 1 "R_Small" H 2380 1260 50  0001 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 2350 1300 50  0001 C CNN
+F 3 "" H 2350 1300 50  0001 C CNN
+	1    2350 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 59BEEB11
+P 2650 1450
+F 0 "R2" H 2680 1470 50  0000 L CNN
+F 1 "R_Small" H 2680 1410 50  0001 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 2650 1450 50  0001 C CNN
+F 3 "" H 2650 1450 50  0001 C CNN
+	1    2650 1450
+	-1   0    0    1   
+$EndComp
+Connection ~ 2500 1200
+$Comp
+L VCC #PWR06
+U 1 1 59BEEB5F
+P 2350 1400
+F 0 "#PWR06" H 2350 1250 50  0001 C CNN
+F 1 "VCC" H 2350 1550 50  0000 C CNN
+F 2 "" H 2350 1400 50  0001 C CNN
+F 3 "" H 2350 1400 50  0001 C CNN
+	1    2350 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L VCC #PWR07
+U 1 1 59BEEB79
+P 2650 1550
+F 0 "#PWR07" H 2650 1400 50  0001 C CNN
+F 1 "VCC" H 2650 1700 50  0000 C CNN
+F 2 "" H 2650 1550 50  0001 C CNN
+F 3 "" H 2650 1550 50  0001 C CNN
+	1    2650 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 1850 2750 1200
+Wire Wire Line
+	2650 1350 2750 1350
+Connection ~ 2750 1350
+Wire Wire Line
+	2850 1200 2850 1700
+$Comp
+L Alps-Rotary-Encoder ROT1
+U 1 1 59C1647D
+P 2950 2150
+F 0 "ROT1" H 2860 2400 60  0000 C CNN
+F 1 "Alps-Rotary-Encoder" H 2950 1870 60  0000 C CNN
+F 2 "lci-relays:Alps-Rotary-Encoder" H 2950 2150 60  0001 C CNN
+F 3 "" H 2950 2150 60  0000 C CNN
+	1    2950 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2850 1700 3600 1700
+Wire Wire Line
+	3300 2050 3300 1700
+Connection ~ 3300 1700
+Wire Wire Line
+	3300 2250 3550 2250
+$Comp
+L CONN_01X05 J1
+U 1 1 59BEE540
+P 2850 1000
+F 0 "J1" H 2850 1300 50  0000 C CNN
+F 1 "CONN_01X05" V 2950 1000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 2850 1000 50  0001 C CNN
+F 3 "" H 2850 1000 50  0001 C CNN
+	1    2850 1000
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
