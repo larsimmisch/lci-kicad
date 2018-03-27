@@ -1,15 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:audio
-LIBS:conn
-LIBS:transistors
-LIBS:digital-audio
-LIBS:analog_switches
-LIBS:device
-LIBS:lci-kicad
-LIBS:linear
+EESchema Schematic File Version 4
 LIBS:3-way-class-d-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -24,14 +15,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CS5361 U4
+L digital-audio:CS5361 U4
 U 1 1 58949ABD
-P 8450 3750
-F 0 "U4" H 8450 3800 50  0000 C CNN
-F 1 "CS5361" H 8450 3700 50  0000 C CNN
-F 2 "" H 8450 3550 60  0000 C CNN
-F 3 "" H 8450 3550 60  0000 C CNN
-	1    8450 3750
+P 8350 3750
+F 0 "U4" H 8350 3800 50  0000 C CNN
+F 1 "CS5361" H 8350 3700 50  0000 C CNN
+F 2 "" H 8350 3550 60  0000 C CNN
+F 3 "" H 8350 3550 60  0000 C CNN
+	1    8350 3750
 	1    0    0    -1  
 $EndComp
 Text GLabel 9300 4050 2    60   Output ~ 12
@@ -41,7 +32,7 @@ SCLK
 Text GLabel 10050 4250 2    60   Output ~ 12
 MCLK
 $Comp
-L GNDPWR #PWR11
+L power:GNDPWR #PWR11
 U 1 1 5894D203
 P 8350 4950
 F 0 "#PWR11" H 8350 4750 50  0001 C CNN
@@ -52,7 +43,7 @@ F 3 "" H 8350 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RCA C?
+L lci-kicad:RCA C?
 U 1 1 589520AC
 P 1100 1600
 F 0 "C?" H 1200 1500 60  0000 C CNN
@@ -63,7 +54,7 @@ F 3 "" H 1100 1600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RCA C?
+L lci-kicad:RCA C?
 U 1 1 58952393
 P 1100 3600
 F 0 "C?" H 1200 3500 60  0000 C CNN
@@ -74,7 +65,7 @@ F 3 "" H 1100 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 5898D324
 P 8250 2350
 F 0 "#PWR?" H 8250 2200 50  0001 C CNN
@@ -85,7 +76,7 @@ F 3 "" H 8250 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L device:C_Small C?
 U 1 1 5898E39F
 P 8000 2500
 F 0 "C?" H 8010 2570 50  0000 L CNN
@@ -96,7 +87,7 @@ F 3 "" H 8000 2500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C?
+L device:C_Small C?
 U 1 1 5898E45E
 P 8000 2750
 F 0 "C?" H 8010 2820 50  0000 L CNN
@@ -107,7 +98,7 @@ F 3 "" H 8000 2750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDPWR #PWR?
+L power:GNDPWR #PWR?
 U 1 1 5898EA7C
 P 7650 2350
 F 0 "#PWR?" H 7650 2150 50  0001 C CNN
@@ -118,7 +109,7 @@ F 3 "" H 7650 2300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR?
+L power:+3.3V #PWR?
 U 1 1 5898FB86
 P 9450 2350
 F 0 "#PWR?" H 9450 2200 50  0001 C CNN
@@ -131,7 +122,7 @@ $EndComp
 Text GLabel 10450 4350 2    60   Output ~ 12
 SDATA2
 $Comp
-L C_Small C?
+L device:C_Small C?
 U 1 1 589905A6
 P 9550 2750
 F 0 "C?" H 9560 2820 50  0000 L CNN
@@ -142,7 +133,7 @@ F 3 "" H 9550 2750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C?
+L device:C_Small C?
 U 1 1 58990650
 P 9550 2500
 F 0 "C?" H 9560 2570 50  0000 L CNN
@@ -153,7 +144,7 @@ F 3 "" H 9550 2500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDPWR #PWR?
+L power:GNDPWR #PWR?
 U 1 1 58990838
 P 9700 2650
 F 0 "#PWR?" H 9700 2450 50  0001 C CNN
@@ -164,7 +155,7 @@ F 3 "" H 9700 2600 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C?
+L device:C_Small C?
 U 1 1 58C14519
 P 6850 2350
 F 0 "C?" H 6860 2420 50  0000 L CNN
@@ -175,7 +166,7 @@ F 3 "" H 6850 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L device:C_Small C?
 U 1 1 58C146F5
 P 7150 2350
 F 0 "C?" H 7160 2420 50  0000 L CNN
@@ -186,7 +177,7 @@ F 3 "" H 7150 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 58C153AE
 P 7000 2100
 F 0 "#PWR?" H 7000 1850 50  0001 C CNN
@@ -197,7 +188,7 @@ F 3 "" H 7000 2100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C?
+L device:C_Small C?
 U 1 1 58C16A19
 P 6150 2350
 F 0 "C?" H 6160 2420 50  0000 L CNN
@@ -208,7 +199,7 @@ F 3 "" H 6150 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L device:C_Small C?
 U 1 1 58C17293
 P 6450 2350
 F 0 "C?" H 6460 2420 50  0000 L CNN
@@ -219,7 +210,7 @@ F 3 "" H 6450 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 58C174AA
 P 6300 2100
 F 0 "#PWR?" H 6300 1850 50  0001 C CNN
@@ -230,7 +221,7 @@ F 3 "" H 6300 2100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 58C177AD
 P 6800 3000
 F 0 "#PWR?" H 6800 2750 50  0001 C CNN
@@ -241,7 +232,7 @@ F 3 "" H 6800 3000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 58C1A0A0
 P 1100 2050
 F 0 "#PWR?" H 1100 1800 50  0001 C CNN
@@ -252,7 +243,7 @@ F 3 "" H 1100 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L power:GNDA #PWR?
 U 1 1 58C1A283
 P 1100 4050
 F 0 "#PWR?" H 1100 3800 50  0001 C CNN
@@ -263,7 +254,7 @@ F 3 "" H 1100 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OPA2340 U?
+L linear:OPA2340 U?
 U 1 1 58C1AD0C
 P 2750 1600
 F 0 "U?" H 2750 1800 50  0000 L CNN
@@ -274,18 +265,18 @@ F 3 "" H 2750 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OPA2340 U?
-U 2 1 58C1ADA2
+L linear:OPA2340 U?
+U 1 1 58C1ADA2
 P 2750 3600
 F 0 "U?" H 2750 3800 50  0000 L CNN
 F 1 "OPA2340" H 2750 3400 50  0000 L CNN
 F 2 "" H 2650 3700 50  0001 C CNN
 F 3 "" H 2750 3600 50  0001 C CNN
-	2    2750 3600
+	1    2750 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L device:C_Small C?
 U 1 1 58C1B0CB
 P 1800 1600
 F 0 "C?" H 1810 1670 50  0000 L CNN
@@ -296,7 +287,7 @@ F 3 "" H 1800 1600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R?
+L device:R_Small R?
 U 1 1 58C1B863
 P 3250 1600
 F 0 "R?" H 3280 1620 50  0000 L CNN
@@ -307,7 +298,7 @@ F 3 "" H 3250 1600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C?
+L device:C_Small C?
 U 1 1 58C1BA75
 P 2900 2050
 F 0 "C?" H 2910 2120 50  0000 L CNN
@@ -318,7 +309,7 @@ F 3 "" H 2900 2050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R?
+L device:R_Small R?
 U 1 1 58C1BACB
 P 2900 2400
 F 0 "R?" H 2930 2420 50  0000 L CNN
@@ -329,7 +320,7 @@ F 3 "" H 2900 2400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +2V5 #PWR?
+L power:+2V5 #PWR?
 U 1 1 58C1D885
 P 2350 1200
 F 0 "#PWR?" H 2350 1050 50  0001 C CNN
@@ -340,7 +331,7 @@ F 3 "" H 2350 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 58C1DAF5
 P 2650 1200
 F 0 "#PWR?" H 2650 1050 50  0001 C CNN
@@ -351,7 +342,7 @@ F 3 "" H 2650 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR?
+L power:GNDPWR #PWR?
 U 1 1 58C1DE9B
 P 1950 2600
 F 0 "#PWR?" H 1950 2400 50  0001 C CNN
@@ -362,7 +353,7 @@ F 3 "" H 1950 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +2V5 #PWR?
+L power:+2V5 #PWR?
 U 1 1 58C1E690
 P 7550 3950
 F 0 "#PWR?" H 7550 3800 50  0001 C CNN
@@ -373,7 +364,7 @@ F 3 "" H 7550 3950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +2V5 #PWR?
+L power:+2V5 #PWR?
 U 1 1 58C1E719
 P 7550 4350
 F 0 "#PWR?" H 7550 4200 50  0001 C CNN
@@ -390,18 +381,18 @@ Wire Wire Line
 Wire Wire Line
 	9150 4250 10050 4250
 Wire Wire Line
-	8350 4650 8350 4950
+	8350 4650 8350 4850
 Wire Wire Line
 	8550 4650 8550 4850
 Wire Wire Line
 	8550 4850 8350 4850
 Connection ~ 8350 4850
 Wire Wire Line
-	8250 2350 8250 2850
+	8250 2350 8250 2500
 Connection ~ 8250 2500
 Connection ~ 8250 2750
 Wire Wire Line
-	7900 2500 7900 2750
+	7900 2500 7900 2650
 Connection ~ 7900 2650
 Wire Wire Line
 	8100 2500 8250 2500
@@ -414,18 +405,18 @@ Wire Wire Line
 Wire Wire Line
 	9650 2500 9700 2500
 Wire Wire Line
-	9700 2500 9700 2750
+	9700 2500 9700 2650
 Wire Wire Line
 	9700 2750 9650 2750
 Connection ~ 9700 2650
 Wire Wire Line
-	9450 2350 9450 3450
+	9450 2350 9450 2500
 Connection ~ 9450 2500
 Connection ~ 9450 2750
 Wire Wire Line
 	8650 2850 8650 2750
 Wire Wire Line
-	8450 2750 9450 2750
+	8450 2750 8650 2750
 Wire Wire Line
 	8450 2850 8450 2750
 Connection ~ 8650 2750
@@ -433,7 +424,7 @@ Wire Wire Line
 	9450 3450 9150 3450
 Connection ~ 9450 3350
 Wire Wire Line
-	6850 2250 7150 2250
+	6850 2250 7000 2250
 Wire Wire Line
 	6850 2450 6850 2500
 Wire Wire Line
@@ -452,19 +443,19 @@ Wire Wire Line
 Wire Wire Line
 	7000 2750 7000 2500
 Wire Wire Line
-	6850 2500 7150 2500
+	6850 2500 7000 2500
 Wire Wire Line
 	7150 2500 7150 2450
 Connection ~ 7000 2500
 Wire Wire Line
-	6150 2250 6450 2250
+	6150 2250 6300 2250
 Wire Wire Line
 	6300 2250 6300 2100
 Connection ~ 6300 2250
 Wire Wire Line
 	6150 2450 6150 2550
 Wire Wire Line
-	6150 2550 6450 2550
+	6150 2550 6300 2550
 Wire Wire Line
 	6450 2550 6450 2450
 Wire Wire Line
@@ -479,11 +470,11 @@ Wire Wire Line
 Wire Wire Line
 	1900 1600 2100 1600
 Wire Wire Line
-	3050 1600 3150 1600
+	3050 1600 3100 1600
 Wire Wire Line
-	3350 1600 4950 1600
+	3350 1600 3400 1600
 Wire Wire Line
-	2100 1700 2450 1700
+	2100 1700 2350 1700
 Wire Wire Line
 	4950 3750 7750 3750
 Wire Wire Line
@@ -498,7 +489,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 2050 2350 2050
 Wire Wire Line
-	2350 1700 2350 2400
+	2350 1700 2350 2050
 Connection ~ 2350 1700
 Wire Wire Line
 	2350 2400 2800 2400
@@ -525,7 +516,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 1600 1700 1600
 $Comp
-L C_Small C?
+L device:C_Small C?
 U 1 1 58C1FC8E
 P 1800 3600
 F 0 "C?" H 1810 3670 50  0000 L CNN
@@ -536,7 +527,7 @@ F 3 "" H 1800 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R?
+L device:R_Small R?
 U 1 1 58C1FC94
 P 3250 3600
 F 0 "R?" H 3280 3620 50  0000 L CNN
@@ -547,7 +538,7 @@ F 3 "" H 3250 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C?
+L device:C_Small C?
 U 1 1 58C1FC9A
 P 2900 4050
 F 0 "C?" H 2910 4120 50  0000 L CNN
@@ -558,7 +549,7 @@ F 3 "" H 2900 4050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R?
+L device:R_Small R?
 U 1 1 58C1FCA0
 P 2900 4400
 F 0 "R?" H 2930 4420 50  0000 L CNN
@@ -569,7 +560,7 @@ F 3 "" H 2900 4400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +2V5 #PWR?
+L power:+2V5 #PWR?
 U 1 1 58C1FCA6
 P 2350 3200
 F 0 "#PWR?" H 2350 3050 50  0001 C CNN
@@ -580,7 +571,7 @@ F 3 "" H 2350 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 58C1FCAC
 P 2650 3200
 F 0 "#PWR?" H 2650 3050 50  0001 C CNN
@@ -591,7 +582,7 @@ F 3 "" H 2650 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR?
+L power:GNDPWR #PWR?
 U 1 1 58C1FCB2
 P 1950 4600
 F 0 "#PWR?" H 1950 4400 50  0001 C CNN
@@ -604,11 +595,11 @@ $EndComp
 Wire Wire Line
 	1900 3600 2100 3600
 Wire Wire Line
-	3050 3600 3150 3600
+	3050 3600 3100 3600
 Wire Wire Line
 	3350 3600 3400 3600
 Wire Wire Line
-	2100 3700 2450 3700
+	2100 3700 2350 3700
 Connection ~ 3100 3600
 Wire Wire Line
 	2100 3600 2100 3700
@@ -619,7 +610,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 4050 2350 4050
 Wire Wire Line
-	2350 3700 2350 4400
+	2350 3700 2350 4050
 Connection ~ 2350 3700
 Wire Wire Line
 	2350 4400 2800 4400
@@ -635,10 +626,9 @@ Wire Wire Line
 Wire Wire Line
 	1950 3900 1950 4600
 Wire Wire Line
-	3400 3600 3400 4400
+	3400 3600 3400 3650
 Wire Wire Line
 	3400 4400 3000 4400
-Connection ~ 3400 3600
 Wire Wire Line
 	1500 3600 1700 3600
 Wire Wire Line
@@ -649,7 +639,7 @@ Wire Wire Line
 	4400 4150 7750 4150
 Connection ~ 3400 3650
 $Comp
-L TLE2426 U?
+L lci-kicad:TLE2426 U?
 U 1 1 58C2C633
 P 2100 6000
 F 0 "U?" H 2250 5800 60  0000 C CNN
@@ -660,7 +650,7 @@ F 3 "" H 2050 6100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR?
+L power:GNDPWR #PWR?
 U 1 1 58C2C6A3
 P 2500 6400
 F 0 "#PWR?" H 2500 6200 50  0001 C CNN
@@ -671,9 +661,9 @@ F 3 "" H 2500 6350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 6100 2500 6400
+	2500 6100 2500 6350
 $Comp
-L C_Small C?
+L device:C_Small C?
 U 1 1 58C2C7E9
 P 1650 6250
 F 0 "C?" H 1660 6320 50  0000 L CNN
@@ -689,7 +679,7 @@ Wire Wire Line
 	1650 6350 2500 6350
 Connection ~ 2500 6350
 $Comp
-L +2V5 #PWR?
+L power:+2V5 #PWR?
 U 1 1 58C2CBFC
 P 1650 6000
 F 0 "#PWR?" H 1650 5850 50  0001 C CNN
@@ -700,7 +690,7 @@ F 3 "" H 1650 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 58C2CC4C
 P 2500 6000
 F 0 "#PWR?" H 2500 5850 50  0001 C CNN
@@ -711,7 +701,7 @@ F 3 "" H 2500 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Led_Small D?
+L device:LED_Small D?
 U 1 1 58C2FA90
 P 9900 3250
 F 0 "D?" H 9850 3375 50  0000 L CNN
@@ -722,7 +712,7 @@ F 3 "" V 9900 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R?
+L device:R_Small R?
 U 1 1 58C2FB7F
 P 10100 3250
 F 0 "R?" H 10130 3270 50  0000 L CNN
@@ -735,7 +725,7 @@ $EndComp
 Wire Wire Line
 	9150 3250 9800 3250
 $Comp
-L +3.3V #PWR?
+L power:+3.3V #PWR?
 U 1 1 58C30782
 P 10200 3250
 F 0 "#PWR?" H 10200 3100 50  0001 C CNN
@@ -755,4 +745,48 @@ Wire Notes Line
 	10450 3600 9800 3600
 Wire Notes Line
 	9800 3600 9800 3000
+Wire Wire Line
+	8350 4850 8350 4950
+Wire Wire Line
+	8250 2500 8250 2750
+Wire Wire Line
+	8250 2750 8250 2850
+Wire Wire Line
+	7900 2650 7900 2750
+Wire Wire Line
+	9700 2650 9700 2750
+Wire Wire Line
+	9450 2500 9450 2750
+Wire Wire Line
+	9450 2750 9450 3350
+Wire Wire Line
+	8650 2750 9450 2750
+Wire Wire Line
+	9450 3350 9450 3450
+Wire Wire Line
+	7000 2250 7150 2250
+Wire Wire Line
+	7000 2500 7150 2500
+Wire Wire Line
+	6300 2250 6450 2250
+Wire Wire Line
+	6300 2550 6450 2550
+Wire Wire Line
+	3100 1600 3150 1600
+Wire Wire Line
+	2350 1700 2450 1700
+Wire Wire Line
+	2350 2050 2350 2400
+Wire Wire Line
+	3400 1600 4950 1600
+Wire Wire Line
+	3100 3600 3150 3600
+Wire Wire Line
+	2350 3700 2450 3700
+Wire Wire Line
+	2350 4050 2350 4400
+Wire Wire Line
+	3400 3650 3400 4400
+Wire Wire Line
+	2500 6350 2500 6400
 $EndSCHEMATC

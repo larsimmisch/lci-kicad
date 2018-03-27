@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 3-way-class-d-rescue)(type Legacy)(uri ${KIPRJMOD}/3-way-class-d-rescue.lib)(options "")(descr ""))
+  (lib (name lci-kicad)(type Legacy)(uri ${KIPRJMOD}/../lci-kicad.lib)(options "")(descr ""))
+)

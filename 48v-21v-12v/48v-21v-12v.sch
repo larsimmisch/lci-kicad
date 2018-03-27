@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:lci-kicad
-LIBS:48v-21v-12v-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LM5005 U1
+L lci-kicad:LM5005 U1
 U 1 1 5737676A
 P 4100 1850
 F 0 "U1" H 4100 1850 60  0000 C CNN
@@ -56,7 +25,7 @@ F 3 "" H 4100 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR7
+L power:GNDPWR #PWR7
 U 1 1 573767E6
 P 5400 3000
 F 0 "#PWR7" H 5400 2800 50  0001 C CNN
@@ -67,7 +36,7 @@ F 3 "" H 5400 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR1
+L power:GNDPWR #PWR1
 U 1 1 57376825
 P 3000 3000
 F 0 "#PWR1" H 3000 2800 50  0001 C CNN
@@ -78,7 +47,7 @@ F 3 "" H 3000 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small Cramp1
+L device:C_Small Cramp1
 U 1 1 57376858
 P 3300 2450
 F 0 "Cramp1" H 3150 2200 50  0000 L CNN
@@ -89,7 +58,7 @@ F 3 "" H 3300 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small Cbyp1
+L device:C_Small Cbyp1
 U 1 1 57376929
 P 2650 2450
 F 0 "Cbyp1" H 2660 2520 50  0000 L CNN
@@ -100,7 +69,7 @@ F 3 "" H 2650 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small Rt1
+L device:R_Small Rt1
 U 1 1 57376A00
 P 3000 2450
 F 0 "Rt1" H 3030 2470 50  0000 L CNN
@@ -111,7 +80,7 @@ F 3 "" H 3000 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_Small L1
+L device:L_Small L1
 U 1 1 57376AE2
 P 4950 1650
 F 0 "L1" V 5050 1650 50  0000 L CNN
@@ -123,7 +92,7 @@ F 4 "MSS1210-683" V 4950 1650 60  0001 C CNN "Part number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D_Small D1
+L device:D_Small D1
 U 1 1 57376BAE
 P 4750 1750
 F 0 "D1" H 4700 1830 50  0000 L CNN
@@ -135,7 +104,7 @@ F 4 "SK310A" H 4750 1750 60  0001 C CNN "Part number"
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small Rfb1.1
+L device:R_Small Rfb1.1
 U 1 1 57376D20
 P 5400 2800
 F 0 "Rfb1.1" H 5430 2820 50  0000 L CNN
@@ -146,7 +115,7 @@ F 3 "" H 5400 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small Rfb1.2
+L device:R_Small Rfb1.2
 U 1 1 57376D77
 P 5400 2550
 F 0 "Rfb1.2" H 5430 2570 50  0000 L CNN
@@ -157,7 +126,7 @@ F 3 "" H 5400 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR9
+L power:GNDPWR #PWR9
 U 1 1 57376F6E
 P 6200 2300
 F 0 "#PWR9" H 6200 2100 50  0001 C CNN
@@ -168,7 +137,7 @@ F 3 "" H 6200 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R3
+L device:R_Small R3
 U 1 1 573770CB
 P 4600 2650
 F 0 "R3" H 4630 2670 50  0000 L CNN
@@ -179,7 +148,7 @@ F 3 "" H 4600 2650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C11
+L device:C_Small C11
 U 1 1 57377103
 P 4800 2650
 F 0 "C11" H 4810 2720 50  0000 L CNN
@@ -190,7 +159,7 @@ F 3 "" H 4800 2650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDPWR #PWR3
+L power:GNDPWR #PWR3
 U 1 1 573772A4
 P 3550 3000
 F 0 "#PWR3" H 3550 2800 50  0001 C CNN
@@ -268,7 +237,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2350 3550 3000
 $Comp
-L C_Small Cboot1
+L device:C_Small Cboot1
 U 1 1 57377390
 P 4700 1450
 F 0 "Cboot1" V 4600 1500 50  0000 L CNN
@@ -283,7 +252,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 1450 4850 1650
 $Comp
-L C_Small Css1
+L device:C_Small Css1
 U 1 1 573776D2
 P 4700 2350
 F 0 "Css1" V 4800 2400 50  0000 L CNN
@@ -294,7 +263,7 @@ F 3 "" H 4700 2350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDPWR #PWR5
+L power:GNDPWR #PWR5
 U 1 1 573777B8
 P 5050 2450
 F 0 "#PWR5" H 5050 2250 50  0001 C CNN
@@ -311,19 +280,19 @@ Wire Wire Line
 NoConn ~ 3550 1550
 NoConn ~ 3550 1850
 $Comp
-L CONN_01X02 in1
+L Connector:Conn_01x02 in1
 U 1 1 573779A6
-P 1050 3550
-F 0 "in1" H 1050 3700 50  0000 C CNN
-F 1 "CONN_01X02" V 1150 3550 50  0000 C CNN
-F 2 "" H 1050 3550 60  0000 C CNN
-F 3 "" H 1050 3550 60  0000 C CNN
-	1    1050 3550
+P 1050 3600
+F 0 "in1" H 1050 3750 50  0000 C CNN
+F 1 "CONN_01X02" V 1150 3600 50  0000 C CNN
+F 2 "" H 1050 3600 60  0000 C CNN
+F 3 "" H 1050 3600 60  0000 C CNN
+	1    1050 3600
 	-1   0    0    1   
 $EndComp
 Connection ~ 2650 2650
 $Comp
-L C_Small Cout1.1
+L device:C_Small Cout1.1
 U 1 1 57377B04
 P 5950 1750
 F 0 "Cout1.1" H 5750 1950 50  0000 L CNN
@@ -334,7 +303,7 @@ F 3 "" H 5950 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small Cout1.2
+L device:C_Small Cout1.2
 U 1 1 57377C43
 P 6200 1750
 F 0 "Cout1.2" H 6100 1950 50  0000 L CNN
@@ -345,7 +314,7 @@ F 3 "" H 6200 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small Cout1.3
+L device:C_Small Cout1.3
 U 1 1 57377C81
 P 6450 1750
 F 0 "Cout1.3" H 6450 1950 50  0000 L CNN
@@ -373,14 +342,14 @@ Wire Wire Line
 	6200 1850 6450 1850
 Connection ~ 6200 1850
 $Comp
-L CONN_01X02 12V
+L Connector:Conn_01x02 12V
 U 1 1 57377E16
-P 7200 2100
-F 0 "12V" H 7200 2250 50  0000 C CNN
-F 1 "CONN_01X02" H 7200 1950 50  0000 C CNN
-F 2 "" H 7200 2100 60  0000 C CNN
-F 3 "" H 7200 2100 60  0000 C CNN
-	1    7200 2100
+P 7200 2050
+F 0 "12V" H 7200 2200 50  0000 C CNN
+F 1 "CONN_01X02" H 7200 1900 50  0000 C CNN
+F 2 "" H 7200 2050 60  0000 C CNN
+F 3 "" H 7200 2050 60  0000 C CNN
+	1    7200 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -398,7 +367,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 1650 3550 1750
 $Comp
-L C_Small Cin1
+L device:C_Small Cin1
 U 1 1 57378037
 P 2350 2450
 F 0 "Cin1" H 2360 2520 50  0000 L CNN
@@ -417,7 +386,7 @@ Wire Wire Line
 	2350 2350 2350 1650
 Connection ~ 2350 1650
 $Comp
-L LM5005 U2
+L lci-kicad:LM5005 U2
 U 1 1 57378870
 P 4150 4600
 F 0 "U2" H 4150 4600 60  0000 C CNN
@@ -428,7 +397,7 @@ F 3 "" H 4150 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR8
+L power:GNDPWR #PWR8
 U 1 1 57378876
 P 5450 5750
 F 0 "#PWR8" H 5450 5550 50  0001 C CNN
@@ -439,7 +408,7 @@ F 3 "" H 5450 5700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR2
+L power:GNDPWR #PWR2
 U 1 1 5737887C
 P 3050 5750
 F 0 "#PWR2" H 3050 5550 50  0001 C CNN
@@ -450,7 +419,7 @@ F 3 "" H 3050 5700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small Cramp2
+L device:C_Small Cramp2
 U 1 1 57378882
 P 3350 5200
 F 0 "Cramp2" H 3200 4950 50  0000 L CNN
@@ -461,7 +430,7 @@ F 3 "" H 3350 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small Cbyp2
+L device:C_Small Cbyp2
 U 1 1 57378888
 P 2700 5200
 F 0 "Cbyp2" H 2710 5270 50  0000 L CNN
@@ -472,7 +441,7 @@ F 3 "" H 2700 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small Rt2
+L device:R_Small Rt2
 U 1 1 5737888E
 P 3050 5200
 F 0 "Rt2" H 3080 5220 50  0000 L CNN
@@ -483,7 +452,7 @@ F 3 "" H 3050 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_Small L2
+L device:L_Small L2
 U 1 1 57378894
 P 5000 4400
 F 0 "L2" V 5100 4400 50  0000 L CNN
@@ -494,7 +463,7 @@ F 3 "" H 5000 4400 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D_Small D2
+L device:D_Small D2
 U 1 1 5737889A
 P 4800 4500
 F 0 "D2" V 4800 4550 50  0000 L CNN
@@ -505,7 +474,7 @@ F 3 "" V 4800 4500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small Rfb2.1
+L device:R_Small Rfb2.1
 U 1 1 573788A0
 P 5450 5550
 F 0 "Rfb2.1" H 5480 5570 50  0000 L CNN
@@ -516,7 +485,7 @@ F 3 "" H 5450 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small Rfb2.2
+L device:R_Small Rfb2.2
 U 1 1 573788A6
 P 5450 5300
 F 0 "Rfb2.2" H 5480 5320 50  0000 L CNN
@@ -527,7 +496,7 @@ F 3 "" H 5450 5300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR10
+L power:GNDPWR #PWR10
 U 1 1 573788AC
 P 6250 5100
 F 0 "#PWR10" H 6250 4900 50  0001 C CNN
@@ -538,7 +507,7 @@ F 3 "" H 6250 5050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small Rcomp2
+L device:R_Small Rcomp2
 U 1 1 573788B2
 P 4650 5400
 F 0 "Rcomp2" V 4750 5150 50  0000 L CNN
@@ -549,7 +518,7 @@ F 3 "" H 4650 5400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small Ccomp2
+L device:C_Small Ccomp2
 U 1 1 573788B8
 P 4850 5400
 F 0 "Ccomp2" V 4950 5300 50  0000 L CNN
@@ -560,7 +529,7 @@ F 3 "" H 4850 5400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDPWR #PWR4
+L power:GNDPWR #PWR4
 U 1 1 573788BE
 P 3600 5750
 F 0 "#PWR4" H 3600 5550 50  0001 C CNN
@@ -640,7 +609,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 5100 3600 5750
 $Comp
-L C_Small Cboot2
+L device:C_Small Cboot2
 U 1 1 573788E0
 P 4750 4200
 F 0 "Cboot2" V 4650 4250 50  0000 L CNN
@@ -655,7 +624,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 4200 4900 4400
 $Comp
-L C_Small Css2
+L device:C_Small Css2
 U 1 1 573788E8
 P 4750 5100
 F 0 "Css2" V 4850 5100 50  0000 L CNN
@@ -666,7 +635,7 @@ F 3 "" H 4750 5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDPWR #PWR6
+L power:GNDPWR #PWR6
 U 1 1 573788EE
 P 5100 5200
 F 0 "#PWR6" H 5100 5000 50  0001 C CNN
@@ -684,7 +653,7 @@ NoConn ~ 3600 4300
 NoConn ~ 3600 4600
 Connection ~ 2700 5400
 $Comp
-L C_Small Cout2.1
+L device:C_Small Cout2.1
 U 1 1 57378901
 P 6000 4500
 F 0 "Cout2.1" H 5800 4700 50  0000 L CNN
@@ -695,7 +664,7 @@ F 3 "" H 6000 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small Cout2.2
+L device:C_Small Cout2.2
 U 1 1 57378907
 P 6250 4500
 F 0 "Cout2.2" H 6150 4700 50  0000 L CNN
@@ -706,7 +675,7 @@ F 3 "" H 6250 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small Cout2.3
+L device:C_Small Cout2.3
 U 1 1 5737890D
 P 6500 4500
 F 0 "Cout2.3" H 6500 4700 50  0000 L CNN
@@ -734,14 +703,14 @@ Wire Wire Line
 	6250 4600 6500 4600
 Connection ~ 6250 4600
 $Comp
-L CONN_01X02 21v
+L Connector:Conn_01x02 21v
 U 1 1 57378918
-P 7250 4850
-F 0 "21v" H 7250 5000 50  0000 C CNN
-F 1 "CONN_01X02" H 7250 4700 50  0001 C CNN
-F 2 "" H 7250 4850 60  0000 C CNN
-F 3 "" H 7250 4850 60  0000 C CNN
-	1    7250 4850
+P 7250 4800
+F 0 "21v" H 7250 4950 50  0000 C CNN
+F 1 "CONN_01X02" H 7250 4650 50  0001 C CNN
+F 2 "" H 7250 4800 60  0000 C CNN
+F 3 "" H 7250 4800 60  0000 C CNN
+	1    7250 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -761,7 +730,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 4400 3600 4500
 $Comp
-L C_Small Cin2
+L device:C_Small Cin2
 U 1 1 57378926
 P 2400 5200
 F 0 "Cin2" H 2410 5270 50  0000 L CNN
@@ -781,7 +750,6 @@ Wire Wire Line
 	1250 1650 1250 3500
 Wire Wire Line
 	1250 3500 2150 3500
-Connection ~ 2150 4400
 Wire Wire Line
 	1250 3600 1250 5400
 Wire Wire Line
@@ -790,4 +758,6 @@ Connection ~ 5400 1650
 Connection ~ 5400 2250
 Connection ~ 5450 4400
 Connection ~ 5450 5000
+Connection ~ 1250 3600
+Connection ~ 1250 3500
 $EndSCHEMATC

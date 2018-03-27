@@ -1,15 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:audio
-LIBS:conn
-LIBS:transistors
-LIBS:digital-audio
-LIBS:analog_switches
-LIBS:device
-LIBS:lci-kicad
-LIBS:linear
+EESchema Schematic File Version 4
 LIBS:3-way-class-d-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
