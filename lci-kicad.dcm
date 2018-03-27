@@ -35,4 +35,20 @@ D Rail splitter - precision virtual ground
 F http://www.ti.com/lit/ds/symlink/tle2426.pdf
 $ENDCMP
 #
+$CMP Double_choke
+D Double choke from Boom Boom power supply
+K choke
+$ENDCMP
+#
+$CMP Omron_G6K
+D Omron G6K, Microminiature Polarised Dual Pole Relay
+K Miniature Polarised Relay Dual Pole
+F http://www.omron.com/ecb/products/pdf/en-g6k.pdf
+$ENDCMP
+$CMP Alps-Rotary-Encoder
+D Alps rotary encoder
+K Alps rotary endoder
+F http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11_list.html
+$ENDCMP
+#
 #End Doc Library

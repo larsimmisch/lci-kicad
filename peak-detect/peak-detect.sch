@@ -186,12 +186,12 @@ In-Left-1
 Text GLabel 1300 2150 0    60   Input ~ 0
 In-Right-1
 $Comp
-L lci-relays:Omron_G6K RL1
+L lci-kicad:Omron_G6K RL1
 U 1 1 591701EB
 P 8200 1850
 F 0 "RL1" H 9050 2000 50  0000 L CNN
 F 1 "Omron_G6K" H 9050 1900 50  0000 L CNN
-F 2 "lci-relays:Omron-G6K" H 8200 1850 60  0001 C CNN
+F 2 "lci-kicad:Omron-G6K" H 8200 1850 60  0001 C CNN
 F 3 "" H 8200 1850 60  0000 C CNN
 	1    8200 1850
 	1    0    0    -1  
@@ -466,12 +466,12 @@ In-Left-2
 Text GLabel 1200 4750 0    60   Input ~ 0
 In-Right-2
 $Comp
-L lci-relays:Omron_G6K RL2
+L lci-kicad:Omron_G6K RL2
 U 1 1 591720AC
 P 8100 4450
 F 0 "RL2" H 8950 4600 50  0000 L CNN
 F 1 "Omron_G6K" H 8950 4500 50  0000 L CNN
-F 2 "lci-relays:Omron-G6K" H 8100 4450 60  0001 C CNN
+F 2 "lci-kicad:Omron-G6K" H 8100 4450 60  0001 C CNN
 F 3 "" H 8100 4450 60  0000 C CNN
 	1    8100 4450
 	1    0    0    -1  
@@ -1784,7 +1784,7 @@ U 1 1 5ABA7FDC
 P 3750 6550
 F 0 "J1" H 3800 6967 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 3800 6876 50  0000 C CNN
-F 2 "" H 3750 6550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 3750 6550 50  0001 C CNN
 F 3 "~" H 3750 6550 50  0001 C CNN
 	1    3750 6550
 	1    0    0    -1  

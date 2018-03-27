@@ -147,12 +147,12 @@ Connection ~ 2750 1350
 Wire Wire Line
 	2850 1200 2850 1700
 $Comp
-L lci-relays:Alps-Rotary-Encoder ROT1
+L lci-kicad:Alps-Rotary-Encoder ROT1
 U 1 1 59C1647D
 P 2950 2150
 F 0 "ROT1" H 2860 2400 60  0000 C CNN
 F 1 "Alps-Rotary-Encoder" H 2950 1870 60  0000 C CNN
-F 2 "lci-relays:Alps-Rotary-Encoder" H 2950 2150 60  0001 C CNN
+F 2 "lci-kicad:Alps-Rotary-Encoder" H 2950 2150 60  0001 C CNN
 F 3 "" H 2950 2150 60  0000 C CNN
 	1    2950 2150
 	-1   0    0    1   

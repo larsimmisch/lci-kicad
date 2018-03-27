@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:unbalance-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -135,31 +136,28 @@ $EndComp
 Wire Wire Line
 	4350 3300 4950 3300
 $Comp
-L Connector:Conn_01x03 P4
+L Connector:Conn_01x02 P4
 U 1 1 5766F7DB
-P 6650 3500
-F 0 "P4" H 6650 3650 50  0000 C CNN
-F 1 "CONN_01X02" V 6750 3500 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6650 3500 60  0001 C CNN
-F 3 "" H 6650 3500 60  0000 C CNN
-	1    6650 3500
+P 6650 3450
+F 0 "P4" H 6650 3600 50  0000 C CNN
+F 1 "CONN_01X02" V 6750 3450 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6650 3450 60  0001 C CNN
+F 3 "" H 6650 3450 60  0000 C CNN
+	1    6650 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03 P3
+L Connector:Conn_01x02 P3
 U 1 1 5766F83C
-P 6650 3000
-F 0 "P3" H 6650 3150 50  0000 C CNN
-F 1 "CONN_01X02" V 6750 3000 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6650 3000 60  0001 C CNN
-F 3 "" H 6650 3000 60  0000 C CNN
-	1    6650 3000
+P 6650 3050
+F 0 "P3" H 6650 3200 50  0000 C CNN
+F 1 "CONN_01X02" V 6750 3050 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6650 3050 60  0001 C CNN
+F 3 "" H 6650 3050 60  0000 C CNN
+	1    6650 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 3050 6250 3050
 Connection ~ 5900 3300
-Connection ~ 6450 3300
 $Comp
 L Connector:Conn_01x03 P1
 U 1 1 5766FA3B
@@ -212,15 +210,11 @@ U 1 1 5769CFA5
 P 4450 3750
 F 0 "JP1" H 4450 3830 50  0000 C CNN
 F 1 "gnd lift" H 4460 3690 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4450 3750 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4450 3750 60  0001 C CNN
 F 3 "" H 4450 3750 60  0000 C CNN
 	1    4450 3750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6450 2950 6450 3300
-Wire Wire Line
-	6250 3050 6250 3550
 $Comp
 L device:Jumper_NC_Small JP2
 U 1 1 58AB567A
@@ -284,11 +278,6 @@ Connection ~ 5750 4150
 Wire Wire Line
 	5900 3300 6000 3300
 Wire Wire Line
-	6200 3300 6450 3300
-Wire Wire Line
-	6200 3550 6250 3550
-Connection ~ 6250 3550
-Wire Wire Line
 	6000 3550 5750 3550
 Wire Wire Line
 	4350 3500 4950 3500
@@ -311,8 +300,6 @@ Wire Wire Line
 Wire Wire Line
 	5900 3300 5900 3400
 Wire Wire Line
-	6450 3300 6450 3450
-Wire Wire Line
 	5300 2800 5300 3050
 Wire Wire Line
 	5750 2600 5800 2600
@@ -321,5 +308,23 @@ Wire Wire Line
 Wire Wire Line
 	5750 4150 5900 4150
 Wire Wire Line
-	6250 3550 6450 3550
+	6200 3550 6350 3550
+Wire Wire Line
+	6450 3150 6350 3150
+Wire Wire Line
+	6350 3150 6350 3550
+Connection ~ 6350 3550
+Wire Wire Line
+	6350 3550 6450 3550
+Wire Wire Line
+	6200 3300 6250 3300
+Wire Wire Line
+	6450 3300 6450 3450
+Wire Wire Line
+	6450 3050 6250 3050
+Wire Wire Line
+	6250 3050 6250 3300
+Connection ~ 6250 3300
+Wire Wire Line
+	6250 3300 6450 3300
 $EndSCHEMATC

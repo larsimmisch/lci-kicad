@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name lci-kicad)(type KiCad)(uri "$(KIPRJMOD)/../lci-kicad.pretty")(options "")(descr ""))
+)
