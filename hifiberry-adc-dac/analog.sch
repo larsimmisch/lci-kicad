@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:linear
-LIBS:lci-kicad
-LIBS:switches
-LIBS:hifiberry-amp-base-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:hifiberry-adc-dac-base-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CS5361 U4
+L digital-audio:CS5361 U4
 U 1 1 58949ABD
 P 8450 3750
 F 0 "U4" H 8450 3800 50  0000 C CNN
@@ -63,7 +32,7 @@ SCLK
 Text GLabel 10050 4250 2    60   Output ~ 12
 MCLK
 $Comp
-L RCA C1
+L lci-kicad:RCA C1
 U 1 1 589520AC
 P 1100 1600
 F 0 "C1" H 1200 1500 60  0000 C CNN
@@ -74,7 +43,7 @@ F 3 "" H 1100 1600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RCA C2
+L lci-kicad:RCA C2
 U 1 1 58952393
 P 1100 3600
 F 0 "C2" H 1200 3500 60  0000 C CNN
@@ -85,7 +54,7 @@ F 3 "" H 1100 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR09
+L power:+5V #PWR09
 U 1 1 5898D324
 P 8250 2350
 F 0 "#PWR09" H 8250 2200 50  0001 C CNN
@@ -96,7 +65,7 @@ F 3 "" H 8250 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C12
+L device:C_Small C12
 U 1 1 5898E39F
 P 8000 2500
 F 0 "C12" H 8010 2570 50  0000 L CNN
@@ -107,7 +76,7 @@ F 3 "" H 8000 2500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C13
+L device:C_Small C13
 U 1 1 5898E45E
 P 8000 2750
 F 0 "C13" H 8010 2820 50  0000 L CNN
@@ -118,7 +87,7 @@ F 3 "" H 8000 2750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR010
+L power:+3.3V #PWR010
 U 1 1 5898FB86
 P 9450 2350
 F 0 "#PWR010" H 9450 2200 50  0001 C CNN
@@ -131,7 +100,7 @@ $EndComp
 Text GLabel 10450 4350 2    60   Output ~ 12
 SDATA
 $Comp
-L C_Small C16
+L device:C_Small C16
 U 1 1 589905A6
 P 9550 2750
 F 0 "C16" H 9560 2820 50  0000 L CNN
@@ -142,7 +111,7 @@ F 3 "" H 9550 2750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C15
+L device:C_Small C15
 U 1 1 58990650
 P 9550 2500
 F 0 "C15" H 9560 2570 50  0000 L CNN
@@ -153,7 +122,7 @@ F 3 "" H 9550 2500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C10
+L device:C_Small C10
 U 1 1 58C14519
 P 6850 2350
 F 0 "C10" H 6860 2420 50  0000 L CNN
@@ -164,7 +133,7 @@ F 3 "" H 6850 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C11
+L device:C_Small C11
 U 1 1 58C146F5
 P 7150 2350
 F 0 "C11" H 7160 2420 50  0000 L CNN
@@ -175,7 +144,7 @@ F 3 "" H 7150 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR011
+L power:GNDA #PWR011
 U 1 1 58C153AE
 P 7000 2100
 F 0 "#PWR011" H 7000 1850 50  0001 C CNN
@@ -186,7 +155,7 @@ F 3 "" H 7000 2100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C8
+L device:C_Small C8
 U 1 1 58C16A19
 P 6150 2350
 F 0 "C8" H 6160 2420 50  0000 L CNN
@@ -197,7 +166,7 @@ F 3 "" H 6150 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C9
+L device:C_Small C9
 U 1 1 58C17293
 P 6450 2350
 F 0 "C9" H 6460 2420 50  0000 L CNN
@@ -208,7 +177,7 @@ F 3 "" H 6450 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR012
+L power:GNDA #PWR012
 U 1 1 58C174AA
 P 6300 2100
 F 0 "#PWR012" H 6300 1850 50  0001 C CNN
@@ -219,7 +188,7 @@ F 3 "" H 6300 2100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDA #PWR013
+L power:GNDA #PWR013
 U 1 1 58C177AD
 P 6800 3000
 F 0 "#PWR013" H 6800 2750 50  0001 C CNN
@@ -230,7 +199,7 @@ F 3 "" H 6800 3000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDA #PWR014
+L power:GNDA #PWR014
 U 1 1 58C1A0A0
 P 1100 2050
 F 0 "#PWR014" H 1100 1800 50  0001 C CNN
@@ -241,7 +210,7 @@ F 3 "" H 1100 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR015
+L power:GNDA #PWR015
 U 1 1 58C1A283
 P 1100 4050
 F 0 "#PWR015" H 1100 3800 50  0001 C CNN
@@ -252,7 +221,7 @@ F 3 "" H 1100 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OPA2340 U1
+L linear:OPA2340 U1
 U 1 1 58C1AD0C
 P 2750 1600
 F 0 "U1" H 2750 1800 50  0000 L CNN
@@ -263,7 +232,7 @@ F 3 "" H 2750 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OPA2340 U1
+L linear:OPA2340 U1
 U 2 1 58C1ADA2
 P 2750 3600
 F 0 "U1" H 2750 3800 50  0000 L CNN
@@ -274,7 +243,7 @@ F 3 "" H 2750 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L device:C_Small C3
 U 1 1 58C1B0CB
 P 1800 1600
 F 0 "C3" H 1810 1670 50  0000 L CNN
@@ -285,7 +254,7 @@ F 3 "" H 1800 1600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R3
+L device:R_Small R3
 U 1 1 58C1B863
 P 3250 1600
 F 0 "R3" H 3280 1620 50  0000 L CNN
@@ -296,7 +265,7 @@ F 3 "" H 3250 1600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C6
+L device:C_Small C6
 U 1 1 58C1BA75
 P 2900 2050
 F 0 "C6" H 2910 2120 50  0000 L CNN
@@ -307,7 +276,7 @@ F 3 "" H 2900 2050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R1
+L device:R_Small R1
 U 1 1 58C1BACB
 P 2900 2400
 F 0 "R1" H 2930 2420 50  0000 L CNN
@@ -318,7 +287,7 @@ F 3 "" H 2900 2400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +2V5 #PWR016
+L power:+2V5 #PWR016
 U 1 1 58C1D885
 P 2350 1200
 F 0 "#PWR016" H 2350 1050 50  0001 C CNN
@@ -329,7 +298,7 @@ F 3 "" H 2350 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR017
+L power:+5V #PWR017
 U 1 1 58C1DAF5
 P 2650 1200
 F 0 "#PWR017" H 2650 1050 50  0001 C CNN
@@ -340,7 +309,7 @@ F 3 "" H 2650 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +2V5 #PWR018
+L power:+2V5 #PWR018
 U 1 1 58C1E690
 P 7550 3950
 F 0 "#PWR018" H 7550 3800 50  0001 C CNN
@@ -351,7 +320,7 @@ F 3 "" H 7550 3950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +2V5 #PWR019
+L power:+2V5 #PWR019
 U 1 1 58C1E719
 P 7550 4350
 F 0 "#PWR019" H 7550 4200 50  0001 C CNN
@@ -362,7 +331,7 @@ F 3 "" H 7550 4350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C4
+L device:C_Small C4
 U 1 1 58C1FC8E
 P 1800 3600
 F 0 "C4" H 1810 3670 50  0000 L CNN
@@ -373,7 +342,7 @@ F 3 "" H 1800 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R4
+L device:R_Small R4
 U 1 1 58C1FC94
 P 3250 3600
 F 0 "R4" H 3280 3620 50  0000 L CNN
@@ -384,7 +353,7 @@ F 3 "" H 3250 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C7
+L device:C_Small C7
 U 1 1 58C1FC9A
 P 2900 4050
 F 0 "C7" H 2910 4120 50  0000 L CNN
@@ -395,7 +364,7 @@ F 3 "" H 2900 4050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R2
+L device:R_Small R2
 U 1 1 58C1FCA0
 P 2900 4400
 F 0 "R2" H 2930 4420 50  0000 L CNN
@@ -406,7 +375,7 @@ F 3 "" H 2900 4400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +2V5 #PWR020
+L power:+2V5 #PWR020
 U 1 1 58C1FCA6
 P 2350 3200
 F 0 "#PWR020" H 2350 3050 50  0001 C CNN
@@ -417,7 +386,7 @@ F 3 "" H 2350 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TLE2426 U2
+L lci-kicad:TLE2426 U2
 U 1 1 58C2C633
 P 8800 1100
 F 0 "U2" H 8950 900 60  0000 C CNN
@@ -428,7 +397,7 @@ F 3 "" H 8750 1200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C14
+L device:C_Small C14
 U 1 1 58C2C7E9
 P 8350 1350
 F 0 "C14" H 8360 1420 50  0000 L CNN
@@ -439,7 +408,7 @@ F 3 "" H 8350 1350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +2V5 #PWR021
+L power:+2V5 #PWR021
 U 1 1 58C2CBFC
 P 8350 1100
 F 0 "#PWR021" H 8350 950 50  0001 C CNN
@@ -450,7 +419,7 @@ F 3 "" H 8350 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR022
+L power:+5V #PWR022
 U 1 1 58C2CC4C
 P 9200 1100
 F 0 "#PWR022" H 9200 950 50  0001 C CNN
@@ -461,7 +430,7 @@ F 3 "" H 9200 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Led_Small D1
+L device:LED_Small D1
 U 1 1 58C2FA90
 P 9900 3250
 F 0 "D1" H 9850 3375 50  0000 L CNN
@@ -472,7 +441,7 @@ F 3 "" V 9900 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R5
+L device:R_Small R5
 U 1 1 58C2FB7F
 P 10100 3250
 F 0 "R5" H 10130 3270 50  0000 L CNN
@@ -483,7 +452,7 @@ F 3 "" H 10100 3250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR023
+L power:+3.3V #PWR023
 U 1 1 58C30782
 P 10200 3250
 F 0 "#PWR023" H 10200 3100 50  0001 C CNN
@@ -696,7 +665,7 @@ Wire Wire Line
 	9450 3850 9150 3850
 Connection ~ 9450 3650
 $Comp
-L GNDD #PWR024
+L power:GNDD #PWR024
 U 1 1 58C59429
 P 7650 2350
 F 0 "#PWR024" H 7650 2100 50  0001 C CNN
@@ -707,7 +676,7 @@ F 3 "" H 7650 2350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDD #PWR025
+L power:GNDD #PWR025
 U 1 1 58C59526
 P 8350 4950
 F 0 "#PWR025" H 8350 4700 50  0001 C CNN
@@ -718,7 +687,7 @@ F 3 "" H 8350 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR026
+L power:GNDD #PWR026
 U 1 1 58C595B8
 P 9600 3750
 F 0 "#PWR026" H 9600 3500 50  0001 C CNN
@@ -729,7 +698,7 @@ F 3 "" H 9600 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR027
+L power:GNDD #PWR027
 U 1 1 58C5964A
 P 9700 2650
 F 0 "#PWR027" H 9700 2400 50  0001 C CNN
@@ -740,7 +709,7 @@ F 3 "" H 9700 2650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GNDD #PWR028
+L power:GNDD #PWR028
 U 1 1 58C59A97
 P 1950 2600
 F 0 "#PWR028" H 1950 2350 50  0001 C CNN
@@ -751,7 +720,7 @@ F 3 "" H 1950 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDD #PWR029
+L power:GNDD #PWR029
 U 1 1 58C59D19
 P 9200 1500
 F 0 "#PWR029" H 9200 1250 50  0001 C CNN
@@ -764,7 +733,7 @@ $EndComp
 NoConn ~ 2650 3300
 NoConn ~ 2650 3900
 $Comp
-L C_Small C5
+L device:C_Small C5
 U 1 1 58C5D520
 P 2850 1250
 F 0 "C5" H 2860 1320 50  0000 L CNN
@@ -775,7 +744,7 @@ F 3 "" H 2850 1250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDD #PWR030
+L power:GNDD #PWR030
 U 1 1 58C5D58A
 P 3050 1250
 F 0 "#PWR030" H 3050 1000 50  0001 C CNN

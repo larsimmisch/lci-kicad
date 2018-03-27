@@ -1,4 +1,4 @@
-update=2017 March 13, Monday 21:44:52
+update=2018 March 27, Tuesday 00:42:07
 version=1
 last_client=kicad
 [cvpcb]
@@ -28,36 +28,4 @@ ModuleOutlineThickness=0.15
 version=1
 [eeschema]
 version=1
-LibDir=..
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=regul
-LibName6=74xx
-LibName7=cmos4000
-LibName8=adc-dac
-LibName9=memory
-LibName10=xilinx
-LibName11=microcontrollers
-LibName12=dsp
-LibName13=microchip
-LibName14=analog_switches
-LibName15=motorola
-LibName16=texas
-LibName17=intel
-LibName18=audio
-LibName19=interface
-LibName20=digital-audio
-LibName21=philips
-LibName22=display
-LibName23=cypress
-LibName24=siliconi
-LibName25=opto
-LibName26=atmel
-LibName27=contrib
-LibName28=valves
-LibName29=linear
-LibName30=lci-kicad
-LibName31=switches
+LibDir=
