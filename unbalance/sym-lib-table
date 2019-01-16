@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name lci-kicad)(type Legacy)(uri "$(KIPRJMOD)/../lci-kicad.lib")(options "")(descr ""))
+  (lib (name unbalance-rescue)(type Legacy)(uri ${KIPRJMOD}/unbalance-rescue.lib)(options "")(descr ""))
 )

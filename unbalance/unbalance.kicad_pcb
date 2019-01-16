@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-rc2-dev-310-g1cd6477)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-3-g5ebb6b6)")
 
   (general
     (thickness 1.6)
@@ -74,7 +74,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -599,14 +599,6 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
-  (segment (start 138.43 93.345) (end 138.43 96.52) (width 0.25) (layer F.Cu) (net 9) (tstamp 58AB5A49) (status 1000000))
-  (segment (start 137.16 92.075) (end 138.43 93.345) (width 0.25) (layer F.Cu) (net 9) (tstamp 58AB5A45) (status 1000000))
-  (segment (start 130.81 92.075) (end 137.16 92.075) (width 0.25) (layer F.Cu) (net 9) (status 1000000))
-  (segment (start 126.365 95.885) (end 127.635 94.615) (width 0.25) (layer F.Cu) (net 10) (tstamp 58AB5A3B) (status 1000000))
-  (segment (start 126.365 96.52) (end 126.365 95.885) (width 0.25) (layer F.Cu) (net 10) (status 1000000))
-  (segment (start 127.635 94.615) (end 134.62 94.615) (width 0.25) (layer F.Cu) (net 10) (tstamp 58AB5A3E) (status 1000000))
-  (segment (start 130.81 94.615) (end 134.62 94.615) (width 0.25) (layer F.Cu) (net 10) (status 1000000))
-  (segment (start 130.81 92.075) (end 134.62 92.075) (width 0.25) (layer F.Cu) (net 9) (status 1000000))
   (segment (start 142.24 107.315) (end 143.51 107.315) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 144.145 97.79) (end 134.935 97.79) (width 0.25) (layer F.Cu) (net 1) (tstamp 58AB65D9))
   (segment (start 144.78 98.425) (end 144.145 97.79) (width 0.25) (layer F.Cu) (net 1) (tstamp 58AB65D8))
@@ -656,5 +648,13 @@
   (segment (start 122.555 107.315) (end 124.46 107.315) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 127 104.775) (end 129.38 104.775) (width 0.25) (layer F.Cu) (net 8) (tstamp 58AB653B))
   (segment (start 124.46 107.315) (end 127 104.775) (width 0.25) (layer F.Cu) (net 8) (tstamp 58AB652F))
+  (segment (start 138.43 93.345) (end 138.43 96.52) (width 0.25) (layer F.Cu) (net 9) (tstamp 58AB5A49) (status 1000000))
+  (segment (start 137.16 92.075) (end 138.43 93.345) (width 0.25) (layer F.Cu) (net 9) (tstamp 58AB5A45) (status 1000000))
+  (segment (start 130.81 92.075) (end 137.16 92.075) (width 0.25) (layer F.Cu) (net 9) (status 1000000))
+  (segment (start 130.81 92.075) (end 134.62 92.075) (width 0.25) (layer F.Cu) (net 9) (status 1000000))
+  (segment (start 126.365 95.885) (end 127.635 94.615) (width 0.25) (layer F.Cu) (net 10) (tstamp 58AB5A3B) (status 1000000))
+  (segment (start 126.365 96.52) (end 126.365 95.885) (width 0.25) (layer F.Cu) (net 10) (status 1000000))
+  (segment (start 127.635 94.615) (end 134.62 94.615) (width 0.25) (layer F.Cu) (net 10) (tstamp 58AB5A3E) (status 1000000))
+  (segment (start 130.81 94.615) (end 134.62 94.615) (width 0.25) (layer F.Cu) (net 10) (status 1000000))
 
 )

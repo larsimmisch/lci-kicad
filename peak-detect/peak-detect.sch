@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L linear:LM358 U2
+L peak-detect-rescue:LM358-linear U2
 U 2 1 590C92CE
 P 4600 4450
 F 0 "U2" H 4600 4650 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "" H 4600 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L linear:LM358 U2
+L peak-detect-rescue:LM358-linear U2
 U 1 1 590C9309
 P 3350 4450
 F 0 "U2" H 3350 4650 50  0000 L CNN
@@ -212,7 +212,7 @@ F 3 "" H 7400 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistor:BC847 Q1
+L peak-detect-rescue:BC847-Transistor Q1
 U 1 1 591708AB
 P 7550 2600
 F 0 "Q1" H 7750 2675 50  0000 L CNN
@@ -251,7 +251,7 @@ Out-Left
 Text GLabel 8900 1300 1    60   Output ~ 0
 Out-Right
 $Comp
-L linear:LM358 U1
+L peak-detect-rescue:LM358-linear U1
 U 2 1 59171FF7
 P 4700 1850
 F 0 "U1" H 4700 2050 50  0000 L CNN
@@ -262,7 +262,7 @@ F 3 "" H 4700 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L linear:LM358 U1
+L peak-detect-rescue:LM358-linear U1
 U 1 1 59171FFD
 P 3450 1850
 F 0 "U1" H 3450 2050 50  0000 L CNN
@@ -492,7 +492,7 @@ F 3 "" H 7300 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistor:BC847 Q2
+L peak-detect-rescue:BC847-Transistor Q2
 U 1 1 591720C8
 P 7450 5200
 F 0 "Q2" H 7650 5275 50  0000 L CNN
@@ -739,48 +739,48 @@ F 3 "" H 7650 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03 J5
+L Connector:Conn_01x03_Male J5
 U 1 1 59184C69
 P 10600 3800
 F 0 "J5" H 10600 4000 50  0000 C CNN
-F 1 "CONN_01X03" V 10700 3800 50  0000 C CNN
+F 1 "CONN_01X03" V 10500 3800 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10600 3800 50  0001 C CNN
 F 3 "" H 10600 3800 50  0001 C CNN
 	1    10600 3800
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03 J4
+L Connector:Conn_01x03_Male J4
 U 1 1 59196A9E
 P 10600 3050
 F 0 "J4" H 10600 3250 50  0000 C CNN
-F 1 "CONN_01X03" V 10700 3050 50  0000 C CNN
+F 1 "CONN_01X03" V 10500 3050 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10600 3050 50  0001 C CNN
 F 3 "" H 10600 3050 50  0001 C CNN
 	1    10600 3050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03 J3
+L Connector:Conn_01x03_Male J3
 U 1 1 59196B57
 P 10600 2250
 F 0 "J3" H 10600 2450 50  0000 C CNN
-F 1 "CONN_01X03" V 10700 2250 50  0000 C CNN
+F 1 "CONN_01X03" V 10500 2250 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10600 2250 50  0001 C CNN
 F 3 "" H 10600 2250 50  0001 C CNN
 	1    10600 2250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03 J2
+L Connector:Conn_01x03_Male J2
 U 1 1 59196C14
 P 10600 1450
 F 0 "J2" H 10600 1650 50  0000 C CNN
-F 1 "CONN_01X03" V 10700 1450 50  0000 C CNN
+F 1 "CONN_01X03" V 10500 1450 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 10600 1450 50  0001 C CNN
 F 3 "" H 10600 1450 50  0001 C CNN
 	1    10600 1450
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR029
@@ -1200,7 +1200,7 @@ F 3 "" H 5650 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Test_Point TP1-1
+L Connector:TestPoint TP1-1
 U 1 1 5A84175A
 P 2750 1950
 F 0 "TP1-1" H 2750 2200 50  0000 C BNN
@@ -1211,7 +1211,7 @@ F 3 "" H 2750 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Test_Point TP1-2
+L Connector:TestPoint TP1-2
 U 1 1 5A841847
 P 2650 4550
 F 0 "TP1-2" H 2650 4800 50  0000 C BNN
@@ -1222,7 +1222,7 @@ F 3 "" H 2650 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Test_Point TP2-1
+L Connector:TestPoint TP2-1
 U 1 1 5A841EBA
 P 5050 1850
 F 0 "TP2-1" H 5050 2100 50  0000 C BNN
@@ -1233,7 +1233,7 @@ F 3 "" H 5050 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Test_Point TP2-2
+L Connector:TestPoint TP2-2
 U 1 1 5A8422A9
 P 4950 4450
 F 0 "TP2-2" H 4950 4700 50  0000 C BNN
@@ -1244,7 +1244,7 @@ F 3 "" H 4950 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Test_Point TPGND1
+L peak-detect-rescue:Test_Point-Connector TPGND1
 U 1 1 5A842703
 P 6500 6850
 F 0 "TPGND1" H 6500 7100 50  0000 C BNN
@@ -1255,7 +1255,7 @@ F 3 "" H 6500 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L linear:LM358 U3
+L peak-detect-rescue:LM358-linear U3
 U 2 1 5AB95B53
 P 2250 4550
 F 0 "U3" H 2250 4750 50  0000 L CNN
@@ -1266,7 +1266,7 @@ F 3 "" H 2250 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L linear:LM358 U3
+L peak-detect-rescue:LM358-linear U3
 U 1 1 5AB95C4B
 P 2350 1950
 F 0 "U3" H 2350 2150 50  0000 L CNN
@@ -1779,7 +1779,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 2250 6150 2250
 $Comp
-L Connector:Conn_02x05_Odd_Even J1
+L peak-detect-rescue:Conn_02x05_Odd_Even-Connector J1
 U 1 1 5ABA7FDC
 P 3750 6550
 F 0 "J1" H 3800 6967 50  0000 C CNN
@@ -1789,4 +1789,16 @@ F 3 "~" H 3750 6550 50  0001 C CNN
 	1    3750 6550
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	6800 2350 8000 2350
+Wire Notes Line
+	8000 2350 8000 3200
+Wire Notes Line
+	8000 3200 6800 3200
+Wire Notes Line
+	6800 3200 6800 2350
+Text Notes 6800 3400 0    50   ~ 0
+This won’t work.\nShort Relay-1 to Pin 3 of Transistor
+Text Notes 7100 1450 0    50   ~ 0
+D4 is superfluous
 $EndSCHEMATC

@@ -112,7 +112,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 4150 5750 4150
 $Comp
-L Connector:Conn_01x03 P2
+L unbalance-rescue:Conn_01x03-Connector P2
 U 1 1 57668D9A
 P 4150 3400
 F 0 "P2" H 4150 3600 50  0000 C CNN
@@ -136,7 +136,7 @@ $EndComp
 Wire Wire Line
 	4350 3300 4950 3300
 $Comp
-L Connector:Conn_01x02 P4
+L unbalance-rescue:Conn_01x02-Connector P4
 U 1 1 5766F7DB
 P 6650 3450
 F 0 "P4" H 6650 3600 50  0000 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 6650 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02 P3
+L unbalance-rescue:Conn_01x02-Connector P3
 U 1 1 5766F83C
 P 6650 3050
 F 0 "P3" H 6650 3200 50  0000 C CNN
@@ -159,7 +159,7 @@ F 3 "" H 6650 3050 60  0000 C CNN
 $EndComp
 Connection ~ 5900 3300
 $Comp
-L Connector:Conn_01x03 P1
+L unbalance-rescue:Conn_01x03-Connector P1
 U 1 1 5766FA3B
 P 4150 2500
 F 0 "P1" H 4150 2700 50  0000 C CNN
@@ -327,4 +327,6 @@ Wire Wire Line
 Connection ~ 6250 3300
 Wire Wire Line
 	6250 3300 6450 3300
+Text Notes 2100 3800 0    50   ~ 0
+This is idiotic. Cable GND needs to go to chassis ground
 $EndSCHEMATC
