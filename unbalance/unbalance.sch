@@ -74,7 +74,7 @@ F 3 "" H 5900 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C2
+L Device:C_Small C2
 U 1 1 57668C3B
 P 5550 4150
 F 0 "C2" H 5560 4220 50  0000 L CNN
@@ -85,7 +85,7 @@ F 3 "" H 5550 4150 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C1
+L Device:C_Small C1
 U 1 1 57668C5E
 P 5550 2600
 F 0 "C1" H 5560 2670 50  0000 L CNN
@@ -112,7 +112,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 4150 5750 4150
 $Comp
-L unbalance-rescue:Conn_01x03-Connector P2
+L Connector:Conn_01x03_Male P2
 U 1 1 57668D9A
 P 4150 3400
 F 0 "P2" H 4150 3600 50  0000 C CNN
@@ -120,7 +120,7 @@ F 1 "bal" V 4250 3400 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4150 3400 60  0001 C CNN
 F 3 "" H 4150 3400 60  0000 C CNN
 	1    4150 3400
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR05
@@ -136,30 +136,30 @@ $EndComp
 Wire Wire Line
 	4350 3300 4950 3300
 $Comp
-L unbalance-rescue:Conn_01x02-Connector P4
+L Connector:Conn_01x02_Male P4
 U 1 1 5766F7DB
-P 6650 3450
-F 0 "P4" H 6650 3600 50  0000 C CNN
-F 1 "CONN_01X02" V 6750 3450 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6650 3450 60  0001 C CNN
-F 3 "" H 6650 3450 60  0000 C CNN
-	1    6650 3450
-	1    0    0    -1  
+P 6650 3550
+F 0 "P4" H 6650 3700 50  0000 C CNN
+F 1 "CONN_01X02" V 6750 3550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6650 3550 60  0001 C CNN
+F 3 "" H 6650 3550 60  0000 C CNN
+	1    6650 3550
+	-1   0    0    1   
 $EndComp
 $Comp
-L unbalance-rescue:Conn_01x02-Connector P3
+L Connector:Conn_01x02_Male P3
 U 1 1 5766F83C
-P 6650 3050
-F 0 "P3" H 6650 3200 50  0000 C CNN
-F 1 "CONN_01X02" V 6750 3050 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6650 3050 60  0001 C CNN
-F 3 "" H 6650 3050 60  0000 C CNN
-	1    6650 3050
-	1    0    0    -1  
+P 6650 3150
+F 0 "P3" H 6650 3300 50  0000 C CNN
+F 1 "CONN_01X02" V 6750 3150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6650 3150 60  0001 C CNN
+F 3 "" H 6650 3150 60  0000 C CNN
+	1    6650 3150
+	-1   0    0    1   
 $EndComp
 Connection ~ 5900 3300
 $Comp
-L unbalance-rescue:Conn_01x03-Connector P1
+L Connector:Conn_01x03_Male P1
 U 1 1 5766FA3B
 P 4150 2500
 F 0 "P1" H 4150 2700 50  0000 C CNN
@@ -167,7 +167,7 @@ F 1 "power" V 4250 2500 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4150 2500 60  0001 C CNN
 F 3 "" H 4150 2500 60  0000 C CNN
 	1    4150 2500
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+15V #PWR06
@@ -205,7 +205,7 @@ $EndComp
 Wire Wire Line
 	4350 2500 4650 2500
 $Comp
-L device:Jumper_NC_Small JP1
+L Device:Jumper_NO_Small JP1
 U 1 1 5769CFA5
 P 4450 3750
 F 0 "JP1" H 4450 3830 50  0000 C CNN
@@ -216,7 +216,7 @@ F 3 "" H 4450 3750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Jumper_NC_Small JP2
+L Device:Jumper_NC_Small JP2
 U 1 1 58AB567A
 P 6100 3300
 F 0 "JP2" H 6100 3380 50  0000 C CNN
@@ -227,7 +227,7 @@ F 3 "" H 6100 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Jumper_NC_Small JP3
+L Device:Jumper_NC_Small JP3
 U 1 1 58AB56B2
 P 6100 3550
 F 0 "JP3" H 6100 3630 50  0000 C CNN
@@ -238,7 +238,7 @@ F 3 "" H 6100 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C3
+L Device:C_Small C3
 U 1 1 58AB578A
 P 5550 2800
 F 0 "C3" H 5560 2870 50  0000 L CNN
@@ -257,7 +257,7 @@ Wire Wire Line
 	5750 2800 5750 2600
 Connection ~ 5750 2600
 $Comp
-L device:C_Small C4
+L Device:C_Small C4
 U 1 1 58AB5839
 P 5550 3950
 F 0 "C4" H 5560 4020 50  0000 L CNN
