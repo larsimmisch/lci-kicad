@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Peak detector"
 Date ""
-Rev ""
-Comp ""
+Rev "1"
+Comp "Lars Immisch"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1668,7 +1668,7 @@ U 1 1 5C677B00
 P 2350 1950
 F 0 "U3" H 2350 2317 50  0000 C CNN
 F 1 "OPA2134" H 2350 2226 50  0000 C CNN
-F 2 "" H 2350 1950 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2350 1950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 2350 1950 50  0001 C CNN
 	1    2350 1950
 	1    0    0    -1  
@@ -1679,7 +1679,7 @@ U 2 1 5C679457
 P 2250 4550
 F 0 "U3" H 2250 4917 50  0000 C CNN
 F 1 "OPA2134" H 2250 4826 50  0000 C CNN
-F 2 "" H 2250 4550 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2250 4550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 2250 4550 50  0001 C CNN
 	2    2250 4550
 	1    0    0    -1  
@@ -1690,7 +1690,7 @@ U 3 1 5C67A396
 P 2400 3150
 F 0 "U3" H 2358 3196 50  0000 L CNN
 F 1 "OPA2134" H 2358 3105 50  0000 L CNN
-F 2 "" H 2400 3150 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2400 3150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 2400 3150 50  0001 C CNN
 	3    2400 3150
 	1    0    0    -1  
@@ -1701,7 +1701,7 @@ U 1 1 5C6AC5D2
 P 3450 1850
 F 0 "U1" H 3450 2217 50  0000 C CNN
 F 1 "OPA2134" H 3450 2126 50  0000 C CNN
-F 2 "" H 3450 1850 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3450 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 3450 1850 50  0001 C CNN
 	1    3450 1850
 	1    0    0    -1  
@@ -1712,7 +1712,7 @@ U 2 1 5C6ACDC8
 P 4700 1850
 F 0 "U1" H 4700 2217 50  0000 C CNN
 F 1 "OPA2134" H 4700 2126 50  0000 C CNN
-F 2 "" H 4700 1850 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4700 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 4700 1850 50  0001 C CNN
 	2    4700 1850
 	1    0    0    -1  
@@ -1723,7 +1723,7 @@ U 3 1 5C6AD90E
 P 3200 3150
 F 0 "U1" H 3158 3196 50  0000 L CNN
 F 1 "OPA2134" H 3158 3105 50  0000 L CNN
-F 2 "" H 3200 3150 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3200 3150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 3200 3150 50  0001 C CNN
 	3    3200 3150
 	1    0    0    -1  
@@ -1734,7 +1734,7 @@ U 1 1 5C6F058C
 P 3350 4450
 F 0 "U2" H 3350 4817 50  0000 C CNN
 F 1 "OPA2134" H 3350 4726 50  0000 C CNN
-F 2 "" H 3350 4450 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3350 4450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 3350 4450 50  0001 C CNN
 	1    3350 4450
 	1    0    0    -1  
@@ -1745,7 +1745,7 @@ U 2 1 5C6F0DA3
 P 4600 4450
 F 0 "U2" H 4600 4817 50  0000 C CNN
 F 1 "OPA2134" H 4600 4726 50  0000 C CNN
-F 2 "" H 4600 4450 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4600 4450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 4600 4450 50  0001 C CNN
 	2    4600 4450
 	1    0    0    -1  
@@ -1756,7 +1756,7 @@ U 3 1 5C6F1583
 P 4050 3150
 F 0 "U2" H 4008 3196 50  0000 L CNN
 F 1 "OPA2134" H 4008 3105 50  0000 L CNN
-F 2 "" H 4050 3150 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4050 3150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 4050 3150 50  0001 C CNN
 	3    4050 3150
 	1    0    0    -1  
