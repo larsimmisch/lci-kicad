@@ -148,7 +148,7 @@ F 3 "~" H 3700 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +-12v-rescue:R_Small-device R5
+L Device:R_Small R5
 U 1 1 5C42B4E9
 P 3500 3300
 F 0 "R5" V 3304 3300 50  0000 C CNN
@@ -159,7 +159,7 @@ F 3 "" H 3500 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +-12v-rescue:R_Small-device R6
+L Device:R_Small R6
 U 1 1 5C42B7D9
 P 3500 3900
 F 0 "R6" V 3604 3900 50  0000 C CNN
@@ -175,7 +175,7 @@ U 1 1 5C42BEAE
 P 4700 3000
 F 0 "U1" H 4700 3242 50  0000 C CNN
 F 1 "LM317_TO3" H 4700 3151 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-3P-3_Horizontal_TabDown" H 4700 3200 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Horizontal_TabDown" H 4700 3200 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 4700 3000 50  0001 C CNN
 	1    4700 3000
 	1    0    0    -1  
@@ -186,13 +186,13 @@ U 1 1 5C4360ED
 P 4700 4200
 F 0 "U2" H 4700 4050 50  0000 C CNN
 F 1 "LM337_TO3" H 4700 3959 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-3P-3_Horizontal_TabDown" H 4700 4000 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-220F-3_Horizontal_TabDown" H 4700 4000 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm337-n.pdf" H 4700 4200 50  0001 C CNN
 	1    4700 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L +-12v-rescue:R_Small-device R2+1
+L Device:R_Small R2+1
 U 1 1 5C4373A8
 P 5000 3450
 F 0 "R2+1" H 4941 3404 50  0000 R CNN
@@ -203,7 +203,7 @@ F 3 "" H 5000 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +-12v-rescue:R_Small-device R2-1
+L Device:R_Small R2-1
 U 1 1 5C437532
 P 5000 3750
 F 0 "R2-1" H 4941 3704 50  0000 R CNN
@@ -214,7 +214,7 @@ F 3 "" H 5000 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +-12v-rescue:R_Small-device R1+1
+L Device:R_Small R1+1
 U 1 1 5C43F966
 P 5000 3150
 F 0 "R1+1" H 4941 3104 50  0000 R CNN
@@ -225,7 +225,7 @@ F 3 "" H 5000 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +-12v-rescue:R_Small-device R1-1
+L Device:R_Small R1-1
 U 1 1 5C44199B
 P 5000 4050
 F 0 "R1-1" H 4941 4004 50  0000 R CNN
@@ -263,7 +263,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 3650 5000 3600
 $Comp
-L +-12v-rescue:R_Small-device R3+1
+L Device:R_Small R3+1
 U 1 1 5C468265
 P 4700 3450
 F 0 "R3+1" H 4641 3404 50  0000 R CNN
@@ -274,7 +274,7 @@ F 3 "" H 4700 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +-12v-rescue:R_Small-device R3-1
+L Device:R_Small R3-1
 U 1 1 5C4685DD
 P 4700 3750
 F 0 "R3-1" H 4641 3704 50  0000 R CNN
@@ -556,7 +556,7 @@ U 1 1 5C4667B2
 P 3050 1950
 F 0 "F1" V 2853 1950 50  0000 C CNN
 F 1 "Fuse" V 2944 1950 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031-8002_Horizontal_Open" V 2980 1950 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 2980 1950 50  0001 C CNN
 F 3 "~" H 3050 1950 50  0001 C CNN
 	1    3050 1950
 	0    1    1    0   
