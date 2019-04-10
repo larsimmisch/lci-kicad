@@ -531,42 +531,40 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J3
 U 1 1 5C4654DE
-P 2600 2050
-F 0 "J3" H 2680 1950 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 2680 2041 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 2600 2050 50  0001 C CNN
-F 3 "~" H 2600 2050 50  0001 C CNN
-	1    2600 2050
+P 2400 2150
+F 0 "J3" H 2480 2050 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 2480 2141 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 2400 2150 50  0001 C CNN
+F 3 "~" H 2400 2150 50  0001 C CNN
+	1    2400 2150
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J4
 U 1 1 5C465DAB
-P 3500 2050
-F 0 "J4" H 3580 1950 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 3580 2041 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 3500 2050 50  0001 C CNN
-F 3 "~" H 3500 2050 50  0001 C CNN
-	1    3500 2050
+P 4450 2150
+F 0 "J4" H 4530 2050 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 4530 2141 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 4450 2150 50  0001 C CNN
+F 3 "~" H 4450 2150 50  0001 C CNN
+	1    4450 2150
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:Fuse F1
 U 1 1 5C4667B2
-P 3050 1950
-F 0 "F1" V 2853 1950 50  0000 C CNN
-F 1 "Fuse" V 2944 1950 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 2980 1950 50  0001 C CNN
-F 3 "~" H 3050 1950 50  0001 C CNN
-	1    3050 1950
+P 2850 2050
+F 0 "F1" V 2653 2050 50  0000 C CNN
+F 1 "Fuse" V 2744 2050 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 2780 2050 50  0001 C CNN
+F 3 "~" H 2850 2050 50  0001 C CNN
+	1    2850 2050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2800 1950 2900 1950
+	2600 2050 2700 2050
 Wire Wire Line
-	3200 1950 3300 1950
-Wire Wire Line
-	2800 2050 3300 2050
+	3000 2050 3100 2050
 Text Notes 5150 2900 0    50   ~ 0
 Resistor values are for 11.83v
 Wire Wire Line
@@ -607,4 +605,67 @@ Text Label 2550 3600 0    50   ~ 0
 GND
 Text Label 3250 3600 2    50   ~ 0
 GND
+$Comp
+L lci-kicad:FTR-LYCA RL1
+U 1 1 5C8A75C1
+P 3650 1600
+F 0 "RL1" V 3083 1600 50  0000 C CNN
+F 1 "FTR-LYCA" V 3174 1600 50  0000 C CNN
+F 2 "lci-kicad:FTR-LYCA" H 3650 1600 60  0001 C CNN
+F 3 "https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-ly.pdf" V 3167 1600 60  0001 C CNN
+	1    3650 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 1800 3100 1800
+Wire Wire Line
+	3100 1800 3100 2050
+Wire Wire Line
+	2600 2150 4250 2150
+Wire Wire Line
+	4250 1900 4250 2050
+Wire Wire Line
+	3950 1900 4250 1900
+$Comp
+L Connector:Screw_Terminal_01x02 J5
+U 1 1 5C8B1BAB
+P 4700 1300
+F 0 "J5" H 4780 1200 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 4780 1291 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 4700 1300 50  0001 C CNN
+F 3 "~" H 4700 1300 50  0001 C CNN
+	1    4700 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1400 4150 1400
+Wire Wire Line
+	3350 1400 3250 1400
+Wire Wire Line
+	3250 1400 3250 1000
+Wire Wire Line
+	3250 1000 4150 1000
+Wire Wire Line
+	4500 1000 4500 1300
+$Comp
+L Device:D_Small D9
+U 1 1 5C8BA133
+P 4150 1200
+F 0 "D9" V 4150 1268 50  0000 L CNN
+F 1 "D_Small" V 4195 1268 50  0001 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" V 4150 1200 50  0001 C CNN
+F 3 "~" V 4150 1200 50  0001 C CNN
+	1    4150 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 1100 4150 1000
+Connection ~ 4150 1000
+Wire Wire Line
+	4150 1000 4500 1000
+Wire Wire Line
+	4150 1300 4150 1400
+Connection ~ 4150 1400
+Wire Wire Line
+	4150 1400 4500 1400
 $EndSCHEMATC

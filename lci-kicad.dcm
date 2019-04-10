@@ -12,16 +12,39 @@ K logic inverter
 F http://www.ti.com/lit/ds/symlink/sn74ahc1gu04.pdf
 $ENDCMP
 #
+$CMP Alps-Rotary-Encoder
+D Alps rotary encoder
+K Alps rotary endoder
+F http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11_list.html
+$ENDCMP
+#
 $CMP DIR9001
 D  96-kHz, 24-Bit Digital Audio Interface Receiver (TSSOP-28)
 K digital audio interface receiver spdif
 F http://www.ti.com/lit/ds/symlink/dir9001.pdf
 $ENDCMP
 #
+$CMP Double_choke
+D Double choke from Boom Boom power supply
+K choke
+$ENDCMP
+#
+$CMP FTR-LYCA
+D FTR LYCA
+K Relay
+F https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-ly.pdf
+$ENDCMP
+#
 $CMP INA134
 D Audio Differential line receiver
 K TI INA134
 F http://www.ti.com/lit/ds/symlink/ina134.pdf
+$ENDCMP
+#
+$CMP Omron_G6K
+D Omron G6K, Microminiature Polarised Dual Pole Relay
+K Miniature Polarised Relay Dual Pole
+F http://www.omron.com/ecb/products/pdf/en-g6k.pdf
 $ENDCMP
 #
 $CMP PLR135
@@ -33,22 +56,6 @@ $ENDCMP
 $CMP TLE2426
 D Rail splitter - precision virtual ground
 F http://www.ti.com/lit/ds/symlink/tle2426.pdf
-$ENDCMP
-#
-$CMP Double_choke
-D Double choke from Boom Boom power supply
-K choke
-$ENDCMP
-#
-$CMP Omron_G6K
-D Omron G6K, Microminiature Polarised Dual Pole Relay
-K Miniature Polarised Relay Dual Pole
-F http://www.omron.com/ecb/products/pdf/en-g6k.pdf
-$ENDCMP
-$CMP Alps-Rotary-Encoder
-D Alps rotary encoder
-K Alps rotary endoder
-F http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11_list.html
 $ENDCMP
 #
 #End Doc Library
