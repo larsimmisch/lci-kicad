@@ -1,4 +1,4 @@
-update=2019 April 28, Sunday 19:35:51
+update=2018 April 08, Sunday 23:42:00
 version=1
 last_client=kicad
 [general]
@@ -33,8 +33,8 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
-PlotDirectoryName=gerber/
+PageLayoutDescrFile=empty.kicad_wks
+PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

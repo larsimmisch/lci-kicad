@@ -531,12 +531,12 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J3
 U 1 1 5C4654DE
-P 2400 2150
-F 0 "J3" H 2480 2050 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 2480 2141 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 2400 2150 50  0001 C CNN
-F 3 "~" H 2400 2150 50  0001 C CNN
-	1    2400 2150
+P 1000 2650
+F 0 "J3" H 1080 2550 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 1080 2641 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 1000 2650 50  0001 C CNN
+F 3 "~" H 1000 2650 50  0001 C CNN
+	1    1000 2650
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -550,21 +550,6 @@ F 3 "~" H 4450 2150 50  0001 C CNN
 	1    4450 2150
 	1    0    0    1   
 $EndComp
-$Comp
-L Device:Fuse F1
-U 1 1 5C4667B2
-P 2850 2050
-F 0 "F1" V 2653 2050 50  0000 C CNN
-F 1 "Fuse" V 2744 2050 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 2780 2050 50  0001 C CNN
-F 3 "~" H 2850 2050 50  0001 C CNN
-	1    2850 2050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2600 2050 2700 2050
-Wire Wire Line
-	3000 2050 3100 2050
 Text Notes 5150 2900 0    50   ~ 0
 Resistor values are for 11.83v
 Wire Wire Line
@@ -617,36 +602,15 @@ F 3 "https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-ly.pdf" V 3167 1600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3350 1800 3100 1800
-Wire Wire Line
-	3100 1800 3100 2050
-Wire Wire Line
-	2600 2150 4250 2150
-Wire Wire Line
 	4250 1900 4250 2050
 Wire Wire Line
 	3950 1900 4250 1900
-$Comp
-L Connector:Screw_Terminal_01x02 J5
-U 1 1 5C8B1BAB
-P 4700 1300
-F 0 "J5" H 4780 1200 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 4780 1291 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 4700 1300 50  0001 C CNN
-F 3 "~" H 4700 1300 50  0001 C CNN
-	1    4700 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 1400 4150 1400
 Wire Wire Line
 	3350 1400 3250 1400
 Wire Wire Line
 	3250 1400 3250 1000
 Wire Wire Line
 	3250 1000 4150 1000
-Wire Wire Line
-	4500 1000 4500 1300
 $Comp
 L Device:D_Small D9
 U 1 1 5C8BA133
@@ -663,9 +627,195 @@ Wire Wire Line
 Connection ~ 4150 1000
 Wire Wire Line
 	4150 1000 4500 1000
+$Comp
+L lci-kicad:RECOM_RAC02-05SC U3
+U 1 1 5CC83283
+P 1750 2600
+F 0 "U3" H 1750 2965 50  0000 C CNN
+F 1 "RECOM_RAC02-05SC" H 1750 2874 50  0000 C CNN
+F 2 "lci-kicad:RECOM_RAC02-05SC" H 1750 2600 50  0001 C CNN
+F 3 "" H 1750 2600 50  0001 C CNN
+	1    1750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2550 1200 2500
+Wire Wire Line
+	1200 2500 1300 2500
+Wire Wire Line
+	1200 2650 1200 2700
+Wire Wire Line
+	1200 2700 1400 2700
+$Comp
+L Device:Fuse F1
+U 1 1 5C4667B2
+P 2600 1800
+F 0 "F1" V 2403 1800 50  0000 C CNN
+F 1 "Fuse" V 2494 1800 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 2530 1800 50  0001 C CNN
+F 3 "~" H 2600 1800 50  0001 C CNN
+	1    2600 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 1800 1300 1800
+Wire Wire Line
+	1300 1800 1300 2500
+Connection ~ 1300 2500
+Wire Wire Line
+	1300 2500 1400 2500
+Wire Wire Line
+	1400 2150 4250 2150
+Connection ~ 1400 2700
+Wire Wire Line
+	2750 1800 3350 1800
+Wire Wire Line
+	1400 2150 1400 2700
+Text Label 2100 2500 0    50   ~ 0
+DGND
+Text Label 6150 1000 2    50   ~ 0
+DGND
+Text Label 2100 2700 0    50   ~ 0
++5v
+Text Label 6150 1100 2    50   ~ 0
++5v
+Text Label 4500 1000 0    50   ~ 0
+DGND
+Text Label 6300 3300 0    50   ~ 0
++12v
+Text Label 6300 3900 0    50   ~ 0
+-12v
+Text Label 6150 1800 2    50   ~ 0
+GND
+Text Label 6150 1700 2    50   ~ 0
++12v
+Text Label 6150 1900 2    50   ~ 0
+-12v
+$Comp
+L Connector_Generic:Conn_01x10 J5
+U 1 1 5CC4D02B
+P 6350 1400
+F 0 "J5" H 6430 1392 50  0000 L CNN
+F 1 "Conn_01x10" H 6430 1301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 6350 1400 50  0001 C CNN
+F 3 "~" H 6350 1400 50  0001 C CNN
+	1    6350 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1400 4150 1400
 Wire Wire Line
 	4150 1300 4150 1400
 Connection ~ 4150 1400
 Wire Wire Line
-	4150 1400 4500 1400
+	4150 1400 5750 1400
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J6
+U 1 1 5CD6024F
+P 7300 1400
+F 0 "J6" H 7350 1817 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 7350 1726 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 7300 1400 50  0001 C CNN
+F 3 "~" H 7300 1400 50  0001 C CNN
+	1    7300 1400
+	1    0    0    -1  
+$EndComp
+Text Label 7100 1200 2    50   ~ 0
+DGND
+Text Label 7600 1200 0    50   ~ 0
++5v
+Text Label 7600 1500 0    50   ~ 0
++12v
+Text Label 7100 1600 2    50   ~ 0
+GND
+Text Label 7600 1600 0    50   ~ 0
+-12v
+Wire Wire Line
+	7100 1400 6700 1400
+Wire Wire Line
+	6700 1400 6700 700 
+Wire Wire Line
+	6700 700  5750 700 
+Wire Wire Line
+	5750 700  5750 1400
+Connection ~ 5750 1400
+Wire Wire Line
+	5750 1400 6150 1400
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CD93088
+P 9900 2700
+F 0 "H1" H 10000 2746 50  0000 L CNN
+F 1 "MountingHole" H 10000 2655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9900 2700 50  0001 C CNN
+F 3 "~" H 9900 2700 50  0001 C CNN
+	1    9900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CD93618
+P 9900 2950
+F 0 "H2" H 10000 2996 50  0000 L CNN
+F 1 "MountingHole" H 10000 2905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9900 2950 50  0001 C CNN
+F 3 "~" H 9900 2950 50  0001 C CNN
+	1    9900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5CD93741
+P 9900 3200
+F 0 "H3" H 10000 3246 50  0000 L CNN
+F 1 "MountingHole" H 10000 3155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9900 3200 50  0001 C CNN
+F 3 "~" H 9900 3200 50  0001 C CNN
+	1    9900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5CD93871
+P 9900 3450
+F 0 "H4" H 10000 3496 50  0000 L CNN
+F 1 "MountingHole" H 10000 3405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9900 3450 50  0001 C CNN
+F 3 "~" H 9900 3450 50  0001 C CNN
+	1    9900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5CC9975E
+P 9900 2450
+F 0 "H7" H 10000 2496 50  0000 L CNN
+F 1 "MountingHole" H 10000 2405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9900 2450 50  0001 C CNN
+F 3 "~" H 9900 2450 50  0001 C CNN
+	1    9900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5CC998F2
+P 9900 2200
+F 0 "H6" H 10000 2246 50  0000 L CNN
+F 1 "MountingHole" H 10000 2155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9900 2200 50  0001 C CNN
+F 3 "~" H 9900 2200 50  0001 C CNN
+	1    9900 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5CC99A37
+P 9900 1950
+F 0 "H5" H 10000 1996 50  0000 L CNN
+F 1 "MountingHole" H 10000 1905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9900 1950 50  0001 C CNN
+F 3 "~" H 9900 1950 50  0001 C CNN
+	1    9900 1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

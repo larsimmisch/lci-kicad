@@ -133,4 +133,22 @@ Wire Wire Line
 Connection ~ 3900 3600
 Wire Wire Line
 	3900 3600 3900 3500
+Text Label 4300 3750 0    50   ~ 0
+dgnd
+Text Label 4350 3500 0    50   ~ 0
++5v
+Text Label 4400 3600 0    50   ~ 0
+scl
+Text Label 4350 3850 0    50   ~ 0
+sda
+Text Label 4300 3950 0    50   ~ 0
+relay
+Text Label 4250 4050 0    50   ~ 0
+shield
+Text Label 4300 4150 0    50   ~ 0
+agnd
+Text Label 4300 4250 0    50   ~ 0
++12v
+Text Label 4300 4350 0    50   ~ 0
+-12v
 $EndSCHEMATC

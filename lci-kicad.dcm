@@ -31,7 +31,7 @@ $ENDCMP
 #
 $CMP FTR-LYCA
 D FTR LYCA
-K Relay
+K relay fujitsu 
 F https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-ly.pdf
 $ENDCMP
 #
