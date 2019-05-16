@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:peak-detect-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_Small R1-1
+L Device:R_Small RL1-2
 U 1 1 590C9349
 P 1550 1950
-F 0 "R1-1" V 1450 1950 50  0000 L CNN
+F 0 "RL1-2" V 1450 1950 50  0000 L CNN
 F 1 "10k" V 1450 1750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1550 1950 50  0001 C CNN
 F 3 "" H 1550 1950 50  0001 C CNN
@@ -25,10 +26,10 @@ F 3 "" H 1550 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R2-1
+L Device:R_Small RR1-1
 U 1 1 590C93E8
 P 1550 2150
-F 0 "R2-1" V 1650 2150 50  0000 L CNN
+F 0 "RR1-1" V 1650 2150 50  0000 L CNN
 F 1 "10k" V 1650 1950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1550 2150 50  0001 C CNN
 F 3 "" H 1550 2150 50  0001 C CNN
@@ -163,10 +164,10 @@ In-Left-1
 Text GLabel 1300 2150 0    60   Input ~ 0
 In-Right-1
 $Comp
-L Device:R_Small R1-2
+L Device:R_Small RL1-1
 U 1 1 59172003
 P 1450 4550
-F 0 "R1-2" V 1350 4550 50  0000 L CNN
+F 0 "RL1-1" V 1350 4550 50  0000 L CNN
 F 1 "10k" V 1350 4350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1450 4550 50  0001 C CNN
 F 3 "" H 1450 4550 50  0001 C CNN
@@ -174,10 +175,10 @@ F 3 "" H 1450 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R2-2
+L Device:R_Small RR2-1
 U 1 1 59172009
 P 1450 4750
-F 0 "R2-2" V 1550 4750 50  0000 L CNN
+F 0 "RR2-1" V 1550 4750 50  0000 L CNN
 F 1 "10k" V 1550 4550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1450 4750 50  0001 C CNN
 F 3 "" H 1450 4750 50  0001 C CNN
@@ -1312,10 +1313,10 @@ Wire Wire Line
 Wire Wire Line
 	1000 6950 1000 6900
 $Comp
-L Device:R_Small R8-3
+L Device:R_Small RL3
 U 1 1 5CEA2329
 P 8100 1400
-F 0 "R8-3" V 8000 1400 50  0000 L CNN
+F 0 "RL3" V 8000 1400 50  0000 L CNN
 F 1 "10k" V 8000 1200 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8100 1400 50  0001 C CNN
 F 3 "" H 8100 1400 50  0001 C CNN
@@ -1323,10 +1324,10 @@ F 3 "" H 8100 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R8-4
+L Device:R_Small RR1
 U 1 1 5CEA3B48
 P 8100 2650
-F 0 "R8-4" V 8000 2650 50  0000 L CNN
+F 0 "RR1" V 8000 2650 50  0000 L CNN
 F 1 "10k" V 8000 2450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8100 2650 50  0001 C CNN
 F 3 "" H 8100 2650 50  0001 C CNN
@@ -1364,10 +1365,10 @@ In-Left-1
 Text GLabel 8000 1650 0    50   Input ~ 0
 Out-Left-1
 $Comp
-L Device:R_Small R10-1
+L Device:R_Small RR5
 U 1 1 5CEF074C
 P 8550 2900
-F 0 "R10-1" V 8450 2900 50  0000 L CNN
+F 0 "RR5" V 8450 2900 50  0000 L CNN
 F 1 "10k" V 8450 2700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8550 2900 50  0001 C CNN
 F 3 "" H 8550 2900 50  0001 C CNN
@@ -1375,10 +1376,10 @@ F 3 "" H 8550 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R10-2
+L Device:R_Small RL7
 U 1 1 5CF05C46
 P 8600 1650
-F 0 "R10-2" V 8500 1650 50  0000 L CNN
+F 0 "RL7" V 8500 1650 50  0000 L CNN
 F 1 "10k" V 8500 1450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8600 1650 50  0001 C CNN
 F 3 "" H 8600 1650 50  0001 C CNN
@@ -1411,10 +1412,10 @@ Wire Wire Line
 Wire Wire Line
 	8900 2900 8900 2550
 $Comp
-L Device:R_Small R9-1
+L Device:R_Small RL4
 U 1 1 5D0D2C38
 P 8100 1650
-F 0 "R9-1" V 8000 1650 50  0000 L CNN
+F 0 "RL4" V 8000 1650 50  0000 L CNN
 F 1 "10k" V 8000 1450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8100 1650 50  0001 C CNN
 F 3 "" H 8100 1650 50  0001 C CNN
@@ -1424,10 +1425,10 @@ $EndComp
 Text GLabel 8000 2650 0    50   Input ~ 0
 In-Right-1
 $Comp
-L Device:R_Small R9-2
+L Device:R_Small RR2
 U 1 1 5D0D305B
 P 8100 2900
-F 0 "R9-2" V 8000 2900 50  0000 L CNN
+F 0 "RR2" V 8000 2900 50  0000 L CNN
 F 1 "10k" V 8000 2700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8100 2900 50  0001 C CNN
 F 3 "" H 8100 2900 50  0001 C CNN
@@ -1437,9 +1438,9 @@ $EndComp
 Text GLabel 8000 2900 0    50   Input ~ 0
 Out-Right-1
 Text GLabel 8900 1300 2    50   Input ~ 0
-Out-Left-1
+Out-Left-Mixed-1
 Text GLabel 8900 2550 2    50   Input ~ 0
-Out-Right-1
+Out-Right-Mixed-1
 Text GLabel 10250 6200 0    60   Output ~ 0
 Out-Peak-2
 Text GLabel 10250 5800 0    60   Output ~ 0
@@ -1596,10 +1597,10 @@ Wire Wire Line
 Wire Wire Line
 	8300 5250 8350 5250
 $Comp
-L Device:R_Small R11-3
+L Device:R_Small RL5
 U 1 1 5D1B937A
 P 8100 4300
-F 0 "R11-3" V 8000 4300 50  0000 L CNN
+F 0 "RL5" V 8000 4300 50  0000 L CNN
 F 1 "10k" V 8000 4100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8100 4300 50  0001 C CNN
 F 3 "" H 8100 4300 50  0001 C CNN
@@ -1607,10 +1608,10 @@ F 3 "" H 8100 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R12-1
+L Device:R_Small RL6
 U 1 1 5D1B9A10
 P 8100 4550
-F 0 "R12-1" V 8000 4550 50  0000 L CNN
+F 0 "RL6" V 8000 4550 50  0000 L CNN
 F 1 "10k" V 8000 4350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8100 4550 50  0001 C CNN
 F 3 "" H 8100 4550 50  0001 C CNN
@@ -1618,10 +1619,10 @@ F 3 "" H 8100 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R13-1
+L Device:R_Small RL8
 U 1 1 5D1C44CA
 P 8600 4550
-F 0 "R13-1" V 8500 4550 50  0000 L CNN
+F 0 "RL8" V 8500 4550 50  0000 L CNN
 F 1 "10k" V 8500 4350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8600 4550 50  0001 C CNN
 F 3 "" H 8600 4550 50  0001 C CNN
@@ -1629,10 +1630,10 @@ F 3 "" H 8600 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R10-3
+L Device:R_Small RR6
 U 1 1 5D1C5298
 P 8650 5750
-F 0 "R10-3" V 8550 5750 50  0000 L CNN
+F 0 "RR6" V 8550 5750 50  0000 L CNN
 F 1 "10k" V 8550 5550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8650 5750 50  0001 C CNN
 F 3 "" H 8650 5750 50  0001 C CNN
@@ -1640,21 +1641,10 @@ F 3 "" H 8650 5750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R11-4
-U 1 1 5D1C566A
-P 8150 5450
-F 0 "R11-4" V 8050 5450 50  0000 L CNN
-F 1 "10k" V 8050 5250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8150 5450 50  0001 C CNN
-F 3 "" H 8150 5450 50  0001 C CNN
-	1    8150 5450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R12-2
+L Device:R_Small RR4
 U 1 1 5D1C6048
 P 8150 5750
-F 0 "R12-2" V 8050 5750 50  0000 L CNN
+F 0 "RR4" V 8050 5750 50  0000 L CNN
 F 1 "10k" V 8050 5550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8150 5750 50  0001 C CNN
 F 3 "" H 8150 5750 50  0001 C CNN
@@ -1700,19 +1690,82 @@ Wire Wire Line
 	8200 1650 8250 1650
 Connection ~ 8250 1650
 Wire Wire Line
-	8200 2900 8450 2900
+	8200 2900 8250 2900
 Wire Wire Line
-	8200 2650 8300 2650
+	8200 2650 8250 2650
 Text GLabel 8000 4300 0    50   Input ~ 0
 In-Left-2
 Text GLabel 8900 4200 2    50   Input ~ 0
-Out-Left-2
+Out-Left-Mixed-2
 Text GLabel 8950 5350 2    50   Input ~ 0
-Out-Right-2
+Out-Right-Mixed-2
 Text GLabel 8000 4550 0    50   Input ~ 0
 Out-Left-2
 Text GLabel 8050 5450 0    50   Input ~ 0
 In-Right-2
 Text GLabel 8050 5750 0    50   Input ~ 0
 Out-Right-2
+$Comp
+L Device:R_Small RR3
+U 1 1 5D1C566A
+P 8150 5450
+F 0 "RR3" V 8050 5450 50  0000 L CNN
+F 1 "10k" V 8050 5250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8150 5450 50  0001 C CNN
+F 3 "" H 8150 5450 50  0001 C CNN
+	1    8150 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 2650 8250 2900
+Connection ~ 8250 2650
+Wire Wire Line
+	8250 2650 8300 2650
+Connection ~ 8250 2900
+Wire Wire Line
+	8250 2900 8450 2900
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CE1BC1B
+P 10550 1000
+F 0 "H1" H 10650 1046 50  0000 L CNN
+F 1 "MountingHole" H 10650 955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 10550 1000 50  0001 C CNN
+F 3 "~" H 10550 1000 50  0001 C CNN
+	1    10550 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CE1BC65
+P 10550 1250
+F 0 "H2" H 10650 1296 50  0000 L CNN
+F 1 "MountingHole" H 10650 1205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 10550 1250 50  0001 C CNN
+F 3 "~" H 10550 1250 50  0001 C CNN
+	1    10550 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5CE1BFAC
+P 10550 1500
+F 0 "H3" H 10650 1546 50  0000 L CNN
+F 1 "MountingHole" H 10650 1455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 10550 1500 50  0001 C CNN
+F 3 "~" H 10550 1500 50  0001 C CNN
+	1    10550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5CE1C26B
+P 10550 1750
+F 0 "H4" H 10650 1796 50  0000 L CNN
+F 1 "MountingHole" H 10650 1705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 10550 1750 50  0001 C CNN
+F 3 "~" H 10550 1750 50  0001 C CNN
+	1    10550 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
