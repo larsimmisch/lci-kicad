@@ -560,7 +560,7 @@ SCL
 Text Label 10300 1250 3    50   ~ 0
 AGND
 Text Label 10200 1250 3    50   ~ 0
-12v
++12v
 Text Label 10400 1250 3    50   ~ 0
 -12v
 $Comp
