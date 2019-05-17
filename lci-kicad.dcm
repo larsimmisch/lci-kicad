@@ -31,7 +31,7 @@ $ENDCMP
 #
 $CMP FTR-LYCA
 D FTR LYCA
-K relay fujitsu 
+K relay fujitsu
 F https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-ly.pdf
 $ENDCMP
 #
@@ -45,6 +45,12 @@ $CMP Omron_G6K
 D Omron G6K, Microminiature Polarised Dual Pole Relay
 K Miniature Polarised Relay Dual Pole
 F http://www.omron.com/ecb/products/pdf/en-g6k.pdf
+$ENDCMP
+#
+$CMP PGA2310
+D Stereo audio volume control
+K TI volume control SOIC16-W
+F http://www.ti.com/lit/ds/symlink/pga2310.pdf
 $ENDCMP
 #
 $CMP PLR135
