@@ -15,115 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:AVR-ISP-6 J15
-U 1 1 5CBC7CC0
-P 6500 5600
-F 0 "J15" H 6220 5696 50  0000 R CNN
-F 1 "isp" H 6220 5605 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" V 6250 5650 50  0001 C CNN
-F 3 " ~" H 5225 5050 50  0001 C CNN
-	1    6500 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR048
-U 1 1 5CBC94B2
-P 6400 6100
-F 0 "#PWR048" H 6400 5850 50  0001 C CNN
-F 1 "GND" H 6405 5927 50  0000 C CNN
-F 2 "" H 6400 6100 50  0001 C CNN
-F 3 "" H 6400 6100 50  0001 C CNN
-	1    6400 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR040
-U 1 1 5CBC95E7
-P 6400 5000
-F 0 "#PWR040" H 6400 4850 50  0001 C CNN
-F 1 "+5V" H 6415 5173 50  0000 C CNN
-F 2 "" H 6400 5000 50  0001 C CNN
-F 3 "" H 6400 5000 50  0001 C CNN
-	1    6400 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 5100 6400 5000
-Wire Wire Line
-	6400 6100 6400 6000
-Text Label 6900 5400 0    50   ~ 0
-MISO
-Text Label 6900 5500 0    50   ~ 0
-MOSI
-Text Label 6900 5600 0    50   ~ 0
-SCK
-Text Label 6900 5700 0    50   ~ 0
-RTS#
-$Comp
-L Device:C_Small C3
-U 1 1 5CBCA395
-P 950 3850
-F 0 "C3" V 721 3850 50  0000 C CNN
-F 1 "100nF" V 812 3850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 950 3850 50  0001 C CNN
-F 3 "~" H 950 3850 50  0001 C CNN
-	1    950  3850
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_DIP_x01 SW1
-U 1 1 5CBCA97E
-P 1450 3850
-F 0 "SW1" H 1450 4117 50  0000 C CNN
-F 1 "reset" H 1450 4026 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 1450 3850 50  0001 C CNN
-F 3 "" H 1450 3850 50  0001 C CNN
-	1    1450 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR027
-U 1 1 5CBCAC7E
-P 1750 3850
-F 0 "#PWR027" H 1750 3600 50  0001 C CNN
-F 1 "GND" V 1755 3722 50  0000 R CNN
-F 2 "" H 1750 3850 50  0001 C CNN
-F 3 "" H 1750 3850 50  0001 C CNN
-	1    1750 3850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R9
-U 1 1 5CBCAED7
-P 1100 3500
-F 0 "R9" H 1159 3546 50  0000 L CNN
-F 1 "10k" H 1159 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1100 3500 50  0001 C CNN
-F 3 "~" H 1100 3500 50  0001 C CNN
-	1    1100 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1050 3850 1100 3850
-Wire Wire Line
-	1100 3600 1100 3850
-Connection ~ 1100 3850
-Wire Wire Line
-	1100 3850 1150 3850
-Text Label 850  3850 2    50   ~ 0
-RESET
-$Comp
-L power:+5V #PWR020
-U 1 1 5CBCBE6D
-P 1100 3400
-F 0 "#PWR020" H 1100 3250 50  0001 C CNN
-F 1 "+5V" H 1115 3573 50  0000 C CNN
-F 2 "" H 1100 3400 50  0001 C CNN
-F 3 "" H 1100 3400 50  0001 C CNN
-	1    1100 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Regulator_Linear:LM7805_TO220 U3
 U 1 1 5CBD0BC2
 P 5300 5500
@@ -234,7 +125,7 @@ F 3 "" H 650 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1700 4500 0    50   ~ 0
-LED1
+PWM1
 $Comp
 L Device:Q_PNP_BCE Q2
 U 1 1 5CBF2574
@@ -877,11 +768,9 @@ F 3 "" H 9000 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 7400 2650 2    50   ~ 0
-MOSI
+SPI0_MOSI
 Text Label 7400 2850 2    50   ~ 0
-SCK
-Text Label 7400 2950 2    50   ~ 0
-RESET
+SPI0_SCK
 $Comp
 L power:+12V #PWR025
 U 1 1 5CCC70EC
@@ -894,7 +783,7 @@ F 3 "" H 7600 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 7400 3250 2    50   ~ 0
-G#
+SPI0_CE0
 $Comp
 L power:GND #PWR04
 U 1 1 5CBFF5DF
@@ -1068,10 +957,6 @@ Text Label 2850 6050 2    50   ~ 0
 GND
 Text Label 2850 6850 2    50   ~ 0
 GND
-Text Label 3350 5650 0    50   ~ 0
-5v
-Text Label 3350 5750 0    50   ~ 0
-5v
 Text Label 3350 5850 0    50   ~ 0
 GND
 Text Label 2850 7550 2    50   ~ 0
@@ -1183,7 +1068,7 @@ SDA
 Text Label 10350 2600 2    50   ~ 0
 SDA
 Text Label 10350 3150 2    50   ~ 0
-SCA
+SDA
 Text Label 10350 3700 2    50   ~ 0
 SDA
 Text Label 10350 1600 2    50   ~ 0
@@ -1295,42 +1180,12 @@ F 3 "" H 10350 3600 50  0001 C CNN
 	1    10350 3600
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR030
-U 1 1 5CD9473B
-P 4550 4200
-F 0 "#PWR030" H 4550 3950 50  0001 C CNN
-F 1 "GND" H 4555 4027 50  0000 C CNN
-F 2 "" H 4550 4200 50  0001 C CNN
-F 3 "" H 4550 4200 50  0001 C CNN
-	1    4550 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR011
-U 1 1 5CD952DE
-P 4700 1950
-F 0 "#PWR011" H 4700 1800 50  0001 C CNN
-F 1 "+5V" H 4715 2123 50  0000 C CNN
-F 2 "" H 4700 1950 50  0001 C CNN
-F 3 "" H 4700 1950 50  0001 C CNN
-	1    4700 1950
-	1    0    0    -1  
-$EndComp
-Text Label 5300 3550 0    50   ~ 0
-RESET
 Text Label 2850 6550 2    50   ~ 0
-MOSI
+SPI0_MOSI
 Text Label 2850 6650 2    50   ~ 0
-MISO
+SPI0_MISO
 Text Label 2850 5750 2    50   ~ 0
-RESET
-Text Label 5300 2250 0    50   ~ 0
-G#
-Text Label 5300 2150 0    50   ~ 0
-RCLK
-Text Label 5300 2950 0    50   ~ 0
-LED1
+SDA
 $Comp
 L Device:R_Small R11
 U 1 1 5CDCBC78
@@ -1364,31 +1219,104 @@ F 3 "" H 2250 5000 50  0001 C CNN
 	1    2250 5000
 	1    0    0    -1  
 $EndComp
-Text Label 2250 4500 0    50   ~ 0
-LED2
-Text Label 5300 2450 0    50   ~ 0
-MISO
-Text Label 5300 2550 0    50   ~ 0
-SCK
-Text Label 5300 3050 0    50   ~ 0
-LED2
-Wire Wire Line
-	4800 1950 4700 1950
+Text Label 2850 6750 2    50   ~ 0
+SPI0_SCLK
+Text Label 3350 5950 0    50   ~ 0
+TXD
+Text Label 2850 5950 2    50   ~ 0
+BCM4
+Text Label 3350 6150 0    50   ~ 0
+SPI1_CE0
+Text Label 3350 7550 0    50   ~ 0
+SPI1_SCLK
+Text Label 3350 7450 0    50   ~ 0
+SPI1_MOSI
+Text Label 2850 6150 2    50   ~ 0
+SPI1_CE1
+Text Label 2850 7350 2    50   ~ 0
+SPI1_MISO
+Text Label 3350 6350 0    50   ~ 0
+BCM23
+Text Label 3350 6450 0    50   ~ 0
+BCM24
+Text Label 3350 6650 0    50   ~ 0
+BCM25
+Text Label 3350 6050 0    50   ~ 0
+RXD
+Text Label 3350 6750 0    50   ~ 0
+SPI0_CE0
+Text Label 3350 6850 0    50   ~ 0
+SPI0_CE1
+Text Label 3350 7150 0    50   ~ 0
+PWM0
+Text Label 3350 7350 0    50   ~ 0
+SPI1_CE2
+Text Label 3350 6950 0    50   ~ 0
+BCM1
+Text Label 2850 5850 2    50   ~ 0
+SCL
+Text Label 2850 6950 2    50   ~ 0
+BCM0
+Text Label 2850 7050 2    50   ~ 0
+BCM5
+Text Label 2850 7150 2    50   ~ 0
+BCM6
+Text Label 2850 7250 2    50   ~ 0
+PWM1
+Text Label 2850 7450 2    50   ~ 0
+BCM26
 $Comp
-L MCU_Microchip_ATmega:ATmega328-AU U2
-U 1 1 5CDEFADE
-P 4700 3250
-F 0 "U2" H 4700 1664 50  0000 C CNN
-F 1 "ATmega328-AU" H 4700 3300 50  0000 C CNN
-F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 4700 3250 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 4700 3250 50  0001 C CNN
-	1    4700 3250
+L Device:Jumper_NC_Small JP1
+U 1 1 5CF05404
+P 5950 3150
+F 0 "JP1" H 5950 3362 50  0000 C CNN
+F 1 "BCM23" H 5950 3271 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5950 3150 50  0001 C CNN
+F 3 "~" H 5950 3150 50  0001 C CNN
+	1    5950 3150
 	1    0    0    -1  
 $EndComp
-Text Label 5300 3350 0    50   ~ 0
-SDA
-Text Label 5300 3450 0    50   ~ 0
-SCL
-Text Label 5300 2350 0    50   ~ 0
-MOSI
+Text Label 6050 3150 0    50   ~ 0
+RCLK
+$Comp
+L Device:Jumper_NC_Small JP2
+U 1 1 5CF0864F
+P 5950 3500
+F 0 "JP2" H 5950 3712 50  0000 C CNN
+F 1 "BCM24" H 5950 3621 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5950 3500 50  0001 C CNN
+F 3 "~" H 5950 3500 50  0001 C CNN
+	1    5950 3500
+	1    0    0    -1  
+$EndComp
+Text Label 6050 3500 0    50   ~ 0
+RCLK
+Text Label 5850 3150 2    50   ~ 0
+BCM23
+Text Label 5850 3500 2    50   ~ 0
+BCM24
+Text Label 2250 4500 0    50   ~ 0
+PWM0
+Text Label 7400 2950 2    50   ~ 0
+BCM25
+$Comp
+L power:+5V #PWR0101
+U 1 1 5CF1616C
+P 3450 5600
+F 0 "#PWR0101" H 3450 5450 50  0001 C CNN
+F 1 "+5V" H 3465 5773 50  0000 C CNN
+F 2 "" H 3450 5600 50  0001 C CNN
+F 3 "" H 3450 5600 50  0001 C CNN
+	1    3450 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5650 3450 5650
+Wire Wire Line
+	3450 5650 3450 5600
+Wire Wire Line
+	3350 5750 3450 5750
+Wire Wire Line
+	3450 5750 3450 5650
+Connection ~ 3450 5650
 $EndSCHEMATC
