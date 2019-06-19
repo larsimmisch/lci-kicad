@@ -59,17 +59,6 @@ F 3 "~" H 10200 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_Microchip_ATmega:ATmega328-AU U3
-U 1 1 5CD2A2C4
-P 6350 4050
-F 0 "U3" H 6350 4200 50  0000 C CNN
-F 1 "ATmega328-AU" H 6350 4100 50  0000 C CNN
-F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 6350 4050 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 6350 4050 50  0001 C CNN
-	1    6350 4050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0101
 U 1 1 5CD2AA73
 P 6350 2550
@@ -82,7 +71,6 @@ F 3 "" H 6350 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6350 2550 6450 2550
-Connection ~ 6350 2550
 $Comp
 L Device:Crystal Y1
 U 1 1 5CD2D691
@@ -539,7 +527,7 @@ AGND
 Text Label 9350 1800 0    50   ~ 0
 +12v
 Text Label 8850 1700 2    50   ~ 0
-DRAIN7
+PD7
 $Comp
 L power:+5V #PWR0119
 U 1 1 5CD5AD2B
@@ -576,14 +564,6 @@ F 3 "" H 5850 1500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5850 1500 6000 1500
-Text Label 6000 1600 2    50   ~ 0
-DRAIN0
-Text Label 6000 1700 2    50   ~ 0
-DRAIN1
-Text Label 6000 1800 2    50   ~ 0
-DRAIN2
-Text Label 6000 1900 2    50   ~ 0
-DRAIN3
 $Comp
 L power:GND #PWR0123
 U 1 1 5CD65C33
@@ -621,7 +601,7 @@ ADC3
 Text Notes 8700 5700 0    50   ~ 0
 i2c pulllups (optional)
 Text Label 8800 6000 2    50   ~ 0
-sda
+SDA
 $Comp
 L Device:R_Small R2
 U 1 1 5CD6F634
@@ -645,7 +625,7 @@ F 3 "" H 9000 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 8800 6200 2    50   ~ 0
-scl
+SCL
 $Comp
 L Device:R_Small R3
 U 1 1 5CD70892
@@ -750,54 +730,6 @@ SDA
 Text Label 6950 4250 0    50   ~ 0
 SCL
 $Comp
-L Connector_Generic:Conn_01x02 J11
-U 1 1 5CD919E8
-P 1200 3250
-F 0 "J11" V 1073 3330 50  0000 L CNN
-F 1 "r1" V 1164 3330 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1200 3250 50  0001 C CNN
-F 3 "~" H 1200 3250 50  0001 C CNN
-	1    1200 3250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J12
-U 1 1 5CD92E8C
-P 1800 3250
-F 0 "J12" V 1673 3330 50  0000 L CNN
-F 1 "r2" V 1764 3330 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1800 3250 50  0001 C CNN
-F 3 "~" H 1800 3250 50  0001 C CNN
-	1    1800 3250
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0133
-U 1 1 5CD94164
-P 2000 3250
-F 0 "#PWR0133" H 2000 3000 50  0001 C CNN
-F 1 "GND" H 2005 3077 50  0000 C CNN
-F 2 "" H 2000 3250 50  0001 C CNN
-F 3 "" H 2000 3250 50  0001 C CNN
-	1    2000 3250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0134
-U 1 1 5CD96AC4
-P 1400 3250
-F 0 "#PWR0134" H 1400 3000 50  0001 C CNN
-F 1 "GND" H 1405 3077 50  0000 C CNN
-F 2 "" H 1400 3250 50  0001 C CNN
-F 3 "" H 1400 3250 50  0001 C CNN
-	1    1400 3250
-	0    -1   -1   0   
-$EndComp
-Text Label 1400 3150 0    50   ~ 0
-DRAIN5
-Text Label 2000 3150 0    50   ~ 0
-DRAIN6
-$Comp
 L lci-kicad:PGA2310 U1
 U 1 1 5CE05B40
 P 1600 1750
@@ -844,8 +776,6 @@ Text Label 2150 1250 0    50   ~ 0
 PB0
 Text Label 6950 2850 0    50   ~ 0
 PB0
-Text Label 2150 1450 0    50   ~ 0
-PB1
 Text Label 6950 2950 0    50   ~ 0
 PB1
 $Comp
@@ -922,4 +852,47 @@ Text Label 1000 1450 2    50   ~ 0
 AGNDL
 Text Label 2150 1850 0    50   ~ 0
 SCK
+NoConn ~ 9350 1700
+NoConn ~ 8850 1800
+Text Label 6000 1600 2    50   ~ 0
+PD2
+Text Label 6000 1700 2    50   ~ 0
+PD3
+Text Label 6000 1800 2    50   ~ 0
+PB0
+Text Label 6950 4750 0    50   ~ 0
+PD2
+Text Label 6950 4850 0    50   ~ 0
+PD3
+Text Label 6950 5250 0    50   ~ 0
+PD7
+Text Label 6000 1900 2    50   ~ 0
+PB1
+Connection ~ 6350 2550
+$Comp
+L MCU_Microchip_ATmega:ATmega328-AU U3
+U 1 1 5CD2A2C4
+P 6350 4050
+F 0 "U3" H 6350 4200 50  0000 C CNN
+F 1 "ATmega328-AU" H 6350 4100 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 6350 4050 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 6350 4050 50  0001 C CNN
+	1    6350 4050
+	1    0    0    -1  
+$EndComp
+Text Label 5750 3050 2    50   ~ 0
+ADC6
+Text Label 5750 3150 2    50   ~ 0
+ADC7
+$Comp
+L power:+5V #PWR?
+U 1 1 5CEF61B5
+P 2150 1450
+F 0 "#PWR?" H 2150 1300 50  0001 C CNN
+F 1 "+5V" H 2165 1623 50  0000 C CNN
+F 2 "" H 2150 1450 50  0001 C CNN
+F 3 "" H 2150 1450 50  0001 C CNN
+	1    2150 1450
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
