@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:mixer-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -395,12 +394,12 @@ Connection ~ 1600 3550
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 5DAA5823
-P 5100 3100
-F 0 "J4" H 5180 3092 50  0000 L CNN
-F 1 "out" H 5180 3001 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 5100 3100 50  0001 C CNN
-F 3 "~" H 5100 3100 50  0001 C CNN
-	1    5100 3100
+P 5100 3000
+F 0 "J4" H 5180 2992 50  0000 L CNN
+F 1 "out" H 5180 2901 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 5100 3000 50  0001 C CNN
+F 3 "~" H 5100 3000 50  0001 C CNN
+	1    5100 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -452,12 +451,12 @@ Wire Wire Line
 $Comp
 L power:GNDA #PWR0116
 U 1 1 5DAAAEC9
-P 4900 3200
-F 0 "#PWR0116" H 4900 2950 50  0001 C CNN
-F 1 "GNDA" V 4905 3073 50  0000 R CNN
-F 2 "" H 4900 3200 50  0001 C CNN
-F 3 "" H 4900 3200 50  0001 C CNN
-	1    4900 3200
+P 4900 3000
+F 0 "#PWR0116" H 4900 2750 50  0001 C CNN
+F 1 "GNDA" V 4905 2873 50  0000 R CNN
+F 2 "" H 4900 3000 50  0001 C CNN
+F 3 "" H 4900 3000 50  0001 C CNN
+	1    4900 3000
 	0    1    1    0   
 $EndComp
 $Comp
