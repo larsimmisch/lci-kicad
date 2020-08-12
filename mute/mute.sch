@@ -234,7 +234,7 @@ U 1 1 5C49BA51
 P 8100 3900
 F 0 "K1" H 8730 3946 50  0000 L CNN
 F 1 "G6S-2" H 8730 3855 50  0000 L CNN
-F 2 "Relay_THT:Relay_DPDT_Omron_G6S-2" H 8750 3850 50  0001 L CNN
+F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 8750 3850 50  0001 L CNN
 F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 7900 3900 50  0001 C CNN
 	1    8100 3900
 	1    0    0    -1  
@@ -255,17 +255,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 4350 7200 4350
 Connection ~ 7200 4350
-$Comp
-L Connector:Screw_Terminal_01x02 J1
-U 1 1 5C4ADA03
-P 2700 3850
-F 0 "J1" H 2620 3617 50  0000 C CNN
-F 1 "AC sense" H 2620 3616 50  0001 C CNN
-F 2 "TerminalBlock:TerminalBlock_Wuerth_691311400102_P7.62mm" H 2700 3850 50  0001 C CNN
-F 3 "~" H 2700 3850 50  0001 C CNN
-	1    2700 3850
-	-1   0    0    1   
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5C4AE832
@@ -443,4 +432,26 @@ Wire Wire Line
 Connection ~ 7400 3500
 Wire Wire Line
 	7400 3500 7400 4500
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5DB4AF6D
+P 2700 3850
+F 0 "J1" H 2620 3525 50  0000 C CNN
+F 1 "Conn_01x03" H 2620 3616 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x03_P3.175mm_Drill0.8mm" H 2700 3850 50  0001 C CNN
+F 3 "~" H 2700 3850 50  0001 C CNN
+	1    2700 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5DB4BE30
+P 2900 3950
+F 0 "#PWR0101" H 2900 3700 50  0001 C CNN
+F 1 "GND" H 2905 3777 50  0000 C CNN
+F 2 "" H 2900 3950 50  0001 C CNN
+F 3 "" H 2900 3950 50  0001 C CNN
+	1    2900 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

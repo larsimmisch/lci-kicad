@@ -217,17 +217,6 @@ F 3 "~" H 9200 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lci-kicad:FTR-LYCA RL1
-U 1 1 5CBFBAAC
-P 7850 5450
-F 0 "RL1" V 7283 5450 50  0000 C CNN
-F 1 "FTR-LYCA" V 7374 5450 50  0000 C CNN
-F 2 "lci-kicad:FTR-LYCA" H 7850 5450 60  0001 C CNN
-F 3 "https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-ly.pdf" V 7367 5450 60  0001 C CNN
-	1    7850 5450
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR07
 U 1 1 5CC01203
 P 8900 1250
@@ -240,41 +229,6 @@ F 3 "" H 8900 1250 50  0001 C CNN
 $EndComp
 Text Label 8900 850  0    50   ~ 0
 OUT5
-$Comp
-L Device:D D8
-U 1 1 5CC11D2E
-P 7850 4650
-F 0 "D8" H 7850 4866 50  0000 C CNN
-F 1 "D" H 7850 4775 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7850 4650 50  0001 C CNN
-F 3 "~" H 7850 4650 50  0001 C CNN
-	1    7850 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8000 4650 8300 4650
-Wire Wire Line
-	8300 4650 8300 5250
-Wire Wire Line
-	8300 5250 8150 5250
-Wire Wire Line
-	7550 5250 7400 5250
-Wire Wire Line
-	7400 5250 7400 4650
-Wire Wire Line
-	7400 4650 7700 4650
-$Comp
-L power:+12V #PWR040
-U 1 1 5CC1666C
-P 7400 4650
-F 0 "#PWR040" H 7400 4500 50  0001 C CNN
-F 1 "+12V" H 7415 4823 50  0000 C CNN
-F 2 "" H 7400 4650 50  0001 C CNN
-F 3 "" H 7400 4650 50  0001 C CNN
-	1    7400 4650
-	1    0    0    -1  
-$EndComp
-Connection ~ 7400 4650
 $Comp
 L power:+12V #PWR035
 U 1 1 5CC1C814
@@ -367,11 +321,6 @@ F 3 "" H 7350 1250 50  0001 C CNN
 	1    7350 1250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7400 5250 7400 5650
-Wire Wire Line
-	7400 5650 7550 5650
-Connection ~ 7400 5250
 $Comp
 L Device:C_Small C5
 U 1 1 5CDB7892
@@ -422,8 +371,6 @@ Text Label 9000 4150 2    50   ~ 0
 OUT6
 Text Label 2700 1900 0    50   ~ 0
 OUT7
-Text Label 8150 5750 0    50   ~ 0
-RL0
 Text Label 9000 6250 2    50   ~ 0
 OUT0
 $Comp
@@ -788,8 +735,6 @@ F 3 "" H 9000 3700 50  0001 C CNN
 	1    9000 3700
 	0    -1   -1   0   
 $EndComp
-Text Label 9000 3800 2    50   ~ 0
-RL0
 Text Label 6050 3950 0    50   ~ 0
 PD4
 Text Label 6050 4050 0    50   ~ 0
@@ -872,7 +817,7 @@ F 3 "" H 10350 4450 50  0001 C CNN
 $EndComp
 Text Label 10350 3050 2    50   ~ 0
 ADC7
-Text Label 8300 4650 0    50   ~ 0
+Text Label 9000 3800 2    50   ~ 0
 OUT7
 $Comp
 L Connector_Generic:Conn_01x02 J16

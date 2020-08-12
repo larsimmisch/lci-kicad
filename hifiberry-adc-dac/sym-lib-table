@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name lci-kicad)(type Legacy)(uri ${KIPRJMOD}/../lci-kicad.lib)(options "")(descr ""))
-  (lib (name hifiberry-adc-dac-base-cache)(type Legacy)(uri ${KIPRJMOD}/hifiberry-adc-dac-base-cache.lib)(options "")(descr ""))
-)
