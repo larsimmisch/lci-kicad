@@ -91,45 +91,12 @@ F 3 "~" H 5950 3800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:CP_Small C3
-U 1 1 5C490F8F
-P 6700 3800
-F 0 "C3" H 6788 3846 50  0000 L CNN
-F 1 "1u" H 6788 3755 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6700 3800 50  0001 C CNN
-F 3 "~" H 6700 3800 50  0001 C CNN
-	1    6700 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D2
-U 1 1 5C49112A
-P 7200 3800
-F 0 "D2" V 7154 3879 50  0000 L CNN
-F 1 "D" V 7245 3879 50  0000 L CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7200 3800 50  0001 C CNN
-F 3 "~" H 7200 3800 50  0001 C CNN
-	1    7200 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:CP_Small C2
-U 1 1 5C49167E
-P 3750 4150
-F 0 "C2" H 3838 4196 50  0000 L CNN
-F 1 "1u" H 3838 4105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3750 4150 50  0001 C CNN
-F 3 "~" H 3750 4150 50  0001 C CNN
-	1    3750 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP_Small C1
+L Device:C_Small C1
 U 1 1 5C491B44
 P 3950 3600
 F 0 "C1" V 4175 3600 50  0000 C CNN
-F 1 "1u" V 4084 3600 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 3950 3600 50  0001 C CNN
+F 1 "100n" V 4084 3600 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W6.5mm_P5.00mm" H 3950 3600 50  0001 C CNN
 F 3 "~" H 3950 3600 50  0001 C CNN
 	1    3950 3600
 	0    -1   -1   0   
@@ -156,15 +123,6 @@ Wire Wire Line
 	4800 4350 5350 4350
 Connection ~ 5950 4350
 Wire Wire Line
-	5950 4350 6700 4350
-Wire Wire Line
-	7200 3950 7200 4350
-Wire Wire Line
-	6700 3900 6700 4350
-Connection ~ 6700 4350
-Wire Wire Line
-	6700 4350 7200 4350
-Wire Wire Line
 	5400 4150 5350 4150
 Wire Wire Line
 	5350 4150 5350 4350
@@ -181,23 +139,10 @@ Wire Wire Line
 	4050 4350 4350 4350
 Connection ~ 4800 4350
 Connection ~ 4500 4150
-Wire Wire Line
-	3750 3850 3750 4050
 Connection ~ 4800 3850
 Wire Wire Line
 	4050 4350 3750 4350
-Wire Wire Line
-	3750 4350 3750 4250
 Connection ~ 4050 4350
-Wire Wire Line
-	6150 3350 6700 3350
-Wire Wire Line
-	7200 3350 7200 3650
-Wire Wire Line
-	6700 3350 6700 3700
-Connection ~ 6700 3350
-Wire Wire Line
-	6700 3350 7200 3350
 $Comp
 L Device:D D1
 U 1 1 5C49683B
@@ -248,12 +193,8 @@ Wire Wire Line
 	5350 4350 5950 4350
 Wire Wire Line
 	7700 3350 7700 3600
-Connection ~ 7200 3350
 Wire Wire Line
 	7700 4200 7700 4350
-Wire Wire Line
-	7700 4350 7200 4350
-Connection ~ 7200 4350
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5C4AE832
@@ -309,8 +250,6 @@ Wire Wire Line
 Wire Wire Line
 	7800 3150 7800 3000
 Wire Wire Line
-	7200 3350 7700 3350
-Wire Wire Line
 	7900 3000 7900 3150
 Wire Wire Line
 	7900 3150 8200 3150
@@ -351,7 +290,6 @@ Wire Wire Line
 	4500 3600 4500 4150
 Wire Wire Line
 	4250 3600 4050 3600
-Connection ~ 3750 3850
 Wire Wire Line
 	3000 3350 3000 3750
 Wire Wire Line
@@ -453,6 +391,52 @@ F 3 "" H 2900 3950 50  0001 C CNN
 	1    2900 3950
 	1    0    0    -1  
 $EndComp
-Text Notes 7100 4150 1    50   ~ 0
-D2 is not needed
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5F6814BC
+P 7000 3350
+F 0 "TP1" H 7058 3468 50  0000 L CNN
+F 1 "TestPoint" H 7058 3377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7200 3350 50  0001 C CNN
+F 3 "~" H 7200 3350 50  0001 C CNN
+	1    7000 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 3350
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5F6823A7
+P 7000 4350
+F 0 "TP2" H 7058 4468 50  0000 L CNN
+F 1 "TestPoint" H 7058 4377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7200 4350 50  0001 C CNN
+F 3 "~" H 7200 4350 50  0001 C CNN
+	1    7000 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 4350
+Wire Wire Line
+	7000 3350 7700 3350
+Wire Wire Line
+	7000 4350 7700 4350
+$Comp
+L Device:CP1_Small C2
+U 1 1 5F74B7C3
+P 3750 4100
+F 0 "C2" H 3841 4146 50  0000 L CNN
+F 1 "3.3u" H 3841 4055 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 3750 4100 50  0001 C CNN
+F 3 "~" H 3750 4100 50  0001 C CNN
+	1    3750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3850 3750 4000
+Connection ~ 3750 3850
+Wire Wire Line
+	3750 4350 3750 4200
+Wire Wire Line
+	6150 3350 7000 3350
+Wire Wire Line
+	5950 4350 7000 4350
 $EndSCHEMATC
