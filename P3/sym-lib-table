@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name P2-rescue)(type Legacy)(uri ${KIPRJMOD}/P2-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name lci-kicad)(type Legacy)(uri ${KIPRJMOD}/../lci-kicad.lib)(options "")(descr ""))
+  (lib (name P3-rescue)(type Legacy)(uri ${KIPRJMOD}/P3-rescue.lib)(options "")(descr ""))
+)
