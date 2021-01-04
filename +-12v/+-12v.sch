@@ -589,21 +589,8 @@ Text Label 2550 3600 0    50   ~ 0
 GND
 Text Label 3250 3600 2    50   ~ 0
 GND
-$Comp
-L +-12v-rescue:FTR-LYCA-lci-kicad RL1
-U 1 1 5C8A75C1
-P 3650 1600
-F 0 "RL1" V 3083 1600 50  0000 C CNN
-F 1 "FTR-LYCA" V 3174 1600 50  0000 C CNN
-F 2 "lci-kicad:FTR-LYCA" H 3650 1600 60  0001 C CNN
-F 3 "https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-ly.pdf" V 3167 1600 60  0001 C CNN
-	1    3650 1600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4250 1900 4250 2050
-Wire Wire Line
-	3950 1900 4250 1900
 Wire Wire Line
 	3350 1400 3250 1400
 Wire Wire Line
@@ -626,17 +613,6 @@ Wire Wire Line
 Connection ~ 4150 1000
 Wire Wire Line
 	4150 1000 4500 1000
-$Comp
-L +-12v-rescue:RECOM_RAC02-05SC-lci-kicad U3
-U 1 1 5CC83283
-P 1750 2600
-F 0 "U3" H 1750 2965 50  0000 C CNN
-F 1 "RECOM_RAC02-05SC" H 1750 2874 50  0000 C CNN
-F 2 "lci-kicad:RECOM_RAC02-05SC" H 1750 2600 50  0001 C CNN
-F 3 "" H 1750 2600 50  0001 C CNN
-	1    1750 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1200 2550 1200 2500
 Wire Wire Line
@@ -665,11 +641,10 @@ Wire Wire Line
 	1300 2500 1400 2500
 Wire Wire Line
 	1400 2150 4250 2150
-Connection ~ 1400 2700
 Wire Wire Line
 	2750 1800 3350 1800
 Wire Wire Line
-	1400 2150 1400 2700
+	1400 2150 1400 2500
 Text Label 2100 2500 0    50   ~ 0
 DGND
 Text Label 6150 1000 2    50   ~ 0
@@ -701,8 +676,6 @@ F 3 "~" H 6350 1400 50  0001 C CNN
 	1    6350 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3950 1400 4150 1400
 Wire Wire Line
 	4150 1300 4150 1400
 Connection ~ 4150 1400
@@ -817,4 +790,31 @@ F 3 "~" H 9900 1950 50  0001 C CNN
 	1    9900 1950
 	1    0    0    -1  
 $EndComp
+$Comp
+L lci-kicad:FTR-LYCA RL?
+U 1 1 5FF4F34D
+P 3650 1600
+F 0 "RL?" V 2977 1600 50  0000 C CNN
+F 1 "FTR-LYCA" V 3068 1600 50  0000 C CNN
+F 2 "" H 3650 1600 60  0000 C CNN
+F 3 "https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-ly.pdf" V 3167 1600 60  0001 C CNN
+	1    3650 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 1900 4250 1900
+Wire Wire Line
+	3950 1400 4150 1400
+$Comp
+L lci-kicad:RECOM_RAC02-05SC U?
+U 1 1 5FF56EA0
+P 1750 2600
+F 0 "U?" H 1750 2965 50  0000 C CNN
+F 1 "RECOM_RAC02-05SC" H 1750 2874 50  0000 C CNN
+F 2 "" H 1750 2600 50  0001 C CNN
+F 3 "" H 1750 2600 50  0001 C CNN
+	1    1750 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 1400 2500
 $EndSCHEMATC
