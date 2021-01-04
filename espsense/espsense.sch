@@ -352,35 +352,33 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x06_Male J6
 U 1 1 5FE6D424
-P 4000 5900
-F 0 "J6" H 4108 6281 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 4108 6190 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 4000 5900 50  0001 C CNN
-F 3 "~" H 4000 5900 50  0001 C CNN
-	1    4000 5900
+P 2800 5600
+F 0 "J6" H 2908 5981 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 2908 5890 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 2800 5600 50  0001 C CNN
+F 3 "~" H 2800 5600 50  0001 C CNN
+	1    2800 5600
 	0    -1   -1   0   
 $EndComp
-Text Label 4000 5700 1    50   ~ 0
+Text Label 2800 5400 1    50   ~ 0
 RXD
-Text Label 3900 5700 1    50   ~ 0
+Text Label 2700 5400 1    50   ~ 0
 TXD
-Text Label 4300 5700 1    50   ~ 0
+Text Label 3100 5400 1    50   ~ 0
 GNDD
 Text Label 5000 4200 3    50   ~ 0
 TXD
 Text Label 3200 4200 2    50   ~ 0
 TXD
-Wire Wire Line
-	4750 4200 4600 4200
 $Comp
 L power:+3.3V #PWR0115
 U 1 1 5FEA7BDD
-P 4100 5700
-F 0 "#PWR0115" H 4100 5550 50  0001 C CNN
-F 1 "+3.3V" V 4115 5873 50  0000 C CNN
-F 2 "" H 4100 5700 50  0001 C CNN
-F 3 "" H 4100 5700 50  0001 C CNN
-	1    4100 5700
+P 2900 5400
+F 0 "#PWR0115" H 2900 5250 50  0001 C CNN
+F 1 "+3.3V" V 2915 5573 50  0000 C CNN
+F 2 "" H 2900 5400 50  0001 C CNN
+F 3 "" H 2900 5400 50  0001 C CNN
+	1    2900 5400
 	1    0    0    -1  
 $EndComp
 Text Label 5700 2450 1    50   ~ 0
@@ -394,12 +392,12 @@ SW2
 $Comp
 L Connector:Conn_01x02_Female J3
 U 1 1 5FEB0973
-P 5950 5800
-F 0 "J3" V 5796 5848 50  0000 L CNN
-F 1 "Conn_01x02_Female" V 5887 5848 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 5950 5800 50  0001 C CNN
-F 3 "~" H 5950 5800 50  0001 C CNN
-	1    5950 5800
+P 6350 5750
+F 0 "J3" V 6196 5798 50  0000 L CNN
+F 1 "Conn_01x02_Female" V 6287 5798 50  0001 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 6350 5750 50  0001 C CNN
+F 3 "~" H 6350 5750 50  0001 C CNN
+	1    6350 5750
 	0    1    1    0   
 $EndComp
 $Comp
@@ -413,64 +411,36 @@ F 3 "~" H 7150 5800 50  0001 C CNN
 	1    7150 5800
 	0    1    1    0   
 $EndComp
-Text Label 5850 5600 1    50   ~ 0
+Text Label 6250 5550 1    50   ~ 0
 AC
-Text Label 5950 5600 1    50   ~ 0
+Text Label 6350 5550 1    50   ~ 0
 GND
 $Comp
 L Connector:Conn_01x03_Female J2
 U 1 1 5FEB6CDB
-P 6850 2500
-F 0 "J2" V 6788 2648 50  0000 L CNN
-F 1 "Conn_01x03_Female" V 6697 2648 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x03_P4.445mm_Drill1.5mm" H 6850 2500 50  0001 C CNN
-F 3 "~" H 6850 2500 50  0001 C CNN
-	1    6850 2500
+P 6950 2500
+F 0 "J2" V 6888 2648 50  0000 L CNN
+F 1 "Conn_01x03_Female" V 6797 2648 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x03_P4.445mm_Drill1.5mm" H 6950 2500 50  0001 C CNN
+F 3 "~" H 6950 2500 50  0001 C CNN
+	1    6950 2500
 	0    1    -1   0   
 $EndComp
 $Comp
 L Connector:Conn_01x03_Female J1
 U 1 1 5FEB4307
-P 5700 1900
-F 0 "J1" V 5638 2048 50  0000 L CNN
-F 1 "Conn_01x03_Female" V 5547 2048 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x03_P4.445mm_Drill1.5mm" H 5700 1900 50  0001 C CNN
-F 3 "~" H 5700 1900 50  0001 C CNN
-	1    5700 1900
+P 5800 1900
+F 0 "J1" V 5738 2048 50  0000 L CNN
+F 1 "Conn_01x03_Female" V 5647 2048 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x03_P4.445mm_Drill1.5mm" H 5800 1900 50  0001 C CNN
+F 3 "~" H 5800 1900 50  0001 C CNN
+	1    5800 1900
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	5700 2100 5700 2450
 Wire Wire Line
-	5800 2850 6200 2850
-Wire Wire Line
-	6200 2850 6200 2100
-Wire Wire Line
-	6200 2100 5800 2100
-Connection ~ 5800 2850
-Wire Wire Line
-	5600 2850 5500 2850
-Wire Wire Line
-	5500 2850 5500 2100
-Wire Wire Line
-	5500 2100 5600 2100
-Connection ~ 5600 2850
-Wire Wire Line
 	6850 2950 6850 2700
-Wire Wire Line
-	6950 3350 7350 3350
-Wire Wire Line
-	7350 3350 7350 2700
-Wire Wire Line
-	7350 2700 6950 2700
-Connection ~ 6950 3350
-Wire Wire Line
-	6750 2700 6650 2700
-Wire Wire Line
-	6650 2700 6650 3350
-Wire Wire Line
-	6650 3350 6750 3350
-Connection ~ 6750 3350
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5FEC7C87
@@ -582,8 +552,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 3050 3850 2950
 Wire Wire Line
-	4750 1500 4750 4200
-Wire Wire Line
 	4300 1500 4300 1450
 $Comp
 L Regulator_Linear:LD1117S12TR_SOT223 U4
@@ -653,17 +621,6 @@ F 3 "" H 7050 5600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7150 5600 7150 5400
-$Comp
-L Connector:Conn_01x02_Female J5
-U 1 1 5FEFEFD7
-P 4850 5800
-F 0 "J5" V 4696 5848 50  0000 L CNN
-F 1 "Conn_01x02_Female" V 4787 5848 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 4850 5800 50  0001 C CNN
-F 3 "~" H 4850 5800 50  0001 C CNN
-	1    4850 5800
-	0    1    1    0   
-$EndComp
 Text Label 4750 5600 1    50   ~ 0
 AC
 Text Label 4850 5600 1    50   ~ 0
@@ -711,5 +668,106 @@ F 2 "MountingHole:MountingHole_3.2mm_M3" H 8650 3150 50  0001 C CNN
 F 3 "~" H 8650 3150 50  0001 C CNN
 	1    8650 3150
 	1    0    0    -1  
+$EndComp
+Text Label 4600 4000 0    50   ~ 0
+GNDD
+$Comp
+L power:+3.3V #PWR0121
+U 1 1 5FF31251
+P 4600 4500
+F 0 "#PWR0121" H 4600 4350 50  0001 C CNN
+F 1 "+3.3V" H 4615 4673 50  0000 C CNN
+F 2 "" H 4600 4500 50  0001 C CNN
+F 3 "" H 4600 4500 50  0001 C CNN
+	1    4600 4500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3850 2750
+NoConn ~ 3850 1400
+Text Label 4750 1500 0    50   ~ 0
+RXD
+Text Label 4600 4200 0    50   ~ 0
+RXD
+$Comp
+L Connector:Conn_01x03_Female J7
+U 1 1 5FF489A8
+P 5500 5800
+F 0 "J7" V 5438 5948 50  0000 L CNN
+F 1 "Conn_01x03_Female" V 5347 5948 50  0001 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x03_P4.445mm_Drill1.5mm" H 5500 5800 50  0001 C CNN
+F 3 "~" H 5500 5800 50  0001 C CNN
+	1    5500 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth_Protective #PWR0122
+U 1 1 5FF4D755
+P 4950 5450
+F 0 "#PWR0122" H 5200 5200 50  0001 C CNN
+F 1 "Earth_Protective" H 5400 5300 50  0001 C CNN
+F 2 "" H 4950 5350 50  0001 C CNN
+F 3 "~" H 4950 5350 50  0001 C CNN
+	1    4950 5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 5600 4950 5450
+Text Label 5400 5600 1    50   ~ 0
+AC
+Text Label 5500 5600 1    50   ~ 0
+GND
+$Comp
+L power:Earth_Protective #PWR0123
+U 1 1 5FF50065
+P 5600 5450
+F 0 "#PWR0123" H 5850 5200 50  0001 C CNN
+F 1 "Earth_Protective" H 6050 5300 50  0001 C CNN
+F 2 "" H 5600 5350 50  0001 C CNN
+F 3 "~" H 5600 5350 50  0001 C CNN
+	1    5600 5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 5600 5600 5450
+Text Label 5800 2100 3    50   ~ 0
+GND
+$Comp
+L power:Earth_Protective #PWR0124
+U 1 1 5FF53D5F
+P 5900 2250
+F 0 "#PWR0124" H 6150 2000 50  0001 C CNN
+F 1 "Earth_Protective" H 6350 2100 50  0001 C CNN
+F 2 "" H 5900 2150 50  0001 C CNN
+F 3 "~" H 5900 2150 50  0001 C CNN
+	1    5900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth_Protective #PWR0125
+U 1 1 5FF546B6
+P 7050 2850
+F 0 "#PWR0125" H 7300 2600 50  0001 C CNN
+F 1 "Earth_Protective" H 7500 2700 50  0001 C CNN
+F 2 "" H 7050 2750 50  0001 C CNN
+F 3 "~" H 7050 2750 50  0001 C CNN
+	1    7050 2850
+	1    0    0    -1  
+$EndComp
+Text Label 6950 2700 3    50   ~ 0
+GND
+Wire Wire Line
+	7050 2850 7050 2700
+Wire Wire Line
+	5900 2250 5900 2100
+$Comp
+L Connector:Conn_01x03_Female J5
+U 1 1 5FF47428
+P 4850 5800
+F 0 "J5" V 4788 5948 50  0000 L CNN
+F 1 "Conn_01x03_Female" V 4697 5948 50  0001 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x03_P4.445mm_Drill1.5mm" H 4850 5800 50  0001 C CNN
+F 3 "~" H 4850 5800 50  0001 C CNN
+	1    4850 5800
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
