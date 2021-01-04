@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:+-12v-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -591,7 +590,7 @@ GND
 Text Label 3250 3600 2    50   ~ 0
 GND
 $Comp
-L lci-kicad:FTR-LYCA RL1
+L +-12v-rescue:FTR-LYCA-lci-kicad RL1
 U 1 1 5C8A75C1
 P 3650 1600
 F 0 "RL1" V 3083 1600 50  0000 C CNN
@@ -628,7 +627,7 @@ Connection ~ 4150 1000
 Wire Wire Line
 	4150 1000 4500 1000
 $Comp
-L lci-kicad:RECOM_RAC02-05SC U3
+L +-12v-rescue:RECOM_RAC02-05SC-lci-kicad U3
 U 1 1 5CC83283
 P 1750 2600
 F 0 "U3" H 1750 2965 50  0000 C CNN
