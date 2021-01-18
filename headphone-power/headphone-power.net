@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/lars/lci-kicad/headphone-power/headphone-power.sch)
-    (date "2021 January 18, Monday 18:31:11")
+    (date "2021 January 18, Monday 21:03:32")
     (tool "Eeschema (5.1.5-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -52,7 +52,7 @@
       (tstamp 5FF2ED0F))
     (comp (ref R1)
       (value 10)
-      (footprint Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P7.62mm_Vertical)
+      (footprint Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal)
       (datasheet ~)
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -80,7 +80,7 @@
       (tstamp 5FF3FE68))
     (comp (ref R2)
       (value 10)
-      (footprint Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P7.62mm_Vertical)
+      (footprint Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal)
       (datasheet ~)
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
       (sheetpath (names /) (tstamps /))
