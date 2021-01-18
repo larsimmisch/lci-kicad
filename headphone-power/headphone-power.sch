@@ -58,25 +58,14 @@ F 3 "~" H 9600 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:AC #PWR0101
-U 1 1 5FF2D38C
-P 2850 2250
-F 0 "#PWR0101" H 2850 2150 50  0001 C CNN
-F 1 "AC" H 2850 2525 50  0000 C CNN
-F 2 "" H 2850 2250 50  0001 C CNN
-F 3 "" H 2850 2250 50  0001 C CNN
-	1    2850 2250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0102
 U 1 1 5FF2D899
-P 2850 2850
-F 0 "#PWR0102" H 2850 2600 50  0001 C CNN
-F 1 "GND" H 2855 2677 50  0000 C CNN
-F 2 "" H 2850 2850 50  0001 C CNN
-F 3 "" H 2850 2850 50  0001 C CNN
-	1    2850 2850
+P 2850 2550
+F 0 "#PWR0102" H 2850 2300 50  0001 C CNN
+F 1 "GND" H 2855 2377 50  0000 C CNN
+F 2 "" H 2850 2550 50  0001 C CNN
+F 3 "" H 2850 2550 50  0001 C CNN
+	1    2850 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -187,10 +176,6 @@ Wire Wire Line
 Wire Wire Line
 	5750 2550 5750 3450
 Wire Wire Line
-	2650 2250 2650 2500
-Wire Wire Line
-	2650 2850 2650 2600
-Wire Wire Line
 	6500 3550 5450 3550
 Wire Wire Line
 	5450 2850 5450 3550
@@ -208,12 +193,12 @@ $EndComp
 $Comp
 L Connector:Conn_01x02_Female J3
 U 1 1 5FF4FC83
-P 2450 2600
-F 0 "J3" H 2342 2275 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 2342 2366 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 2450 2600 50  0001 C CNN
-F 3 "~" H 2450 2600 50  0001 C CNN
-	1    2450 2600
+P 2450 2550
+F 0 "J3" H 2342 2225 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 2342 2316 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill0.8mm" H 2450 2550 50  0001 C CNN
+F 3 "~" H 2450 2550 50  0001 C CNN
+	1    2450 2550
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -238,8 +223,6 @@ F 3 "~" H 3500 2400 50  0001 C CNN
 	1    3500 2400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3200 2250 2850 2250
 $Comp
 L Device:D D4
 U 1 1 5FF3C7EF
@@ -262,7 +245,6 @@ F 3 "~" H 3350 2250 50  0001 C CNN
 	1    3350 2250
 	1    0    0    -1  
 $EndComp
-Connection ~ 3200 2250
 $Comp
 L Device:D D2
 U 1 1 5FF3A08D
@@ -274,11 +256,6 @@ F 3 "~" H 3200 2400 50  0001 C CNN
 	1    3200 2400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3200 2550 3200 2850
-Connection ~ 3200 2550
-Wire Wire Line
-	3200 2850 2850 2850
 $Comp
 L Device:C_Small C4
 U 1 1 5FF43230
@@ -298,18 +275,45 @@ Wire Wire Line
 	4350 2800 4350 2850
 Wire Wire Line
 	4350 2850 4950 2850
-Connection ~ 2850 2250
 Wire Wire Line
-	2850 2250 2650 2250
-Connection ~ 2850 2850
+	3200 2250 3200 2000
 Wire Wire Line
-	2850 2850 2650 2850
-Connection ~ 3200 2850
-Connection ~ 4350 2850
+	3200 2000 4350 2000
 Wire Wire Line
-	3200 2850 4350 2850
-Wire Wire Line
-	3500 2550 4350 2550
-Connection ~ 3500 2550
+	4350 2000 4350 2550
+Connection ~ 3200 2250
 Connection ~ 4350 2550
+$Comp
+L power:AC #PWR0101
+U 1 1 5FF2D38C
+P 2850 1850
+F 0 "#PWR0101" H 2850 1750 50  0001 C CNN
+F 1 "AC" H 2850 2125 50  0000 C CNN
+F 2 "" H 2850 1850 50  0001 C CNN
+F 3 "" H 2850 1850 50  0001 C CNN
+	1    2850 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2850 3500 2850
+Wire Wire Line
+	3500 2850 3500 2550
+Connection ~ 4350 2850
+Connection ~ 3500 2550
+Wire Wire Line
+	3500 2250 3500 1850
+Wire Wire Line
+	3500 1850 2850 1850
+Connection ~ 3500 2250
+Connection ~ 2850 1850
+Wire Wire Line
+	2850 1850 2650 1850
+Wire Wire Line
+	2650 2550 2850 2550
+Connection ~ 3200 2550
+Connection ~ 2850 2550
+Wire Wire Line
+	2850 2550 3200 2550
+Wire Wire Line
+	2650 2450 2650 1850
 $EndSCHEMATC
