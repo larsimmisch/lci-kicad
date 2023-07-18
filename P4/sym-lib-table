@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name RPi_Hat)(type Legacy)(uri /Users/lars/lci-kicad/P4/RPi_Hat.lib)(options "")(descr ""))
+  (lib (name lci-kicad)(type Legacy)(uri /Users/lars/lci-kicad/lci-kicad.lib)(options "")(descr ""))
+  (lib (name P4-rescue)(type Legacy)(uri ${KIPRJMOD}/P4-rescue.lib)(options "")(descr ""))
+)

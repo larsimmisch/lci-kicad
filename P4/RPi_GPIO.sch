@@ -1,0 +1,161 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "P4"
+Date "2023-07-16"
+Rev "1"
+Comp "ibp"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RPi_Hat:RPi_GPIO J2
+U 1 1 5516AE26
+P 7500 2700
+AR Path="/5516AE26" Ref="J2"  Part="1" 
+AR Path="/5515D395/5516AE26" Ref="J2"  Part="1" 
+F 0 "J2" H 8250 2950 60  0000 C CNN
+F 1 "RPi_GPIO" H 8250 2850 60  0000 C CNN
+F 2 "RPi_Hat:Pin_Header_Straight_2x20" H 7500 2700 60  0001 C CNN
+F 3 "" H 7500 2700 60  0000 C CNN
+	1    7500 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 7800 5000 0    60   Italic 0
+Thru-Hole Connector
+$Comp
+L lci-kicad:PGA2310 U1
+U 1 1 64B46A2D
+P 2250 2250
+F 0 "U1" H 2225 3231 50  0000 C CNN
+F 1 "PGA2310" H 2225 3140 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2250 2250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/pga2310.pdf" H 2250 2250 50  0001 C CNN
+	1    2250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L lci-kicad:Omron_G6K RL2
+U 1 1 64B4D293
+P 4850 4100
+F 0 "RL2" V 4177 4100 50  0000 C CNN
+F 1 "Omron_G6K" V 4268 4100 50  0000 C CNN
+F 2 "lci-kicad:Omron-G6K" H 4850 4100 60  0001 C CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g6k.pdf" V 4367 4100 60  0000 C CNN
+	1    4850 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L lci-kicad:Omron_G6K RL4
+U 1 1 64B52FA4
+P 4900 6050
+F 0 "RL4" V 4227 6050 50  0000 C CNN
+F 1 "Omron_G6K" V 4318 6050 50  0000 C CNN
+F 2 "lci-kicad:Omron-G6K" H 4900 6050 60  0001 C CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g6k.pdf" V 4417 6050 60  0000 C CNN
+	1    4900 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 64B542C3
+P 9400 2700
+F 0 "#PWR0101" H 9400 2550 50  0001 C CNN
+F 1 "+5V" H 9415 2873 50  0000 C CNN
+F 2 "" H 9400 2700 50  0001 C CNN
+F 3 "" H 9400 2700 50  0001 C CNN
+	1    9400 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 2700 9400 2700
+Wire Wire Line
+	9200 2800 9200 2700
+Connection ~ 9200 2700
+$Comp
+L power:GND #PWR0102
+U 1 1 64B55865
+P 9400 2900
+F 0 "#PWR0102" H 9400 2650 50  0001 C CNN
+F 1 "GND" H 9405 2727 50  0000 C CNN
+F 2 "" H 9400 2900 50  0001 C CNN
+F 3 "" H 9400 2900 50  0001 C CNN
+	1    9400 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 2900 9400 2900
+$Comp
+L power:+5V #PWR0103
+U 1 1 64B56579
+P 2050 3000
+F 0 "#PWR0103" H 2050 2850 50  0001 C CNN
+F 1 "+5V" H 2065 3173 50  0000 C CNN
+F 2 "" H 2050 3000 50  0001 C CNN
+F 3 "" H 2050 3000 50  0001 C CNN
+	1    2050 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 64B56B74
+P 2400 3000
+F 0 "#PWR0104" H 2400 2750 50  0001 C CNN
+F 1 "GND" H 2405 2827 50  0000 C CNN
+F 2 "" H 2400 3000 50  0001 C CNN
+F 3 "" H 2400 3000 50  0001 C CNN
+	1    2400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 64B58941
+P 4550 3900
+F 0 "#PWR0105" H 4550 3650 50  0001 C CNN
+F 1 "GND" H 4555 3727 50  0000 C CNN
+F 2 "" H 4550 3900 50  0001 C CNN
+F 3 "" H 4550 3900 50  0001 C CNN
+	1    4550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 64B5A06B
+P 4600 5850
+F 0 "#PWR0108" H 4600 5600 50  0001 C CNN
+F 1 "GND" H 4605 5677 50  0000 C CNN
+F 2 "" H 4600 5850 50  0001 C CNN
+F 3 "" H 4600 5850 50  0001 C CNN
+	1    4600 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3300 6250 3300
+Wire Wire Line
+	6250 3300 6250 3900
+Wire Wire Line
+	6250 3900 5150 3900
+Wire Wire Line
+	5200 5850 6600 5850
+Wire Wire Line
+	6600 5850 6600 4200
+Wire Wire Line
+	6600 4200 7300 4200
+Text Label 9200 4500 0    50   ~ 0
+MOSI
+Text Label 9200 4600 0    50   ~ 0
+SCLK
+Text Label 2800 2350 0    50   ~ 0
+SCLK
+Text Label 2800 2550 0    50   ~ 0
+MOSI
+Text Label 7300 4400 2    50   ~ 0
+MISO
+Text Label 2800 2750 0    50   ~ 0
+MISO
+$EndSCHEMATC
