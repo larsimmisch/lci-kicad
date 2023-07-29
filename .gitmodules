@@ -1,0 +1,3 @@
+[submodule "P4/RPi_Hat_Template"]
+	path = P4/RPi_Hat_Template
+	url = git@github.com:devbisme/RPi_Hat_Template.git
