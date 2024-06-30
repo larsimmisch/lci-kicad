@@ -3227,6 +3227,18 @@
 		(uuid "67314cc5-0aa5-4291-bef5-72d423c72883")
 	)
 	(junction
+		(at 39.37 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a46fef9-7d01-41f7-8fc2-21b1d6130360")
+	)
+	(junction
+		(at 39.37 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85c2c3db-d1c6-4072-b57e-5dd5657fce9a")
+	)
+	(junction
 		(at 59.69 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3253,6 +3265,16 @@
 			(type default)
 		)
 		(uuid "09a21548-fae8-421b-b3e9-ec3721b64ff9")
+	)
+	(wire
+		(pts
+			(xy 29.21 146.05) (xy 39.37 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cdb9080-5922-44f7-bb5e-281ccd95a64f")
 	)
 	(wire
 		(pts
@@ -3313,6 +3335,26 @@
 			(type default)
 		)
 		(uuid "56f75bf1-8091-486a-8065-d9ce9e2ac822")
+	)
+	(wire
+		(pts
+			(xy 29.21 139.7) (xy 39.37 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4ecd2c-aa41-4ba6-b4e6-517b45650fec")
+	)
+	(wire
+		(pts
+			(xy 39.37 146.05) (xy 39.37 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac55edc-ab6a-4f61-8047-a80200a330f2")
 	)
 	(wire
 		(pts
@@ -3386,6 +3428,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 146.05) (xy 29.21 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af03a66f-d860-49ac-8772-1a5cc50eeab9")
+	)
+	(wire
+		(pts
 			(xy 72.39 163.83) (xy 59.69 163.83)
 		)
 		(stroke
@@ -3393,6 +3445,16 @@
 			(type default)
 		)
 		(uuid "b5072afc-c58b-49be-84c7-1b4fc550089b")
+	)
+	(wire
+		(pts
+			(xy 39.37 146.05) (xy 39.37 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd23518a-3ccb-4f99-92c4-5fdf28b62cb7")
 	)
 	(wire
 		(pts
@@ -9033,6 +9095,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 39.37 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17be91e9-6dcd-42ae-9af5-ab6f01474092")
+		(property "Reference" "#PWR020"
+			(at 39.37 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.497 150.5712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2baddbf-ba8d-4b0e-94e3-f7a55f15cbda")
+		)
+		(instances
+			(project "garduino"
+				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 119.38 87.63 0)
 		(unit 1)
@@ -9342,6 +9470,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 29.21 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "421fd16c-d541-4a8b-ac5d-2526074e01c7")
+		(property "Reference" "C3"
+			(at 31.5468 141.0716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1mF"
+			(at 31.5468 143.383 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
+			(at 29.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b53d50a3-8647-4dba-babf-75f35c1d3369")
+		)
+		(pin "2"
+			(uuid "96098f3c-a986-46d6-b419-84be9bbe2b37")
+		)
+		(instances
+			(project "garduino"
+				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 59.69 163.83 0)
 		(unit 1)
@@ -9539,6 +9736,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 39.37 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d48d4bbb-b8c8-42b2-813c-aca7d71115de")
+		(property "Reference" "C4"
+			(at 41.7068 141.0716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 41.7068 143.383 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 39.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b53256cd-a364-4b51-996e-9a7ab8d7b0c8")
+		)
+		(pin "2"
+			(uuid "fb54bd9f-5377-49d6-a972-cde75eb80621")
+		)
+		(instances
+			(project "garduino"
+				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 262.89 128.27 90)
 		(unit 1)
@@ -9599,6 +9865,71 @@
 			(project "garduino"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 39.37 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc07a897-6317-4eb7-aecd-afb9d20d4e86")
+		(property "Reference" "#PWR019"
+			(at 39.37 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 39.751 135.3058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c147eee7-7b5c-455e-a411-c5973b4f9bb3")
+		)
+		(instances
+			(project "garduino"
+				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
