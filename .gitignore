@@ -4,5 +4,6 @@
 *.kicad_pcb-bak
 *.sch-bak
 *-cache.lib
+*-backups/*
 gerber/
 _autosave*
