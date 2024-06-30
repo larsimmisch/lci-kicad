@@ -21,7 +21,7 @@ U 1 1 64B6F8FD
 P 2350 1900
 F 0 "U1" H 2325 2881 50  0000 C CNN
 F 1 "PGA2310" H 2325 2790 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2350 1900 50  0001 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 2350 1900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/pga2310.pdf" H 2350 1900 50  0001 C CNN
 	1    2350 1900
 	1    0    0    -1  
@@ -249,35 +249,11 @@ Wire Wire Line
 Wire Wire Line
 	3350 4850 1450 4850
 Wire Wire Line
-	4900 4250 4600 4250
-Wire Wire Line
-	4600 4250 4600 5800
-Wire Wire Line
-	4900 4650 4900 5700
-Wire Wire Line
-	5700 7150 5550 7150
-Wire Wire Line
 	1450 6000 5600 6000
 Wire Wire Line
 	5600 6000 5600 6750
 Wire Wire Line
 	5600 6750 5550 6750
-Wire Wire Line
-	1450 6200 5700 6200
-Wire Wire Line
-	5700 6200 5700 7150
-Wire Wire Line
-	5550 6950 5850 6950
-Wire Wire Line
-	5850 6950 5850 5800
-Wire Wire Line
-	4600 5800 5850 5800
-Wire Wire Line
-	6000 5700 6000 7350
-Wire Wire Line
-	5550 7350 6000 7350
-Wire Wire Line
-	4900 5700 6000 5700
 $Comp
 L Connector:Conn_01x03_Male +-12V1
 U 1 1 64BE5E15
@@ -292,16 +268,7 @@ $EndComp
 Wire Wire Line
 	1500 900  2250 900 
 Wire Wire Line
-	1500 1000 1600 1000
-Wire Wire Line
-	1600 1000 1600 1600
-Wire Wire Line
-	1600 1600 1750 1600
-Wire Wire Line
-	1750 2200 1600 2200
-Wire Wire Line
-	1600 2200 1600 1600
-Connection ~ 1600 1600
+	1500 1000 1550 1000
 $Comp
 L power:GND #PWR?
 U 1 1 64B6F92B
@@ -315,16 +282,6 @@ F 3 "" H 4250 1700 50  0001 C CNN
 	1    4250 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1500 7300 2100 7300
-Wire Wire Line
-	2100 7300 2100 3100
-Wire Wire Line
-	2100 3100 1200 3100
-Wire Wire Line
-	1200 3100 1200 1800
-Wire Wire Line
-	1200 1800 1750 1800
 $Comp
 L lci-kicad:Omron_G6K RL?
 U 1 1 64B6F903
@@ -339,45 +296,13 @@ F 3 "http://www.omron.com/ecb/products/pdf/en-g6k.pdf" V 4667 1650 60  0000 C CN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1450 6850 4150 6850
-Wire Wire Line
-	4000 6650 1450 6650
-Wire Wire Line
 	1450 4150 3900 4150
 Wire Wire Line
 	1450 3950 3750 3950
 Wire Wire Line
-	3900 4150 3900 2250
-Wire Wire Line
-	3750 3950 3750 1850
-Wire Wire Line
-	3900 2250 4850 2250
-Wire Wire Line
-	3750 1850 4850 1850
-Wire Wire Line
-	4150 2800 5800 2800
-Wire Wire Line
-	5650 2650 4000 2650
-Wire Wire Line
-	4000 2650 4000 6650
-Wire Wire Line
 	5450 1750 5650 1750
 Wire Wire Line
-	5650 1750 5650 2650
-Wire Wire Line
 	5450 2150 5800 2150
-Wire Wire Line
-	5800 2150 5800 2800
-Wire Wire Line
-	1700 2000 1400 2000
-Wire Wire Line
-	1400 2000 1400 2950
-Wire Wire Line
-	1400 2950 2200 2950
-Wire Wire Line
-	2200 2950 2200 7500
-Wire Wire Line
-	2200 7500 1500 7500
 Text Label 2700 3950 0    50   ~ 0
 Phono_in_L
 Text Label 2700 4150 0    50   ~ 0
@@ -394,22 +319,10 @@ Text Label 2800 6000 0    50   ~ 0
 RPi_out_L
 Text Label 2800 6200 0    50   ~ 0
 RPI_out_R
-Text Label 2800 6650 0    50   ~ 0
+Text Label 1450 6650 0    50   ~ 0
 RPi_in_L
-Text Label 2800 6850 0    50   ~ 0
+Text Label 1450 6850 0    50   ~ 0
 RPi_in_R
-Text Label 4950 6850 2    50   ~ 0
-INL
-Text Label 4950 7250 2    50   ~ 0
-INR
-Text GLabel 5450 1950 2    50   Input ~ 0
-INL
-Text GLabel 1750 1400 0    50   Input ~ 0
-INL
-Text GLabel 5450 2350 2    50   Input ~ 0
-INR
-Text GLabel 1750 2400 0    50   Input ~ 0
-INR
 Text GLabel 2900 1400 2    50   Input ~ 0
 #MUTE
 Text GLabel 2900 1600 2    50   Input ~ 0
@@ -661,8 +574,6 @@ F 3 "~" H 4400 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 2800 4150 6850
-Wire Wire Line
 	4900 3850 4500 3850
 Text GLabel 7400 3050 0    50   Input ~ 0
 RL3
@@ -754,4 +665,63 @@ Text GLabel 9850 4050 0    50   Input ~ 0
 RL4
 Wire Wire Line
 	6900 2750 7400 2750
+Wire Wire Line
+	3900 4150 3900 3200
+Wire Wire Line
+	3900 3200 5800 3200
+Wire Wire Line
+	5800 3200 5800 2150
+Wire Wire Line
+	3750 3950 3750 3000
+Wire Wire Line
+	3750 3000 5650 3000
+Wire Wire Line
+	5650 3000 5650 1750
+Wire Wire Line
+	6000 6200 6000 7150
+Wire Wire Line
+	6000 7150 5550 7150
+Wire Wire Line
+	1450 6200 6000 6200
+Text Label 4900 4250 2    50   ~ 0
+CD|Aux_L
+Text Label 4900 4650 2    50   ~ 0
+CD|Aux_R
+Text Label 5450 1950 0    50   ~ 0
+CD|Aux_L
+Text Label 5450 2350 0    50   ~ 0
+CD|Aux_R
+Text Label 4850 1850 2    50   ~ 0
+INL
+Text Label 4850 2250 2    50   ~ 0
+INR
+Text Label 1500 7300 0    50   ~ 0
+OutL
+Text Label 1500 7500 0    50   ~ 0
+OutR
+Text Label 1750 2000 2    50   ~ 0
+OutR
+Text Label 1750 1800 2    50   ~ 0
+OutL
+Wire Wire Line
+	1550 1000 1550 1600
+Wire Wire Line
+	1550 2200 1750 2200
+Wire Wire Line
+	1550 1600 1750 1600
+Connection ~ 1550 1600
+Wire Wire Line
+	1550 1600 1550 2200
+Text Label 5550 7350 0    50   ~ 0
+INR
+Text Label 5550 6950 0    50   ~ 0
+INL
+Text Label 1750 1400 2    50   ~ 0
+VCL
+Text Label 1750 2400 2    50   ~ 0
+VCR
+Text Label 4950 6850 2    50   ~ 0
+VCL
+Text Label 4950 7250 2    50   ~ 0
+VCR
 $EndSCHEMATC
