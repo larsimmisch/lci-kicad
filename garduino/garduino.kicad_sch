@@ -3723,17 +3723,6 @@
 		)
 		(uuid "43aa1673-217f-417d-b286-753e116c7cf3")
 	)
-	(label "OUT8"
-		(at 212.09 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "44d23a94-4a04-4f7c-8ee9-358e9f183662")
-	)
 	(label "GPIO1"
 		(at 85.09 176.53 0)
 		(fields_autoplaced yes)
@@ -3767,17 +3756,6 @@
 		)
 		(uuid "5de0fce9-db24-4def-8dde-5ede9eaf6644")
 	)
-	(label "GPIO1"
-		(at 179.07 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6afd514d-6d9d-47a7-bb9a-87335cbeb793")
-	)
 	(label "GPIO5"
 		(at 72.39 179.07 180)
 		(fields_autoplaced yes)
@@ -3799,17 +3777,6 @@
 			(justify right bottom)
 		)
 		(uuid "7291024f-0136-486f-b829-8699674af1d8")
-	)
-	(label "GPIO25"
-		(at 139.7 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "73b4e4b5-e743-41ed-827d-46f1fc60d440")
 	)
 	(label "GPIO22"
 		(at 100.33 26.67 180)
@@ -3954,18 +3921,7 @@
 		)
 		(uuid "9d43264a-c6b9-4926-afd9-1841ae598864")
 	)
-	(label "OUT9"
-		(at 212.09 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9fcadd76-6ce7-4b50-8f80-c550fe4236cc")
-	)
-	(label "GPIO6"
+	(label "GPIO26"
 		(at 27.94 49.53 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3974,7 +3930,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a49ffedd-81af-4640-bae9-7e782b23785b")
+		(uuid "a45bdd19-0a3e-4fb7-9386-07d70a3f22da")
 	)
 	(label "GPIO0"
 		(at 139.7 26.67 180)
@@ -3986,17 +3942,6 @@
 			(justify right bottom)
 		)
 		(uuid "a5cbd93e-08eb-405f-9dbe-58e8cce7a504")
-	)
-	(label "OUT9"
-		(at 186.69 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0813dac-df93-4112-9ede-d5ab08517359")
 	)
 	(label "GND"
 		(at 72.39 191.77 180)
@@ -4251,17 +4196,6 @@
 		)
 		(uuid "e51c78d7-e8f1-4bfb-b421-cc0eb7e71de8")
 	)
-	(label "CH8"
-		(at 262.89 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e5e4f55a-e5e2-457e-a2c7-25bb43de1fdb")
-	)
 	(label "GND"
 		(at 85.09 148.59 0)
 		(fields_autoplaced yes)
@@ -4273,17 +4207,6 @@
 		)
 		(uuid "e974a49c-741f-4e76-8083-8ad476eb6ea5")
 	)
-	(label "OUT8"
-		(at 147.32 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e9ccb3ba-b081-49f9-b426-aef875832550")
-	)
 	(label "CH3"
 		(at 99.06 100.33 180)
 		(fields_autoplaced yes)
@@ -4294,17 +4217,6 @@
 			(justify right bottom)
 		)
 		(uuid "ea26914c-872d-40e0-a32a-f85e955b0ce5")
-	)
-	(label "CH9"
-		(at 262.89 156.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb4158f7-e86c-4ed2-b5fc-234b73cbec39")
 	)
 	(label "GND"
 		(at 85.09 158.75 0)
@@ -9049,71 +8961,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 186.69 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0695ca58-6e46-4cd1-be25-5f8a90ad3c55")
-		(property "Reference" "#PWR024"
-			(at 186.69 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.817 59.0042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fedf32b7-8f9d-49a5-afa9-a430f760d14d")
-		)
-		(instances
-			(project "garduino"
-				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 267.97 128.27 0)
 		(unit 1)
@@ -9186,72 +9033,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 212.09 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22d4ba04-c479-405b-8dd9-2b2468594dd9")
-		(property "Reference" "#PWR034"
-			(at 215.9 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 208.8388 150.749 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb93e5a1-7c08-49b0-9b50-6fd968d23710")
-		)
-		(instances
-			(project "garduino"
-				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 119.38 87.63 0)
 		(unit 1)
@@ -9311,72 +9092,6 @@
 			(project "garduino"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 262.89 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28fe684b-fbe6-4a1d-859b-3cf335207dd9")
-		(property "Reference" "#PWR053"
-			(at 256.54 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.6388 151.257 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0ca2178-0d68-4e67-aee3-95c2a84dd789")
-		)
-		(instances
-			(project "garduino"
-				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -9561,81 +9276,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IPD50R3K0CE")
-		(at 184.15 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35b09892-55b4-4b7c-a22c-c25d299948c5")
-		(property "Reference" "Q10"
-			(at 189.3316 48.3616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NCV8403"
-			(at 189.3316 50.673 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 189.23 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4"
-			(at 184.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc26514d-9162-4167-a24f-3db01530f7a0")
-		)
-		(pin "2"
-			(uuid "d6e25654-d33b-4a13-a8a0-681cccfd813b")
-		)
-		(pin "3"
-			(uuid "d3a1447f-8440-48c3-bfcb-f00f5c4e0a8e")
-		)
-		(instances
-			(project "garduino"
-				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 93.98 184.15 180)
 		(unit 1)
@@ -9702,75 +9342,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 217.17 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47c40c8e-f8ae-4245-855a-348d39363015")
-		(property "Reference" "J12"
-			(at 219.202 139.9032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OUT8"
-			(at 219.202 142.2146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 217.17 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2128d84b-31f3-469f-9741-b0685e71de1c")
-		)
-		(pin "2"
-			(uuid "b8e3c3a8-e973-43d4-952b-9a06523af9a0")
-		)
-		(instances
-			(project "garduino"
-				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 59.69 163.83 0)
 		(unit 1)
@@ -9830,216 +9401,6 @@
 			(project "garduino"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 267.97 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a8bddb2-d55f-43ae-ac98-6cf50dd4d1d9")
-		(property "Reference" "J23"
-			(at 270.002 152.6032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADC9"
-			(at 270.002 154.9146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 267.97 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "758f2316-a302-4b28-a1ab-cb83de05318d")
-		)
-		(pin "2"
-			(uuid "b99ac820-3c7b-4075-9a95-acf0969cd0a5")
-		)
-		(pin "3"
-			(uuid "7cb24fc6-9bd3-4471-beb0-a6818fbea9ee")
-		)
-		(instances
-			(project "garduino"
-				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
-					(reference "J23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 267.97 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63d4019c-5035-49fd-84f3-0dde18fea333")
-		(property "Reference" "J22"
-			(at 270.002 139.9032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADC8"
-			(at 270.002 142.2146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 267.97 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fad2e863-c8ea-4c3d-8796-773906114517")
-		)
-		(pin "2"
-			(uuid "1945e81e-ecc5-458f-a2bd-ff931cef708b")
-		)
-		(pin "3"
-			(uuid "a062dffa-6eb8-4241-b04a-1c775a1daa83")
-		)
-		(instances
-			(project "garduino"
-				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
-					(reference "J22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 262.89 138.43 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a1b4f1c-4e69-4fe9-bb8e-eedde0cc6ebc")
-		(property "Reference" "#PWR051"
-			(at 256.54 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.6388 138.557 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3a4aceb-1682-4a60-a674-97219359111b")
-		)
-		(instances
-			(project "garduino"
-				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -10112,137 +9473,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 262.89 140.97 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b26545bc-bbc5-4ae9-b78a-c36668764b53")
-		(property "Reference" "#PWR052"
-			(at 266.7 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 259.6388 140.589 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c27dd11-729c-4b20-9d9c-22bfa7998dfd")
-		)
-		(instances
-			(project "garduino"
-				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6882baf-50c7-4d9d-9b8b-4dfb7b905fcd")
-		(property "Reference" "#PWR019"
-			(at 147.32 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.447 59.0042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "289ed46a-1e79-4552-9759-792eff6ea021")
-		)
-		(instances
-			(project "garduino"
-				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 119.38 115.57 0)
 		(unit 1)
@@ -10303,282 +9533,6 @@
 			(project "garduino"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 217.17 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c16371dd-65ca-40e4-844a-993bb5a14f7f")
-		(property "Reference" "J13"
-			(at 219.202 151.3332 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OUT9"
-			(at 219.202 153.6446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 217.17 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cfdcf29-8103-4c59-9ede-d168c22702d2")
-		)
-		(pin "2"
-			(uuid "bd9eb411-31a5-4f7d-8324-ba50577d4556")
-		)
-		(instances
-			(project "garduino"
-				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IPD50R3K0CE")
-		(at 144.78 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5ffbc68-062a-44f6-88e5-70fc78100f25")
-		(property "Reference" "Q8"
-			(at 149.9616 48.3616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NCV8403"
-			(at 149.9616 50.673 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 149.86 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4"
-			(at 144.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d443e87-4dc5-4dc3-99eb-3d94c1fe7ba8")
-		)
-		(pin "2"
-			(uuid "86ecafca-6e0c-47d9-ab15-6b96235bb744")
-		)
-		(pin "3"
-			(uuid "1e68a333-73a1-4c11-b115-8913b347e4d8")
-		)
-		(instances
-			(project "garduino"
-				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 212.09 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9f2d740-7b09-4a65-994d-3cd852ae3dfc")
-		(property "Reference" "#PWR033"
-			(at 215.9 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 208.8388 139.319 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59280d6e-6dd5-4d75-9cef-fc4a4afb07d3")
-		)
-		(instances
-			(project "garduino"
-				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 262.89 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d06a4d53-0ca3-4e5e-bf88-eb6da261cd00")
-		(property "Reference" "#PWR054"
-			(at 266.7 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 259.6388 153.289 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38ecf455-0d1f-4537-822f-2c1e6bccd6f4")
-		)
-		(instances
-			(project "garduino"
-				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
