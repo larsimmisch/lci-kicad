@@ -1,15 +1,15 @@
 (export (version D)
   (design
-    (source /Users/lars/lci-kicad/garduino/garduino.sch)
+    (source /Users/lars/lci-kicad/waterpi/waterpi.sch)
     (date "2020 June 22, Monday 22:00:36")
     (tool "Eeschema (5.1.5-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
-        (title garduino)
+        (title waterpi)
         (company lars@ibp.de)
         (rev v1)
         (date)
-        (source garduino.sch)
+        (source waterpi.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))

@@ -621,7 +621,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005cc1f428")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -886,7 +886,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005cc49a6b")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -1151,7 +1151,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005cc21adf")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -1416,7 +1416,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005cc20ad0")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -1824,7 +1824,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/00000000-0000-0000-0000-00005cd3e972")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 -1.33)
@@ -2527,7 +2527,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005cca6197")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -2792,7 +2792,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005cc218e6")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -3057,7 +3057,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005cc21750")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -3322,7 +3322,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005e98d6de")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 6.41)
@@ -3598,7 +3598,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005e990cb0")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 6.41)
@@ -3874,7 +3874,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005e998cf8")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 1.27)
@@ -4139,7 +4139,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005e9365ef")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 6.41)
@@ -4415,7 +4415,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005e936cae")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 6.41)
@@ -4691,7 +4691,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005e9375b8")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 6.41)
@@ -4967,7 +4967,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005e9378b5")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 6.41)
@@ -5243,7 +5243,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005e9362b5")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 6.41)
@@ -5518,7 +5518,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005cbd44b7")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -5750,7 +5750,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cbd70a8")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.171267 0.51)
@@ -5961,7 +5961,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005e998a96")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -6226,7 +6226,7 @@
 		(property ki_fp_filters "TO?252*")
 		(path "/00000000-0000-0000-0000-00005ed0af74")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.97 -3.45)
@@ -6610,7 +6610,7 @@
 		(property ki_fp_filters "TO?252*")
 		(path "/00000000-0000-0000-0000-00005ed0c4ee")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.97 -3.45)
@@ -6994,7 +6994,7 @@
 		(property ki_fp_filters "TO?252*")
 		(path "/00000000-0000-0000-0000-00005ed0d160")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.97 -3.45)
@@ -7378,7 +7378,7 @@
 		(property ki_fp_filters "TO?252*")
 		(path "/00000000-0000-0000-0000-00005ed0dedb")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.97 -3.45)
@@ -7762,7 +7762,7 @@
 		(property ki_fp_filters "TO?252*")
 		(path "/00000000-0000-0000-0000-00005ed0ecf5")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.97 -3.45)
@@ -8146,7 +8146,7 @@
 		(property ki_fp_filters "TO?252*")
 		(path "/00000000-0000-0000-0000-00005ed10e56")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.97 -3.45)
@@ -8530,7 +8530,7 @@
 		(property ki_fp_filters "TO?252*")
 		(path "/00000000-0000-0000-0000-00005ed0fdc0")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.97 -3.45)
@@ -8914,7 +8914,7 @@
 		(property ki_fp_filters "TO?252*")
 		(path "/00000000-0000-0000-0000-00005ed131c2")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.97 -3.45)
@@ -9300,7 +9300,7 @@
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm*")
 		(path "/2f459e51-8473-4168-a52f-5705fb000e5c")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -5.06)
@@ -9697,7 +9697,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cdc8d74")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.87 -1.37)
@@ -9952,7 +9952,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d48d4bbb-b8c8-42b2-813c-aca7d71115de")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -10165,7 +10165,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cdb7892")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -10378,7 +10378,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/421fd16c-d541-4a8b-ac5d-2526074e01c7")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.87 -1.37)
@@ -10634,7 +10634,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0be53b2a-a77f-46a3-89b1-a013c5975b58")
 		(sheetname "Root")
-		(sheetfile "garduino.kicad_sch")
+		(sheetfile "waterpi.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 6.41)

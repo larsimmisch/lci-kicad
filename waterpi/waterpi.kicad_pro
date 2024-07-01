@@ -461,7 +461,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "garduino.kicad_pro",
+    "filename": "waterpi.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -660,7 +660,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "garduino.net",
+      "netlist": "waterpi.net",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",

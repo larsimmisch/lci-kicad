@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "garduino"
+Title "waterpi"
 Date ""
 Rev "v1"
 Comp "lars@ibp.de"
@@ -22,7 +22,7 @@ F 1 "LED" V 597 4783 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 650 4900 50  0001 C CNN
 F 3 "~" H 650 4900 50  0001 C CNN
 	1    650  4900
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR042
@@ -33,7 +33,7 @@ F 1 "GND" H 655 4877 50  0000 C CNN
 F 2 "" H 650 5050 50  0001 C CNN
 F 3 "" H 650 5050 50  0001 C CNN
 	1    650  5050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R_Small R14
@@ -44,7 +44,7 @@ F 1 "1k" H 709 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 650 4650 50  0001 C CNN
 F 3 "~" H 650 4650 50  0001 C CNN
 	1    650  4650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR04
@@ -55,7 +55,7 @@ F 1 "GND" H 4255 1077 50  0000 C CNN
 F 2 "" H 4250 1250 50  0001 C CNN
 F 3 "" H 4250 1250 50  0001 C CNN
 	1    4250 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR05
@@ -66,7 +66,7 @@ F 1 "GND" H 5805 1077 50  0000 C CNN
 F 2 "" H 5800 1250 50  0001 C CNN
 F 3 "" H 5800 1250 50  0001 C CNN
 	1    5800 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 5800 850  0    50   ~ 0
 OUT3
@@ -85,7 +85,7 @@ F 1 "OUT4" H 9280 5001 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9200 5100 50  0001 C CNN
 F 3 "~" H 9200 5100 50  0001 C CNN
 	1    9200 5100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J12
@@ -96,7 +96,7 @@ F 1 "OUT5" H 9280 4651 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9200 4750 50  0001 C CNN
 F 3 "~" H 9200 4750 50  0001 C CNN
 	1    9200 4750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J15
@@ -107,7 +107,7 @@ F 1 "OUT3" H 9280 5351 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9200 5450 50  0001 C CNN
 F 3 "~" H 9200 5450 50  0001 C CNN
 	1    9200 5450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J17
@@ -118,7 +118,7 @@ F 1 "OUT2" H 9280 5701 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9200 5800 50  0001 C CNN
 F 3 "~" H 9200 5800 50  0001 C CNN
 	1    9200 5800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J18
@@ -129,7 +129,7 @@ F 1 "OUT1" H 9280 6051 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9200 6150 50  0001 C CNN
 F 3 "~" H 9200 6150 50  0001 C CNN
 	1    9200 6150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J14
@@ -140,7 +140,7 @@ F 1 "DIN" H 10630 5051 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10550 5150 50  0001 C CNN
 F 3 "~" H 10550 5150 50  0001 C CNN
 	1    10550 5150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+12V #PWR041
@@ -151,7 +151,7 @@ F 1 "+12V" V 9015 4878 50  0000 L CNN
 F 2 "" H 9000 4750 50  0001 C CNN
 F 3 "" H 9000 4750 50  0001 C CNN
 	1    9000 4750
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+12V #PWR043
@@ -162,7 +162,7 @@ F 1 "+12V" V 9015 5228 50  0000 L CNN
 F 2 "" H 9000 5100 50  0001 C CNN
 F 3 "" H 9000 5100 50  0001 C CNN
 	1    9000 5100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+12V #PWR045
@@ -173,7 +173,7 @@ F 1 "+12V" V 9015 5578 50  0000 L CNN
 F 2 "" H 9000 5450 50  0001 C CNN
 F 3 "" H 9000 5450 50  0001 C CNN
 	1    9000 5450
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+12V #PWR050
@@ -184,7 +184,7 @@ F 1 "+12V" V 9015 5928 50  0000 L CNN
 F 2 "" H 9000 5800 50  0001 C CNN
 F 3 "" H 9000 5800 50  0001 C CNN
 	1    9000 5800
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+12V #PWR054
@@ -195,7 +195,7 @@ F 1 "+12V" V 9015 6278 50  0000 L CNN
 F 2 "" H 9000 6150 50  0001 C CNN
 F 3 "" H 9000 6150 50  0001 C CNN
 	1    9000 6150
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Text Label 9000 4850 2    50   ~ 0
 OUT4
@@ -214,7 +214,7 @@ F 1 "OUT6" H 9280 4301 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9200 4400 50  0001 C CNN
 F 3 "~" H 9200 4400 50  0001 C CNN
 	1    9200 4400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR07
@@ -225,7 +225,7 @@ F 1 "GND" H 8905 1077 50  0000 C CNN
 F 2 "" H 8900 1250 50  0001 C CNN
 F 3 "" H 8900 1250 50  0001 C CNN
 	1    8900 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 8900 850  0    50   ~ 0
 OUT5
@@ -238,7 +238,7 @@ F 1 "+12V" V 9015 4528 50  0000 L CNN
 F 2 "" H 9000 4400 50  0001 C CNN
 F 3 "" H 9000 4400 50  0001 C CNN
 	1    9000 4400
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Text Label 9000 4500 2    50   ~ 0
 OUT5
@@ -253,7 +253,7 @@ F 1 "GND" V 10350 4950 50  0000 C CNN
 F 2 "" H 10350 5150 50  0001 C CNN
 F 3 "" H 10350 5150 50  0001 C CNN
 	1    10350 5150
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR014
@@ -264,7 +264,7 @@ F 1 "GND" H 1205 2127 50  0000 C CNN
 F 2 "" H 1200 2300 50  0001 C CNN
 F 3 "" H 1200 2300 50  0001 C CNN
 	1    1200 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR015
@@ -275,7 +275,7 @@ F 1 "GND" H 2705 2127 50  0000 C CNN
 F 2 "" H 2700 2300 50  0001 C CNN
 F 3 "" H 2700 2300 50  0001 C CNN
 	1    2700 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J8
@@ -286,7 +286,7 @@ F 1 "OUT7" H 9280 3951 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9200 4050 50  0001 C CNN
 F 3 "~" H 9200 4050 50  0001 C CNN
 	1    9200 4050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+12V #PWR033
@@ -297,7 +297,7 @@ F 1 "+12V" V 9015 4178 50  0000 L CNN
 F 2 "" H 9000 4050 50  0001 C CNN
 F 3 "" H 9000 4050 50  0001 C CNN
 	1    9000 4050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR03
@@ -308,7 +308,7 @@ F 1 "GND" H 2705 1077 50  0000 C CNN
 F 2 "" H 2700 1250 50  0001 C CNN
 F 3 "" H 2700 1250 50  0001 C CNN
 	1    2700 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR06
@@ -319,7 +319,7 @@ F 1 "GND" H 7355 1077 50  0000 C CNN
 F 2 "" H 7350 1250 50  0001 C CNN
 F 3 "" H 7350 1250 50  0001 C CNN
 	1    7350 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:C_Small C5
@@ -330,7 +330,7 @@ F 1 "100nF" H 1458 6695 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1550 6650 50  0001 C CNN
 F 3 "~" H 1550 6650 50  0001 C CNN
 	1    1550 6650
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L power:GND #PWR057
@@ -341,7 +341,7 @@ F 1 "GND" V 1555 6722 50  0000 R CNN
 F 2 "" H 1550 6850 50  0001 C CNN
 F 3 "" H 1550 6850 50  0001 C CNN
 	1    1550 6850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:C_Small C4
@@ -352,7 +352,7 @@ F 1 "1mF" H 1058 6695 50  0000 R CNN
 F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 1150 6650 50  0001 C CNN
 F 3 "~" H 1150 6650 50  0001 C CNN
 	1    1150 6650
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	1150 6800 1550 6800
@@ -382,7 +382,7 @@ F 1 "RPi" H 3100 7576 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 3050 6550 50  0001 C CNN
 F 3 "~" H 3050 6550 50  0001 C CNN
 	1    3050 6550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 2850 6050 2    50   ~ 0
 GND
@@ -409,7 +409,7 @@ F 1 "GND" V 10355 1622 50  0000 R CNN
 F 2 "" H 10350 1750 50  0001 C CNN
 F 3 "" H 10350 1750 50  0001 C CNN
 	1    10350 1750
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR016
@@ -420,7 +420,7 @@ F 1 "GND" V 10355 2172 50  0000 R CNN
 F 2 "" H 10350 2300 50  0001 C CNN
 F 3 "" H 10350 2300 50  0001 C CNN
 	1    10350 2300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR025
@@ -431,7 +431,7 @@ F 1 "GND" V 10355 2722 50  0000 R CNN
 F 2 "" H 10350 2850 50  0001 C CNN
 F 3 "" H 10350 2850 50  0001 C CNN
 	1    10350 2850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR027
@@ -442,7 +442,7 @@ F 1 "GND" V 10355 3272 50  0000 R CNN
 F 2 "" H 10350 3400 50  0001 C CNN
 F 3 "" H 10350 3400 50  0001 C CNN
 	1    10350 3400
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text Label 2850 6550 2    50   ~ 0
 SPI0_MOSI
@@ -514,7 +514,7 @@ F 1 "GND" V 10355 1072 50  0000 R CNN
 F 2 "" H 10350 1200 50  0001 C CNN
 F 3 "" H 10350 1200 50  0001 C CNN
 	1    10350 1200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L MCU_Microchip_ATmega:ATmega328P-AU U2
@@ -525,7 +525,7 @@ F 1 "ATmega328P-AU" H 5550 1600 50  0000 L TNN
 F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 5450 3050 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 5450 3050 50  0001 C CNN
 	1    5450 3050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J1
@@ -536,7 +536,7 @@ F 1 "ADC1" H 10630 1251 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10550 1300 50  0001 C CNN
 F 3 "~" H 10550 1300 50  0001 C CNN
 	1    10550 1300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J2
@@ -547,7 +547,7 @@ F 1 "ADC2" H 10630 1801 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10550 1850 50  0001 C CNN
 F 3 "~" H 10550 1850 50  0001 C CNN
 	1    10550 1850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J3
@@ -558,7 +558,7 @@ F 1 "ADC3" H 10630 2351 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10550 2400 50  0001 C CNN
 F 3 "~" H 10550 2400 50  0001 C CNN
 	1    10550 2400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J5
@@ -569,7 +569,7 @@ F 1 "ADC4" H 10630 2901 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10550 2950 50  0001 C CNN
 F 3 "~" H 10550 2950 50  0001 C CNN
 	1    10550 2950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J6
@@ -580,7 +580,7 @@ F 1 "ADC5" H 10630 3451 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10550 3500 50  0001 C CNN
 F 3 "~" H 10550 3500 50  0001 C CNN
 	1    10550 3500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR038
@@ -591,7 +591,7 @@ F 1 "GND" V 5455 4422 50  0000 R CNN
 F 2 "" H 5450 4550 50  0001 C CNN
 F 3 "" H 5450 4550 50  0001 C CNN
 	1    5450 4550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:Crystal Y1
@@ -602,7 +602,7 @@ F 1 "Crystal" V 6800 2400 50  0000 L CNN
 F 2 "Crystal:Crystal_HC18-U_Vertical" H 6600 2500 50  0001 C CNN
 F 3 "~" H 6600 2500 50  0001 C CNN
 	1    6600 2500
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	6050 2450 6300 2450
@@ -625,7 +625,7 @@ F 1 "22pF" V 7150 2450 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 2350 50  0001 C CNN
 F 3 "~" H 7050 2350 50  0001 C CNN
 	1    7050 2350
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Device:C_Small C3
@@ -636,7 +636,7 @@ F 1 "22pF" V 7150 2700 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 2650 50  0001 C CNN
 F 3 "~" H 7050 2650 50  0001 C CNN
 	1    7050 2650
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	6600 2350 6950 2350
@@ -653,7 +653,7 @@ F 1 "GND" V 7305 2372 50  0000 R CNN
 F 2 "" H 7300 2500 50  0001 C CNN
 F 3 "" H 7300 2500 50  0001 C CNN
 	1    7300 2500
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	7150 2350 7300 2350
@@ -691,7 +691,7 @@ F 1 "100n" V 4600 1950 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 1850 50  0001 C CNN
 F 3 "~" H 4500 1850 50  0001 C CNN
 	1    4500 1850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:GND #PWR012
@@ -702,7 +702,7 @@ F 1 "GND" V 4305 1722 50  0000 R CNN
 F 2 "" H 4300 1850 50  0001 C CNN
 F 3 "" H 4300 1850 50  0001 C CNN
 	1    4300 1850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	4600 1850 4700 1850
@@ -722,7 +722,7 @@ F 1 "OUT8" H 9280 3601 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9200 3700 50  0001 C CNN
 F 3 "~" H 9200 3700 50  0001 C CNN
 	1    9200 3700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+12V #PWR031
@@ -733,7 +733,7 @@ F 1 "+12V" V 9015 3828 50  0000 L CNN
 F 2 "" H 9000 3700 50  0001 C CNN
 F 3 "" H 9000 3700 50  0001 C CNN
 	1    9000 3700
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Text Label 6050 3950 0    50   ~ 0
 PD4
@@ -774,7 +774,7 @@ F 1 "ADC6" H 10630 4001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10550 4050 50  0001 C CNN
 F 3 "~" H 10550 4050 50  0001 C CNN
 	1    10550 4050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR032
@@ -785,7 +785,7 @@ F 1 "GND" V 10355 3822 50  0000 R CNN
 F 2 "" H 10350 3950 50  0001 C CNN
 F 3 "" H 10350 3950 50  0001 C CNN
 	1    10350 3950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text Label 4850 2050 2    50   ~ 0
 ADC6
@@ -802,7 +802,7 @@ F 1 "ADC7" H 10630 4501 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10550 4550 50  0001 C CNN
 F 3 "~" H 10550 4550 50  0001 C CNN
 	1    10550 4550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR036
@@ -813,7 +813,7 @@ F 1 "GND" V 10355 4322 50  0000 R CNN
 F 2 "" H 10350 4450 50  0001 C CNN
 F 3 "" H 10350 4450 50  0001 C CNN
 	1    10350 4450
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text Label 10350 3050 2    50   ~ 0
 ADC7
@@ -828,7 +828,7 @@ F 1 "12v" H 10630 5551 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10550 5650 50  0001 C CNN
 F 3 "~" H 10550 5650 50  0001 C CNN
 	1    10550 5650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+12V #PWR049
@@ -839,7 +839,7 @@ F 1 "+12V" V 10350 6000 50  0000 C CNN
 F 2 "" H 10350 5750 50  0001 C CNN
 F 3 "" H 10350 5750 50  0001 C CNN
 	1    10350 5750
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR048
@@ -850,7 +850,7 @@ F 1 "GND" V 10355 5522 50  0000 R CNN
 F 2 "" H 10350 5650 50  0001 C CNN
 F 3 "" H 10350 5650 50  0001 C CNN
 	1    10350 5650
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text Label 6050 2350 0    50   ~ 0
 SCLK
@@ -867,7 +867,7 @@ F 1 "SW_DIP_x01" H 5400 6076 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 5400 5900 50  0001 C CNN
 F 3 "~" H 5400 5900 50  0001 C CNN
 	1    5400 5900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 6050 3350 0    50   ~ 0
 ~RESET
@@ -880,7 +880,7 @@ F 1 "10k" V 5295 6300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5400 6300 50  0001 C CNN
 F 3 "~" H 5400 6300 50  0001 C CNN
 	1    5400 6300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	5700 6300 5500 6300
@@ -899,7 +899,7 @@ F 1 "GND" V 5705 5772 50  0000 R CNN
 F 2 "" H 5700 5900 50  0001 C CNN
 F 3 "" H 5700 5900 50  0001 C CNN
 	1    5700 5900
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	4500 6300 5100 6300
@@ -915,7 +915,7 @@ F 1 "BSS138" V 1590 3050 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1450 2975 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 1250 3050 50  0001 L CNN
 	1    1250 3050
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:R_Small R8
@@ -926,7 +926,7 @@ F 1 "10k" V 1150 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1050 2900 50  0001 C CNN
 F 3 "~" H 1050 2900 50  0001 C CNN
 	1    1050 2900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L Device:R_Small R9
@@ -937,7 +937,7 @@ F 1 "10k" V 1345 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1450 2900 50  0001 C CNN
 F 3 "~" H 1450 2900 50  0001 C CNN
 	1    1450 2900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	1050 3000 1050 3150
@@ -954,7 +954,7 @@ F 1 "+3.3V" H 1065 2973 50  0000 C CNN
 F 2 "" H 1050 2800 50  0001 C CNN
 F 3 "" H 1050 2800 50  0001 C CNN
 	1    1050 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 1050 2800
 $Comp
@@ -966,7 +966,7 @@ F 1 "+5V" H 1465 2973 50  0000 C CNN
 F 2 "" H 1450 2800 50  0001 C CNN
 F 3 "" H 1450 2800 50  0001 C CNN
 	1    1450 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1450 3000 1450 3150
@@ -979,7 +979,7 @@ F 1 "+5V" H 4715 1923 50  0000 C CNN
 F 2 "" H 4700 1750 50  0001 C CNN
 F 3 "" H 4700 1750 50  0001 C CNN
 	1    4700 1750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+5V #PWR09
@@ -990,7 +990,7 @@ F 1 "+5V" H 5465 1723 50  0000 C CNN
 F 2 "" H 5450 1550 50  0001 C CNN
 F 3 "" H 5450 1550 50  0001 C CNN
 	1    5450 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 5450 1550
 $Comp
@@ -1002,7 +1002,7 @@ F 1 "+5V" H 3465 5773 50  0000 C CNN
 F 2 "" H 3450 5600 50  0001 C CNN
 F 3 "" H 3450 5600 50  0001 C CNN
 	1    3450 5600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+3.3V #PWR046
@@ -1013,7 +1013,7 @@ F 1 "+3.3V" H 2865 5773 50  0000 C CNN
 F 2 "" H 2850 5600 50  0001 C CNN
 F 3 "" H 2850 5600 50  0001 C CNN
 	1    2850 5600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2850 5650 2850 5600
@@ -1026,7 +1026,7 @@ F 1 "+5V" H 665 4723 50  0000 C CNN
 F 2 "" H 650 4550 50  0001 C CNN
 F 3 "" H 650 4550 50  0001 C CNN
 	1    650  4550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 6050 2150 0    50   ~ 0
 MOSI
@@ -1043,7 +1043,7 @@ F 1 "BSS138" V 2790 3050 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2650 2975 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 2450 3050 50  0001 L CNN
 	1    2450 3050
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:R_Small R10
@@ -1054,7 +1054,7 @@ F 1 "10k" V 2350 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2250 2900 50  0001 C CNN
 F 3 "~" H 2250 2900 50  0001 C CNN
 	1    2250 2900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L Device:R_Small R11
@@ -1065,7 +1065,7 @@ F 1 "10k" V 2750 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2650 2900 50  0001 C CNN
 F 3 "~" H 2650 2900 50  0001 C CNN
 	1    2650 2900
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	2250 3000 2250 3150
@@ -1082,7 +1082,7 @@ F 1 "+3.3V" H 2265 2973 50  0000 C CNN
 F 2 "" H 2250 2800 50  0001 C CNN
 F 3 "" H 2250 2800 50  0001 C CNN
 	1    2250 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 2250 2800
 $Comp
@@ -1094,7 +1094,7 @@ F 1 "+5V" H 2665 2973 50  0000 C CNN
 F 2 "" H 2650 2800 50  0001 C CNN
 F 3 "" H 2650 2800 50  0001 C CNN
 	1    2650 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2650 3000 2650 3150
@@ -1111,7 +1111,7 @@ F 1 "BSS138" V 1590 3950 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1450 3875 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 1250 3950 50  0001 L CNN
 	1    1250 3950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:R_Small R12
@@ -1122,7 +1122,7 @@ F 1 "10k" V 1150 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1050 3800 50  0001 C CNN
 F 3 "~" H 1050 3800 50  0001 C CNN
 	1    1050 3800
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L Device:R_Small R13
@@ -1133,7 +1133,7 @@ F 1 "10k" V 1550 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1450 3800 50  0001 C CNN
 F 3 "~" H 1450 3800 50  0001 C CNN
 	1    1450 3800
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	1050 3900 1050 4050
@@ -1150,7 +1150,7 @@ F 1 "+3.3V" H 1065 3873 50  0000 C CNN
 F 2 "" H 1050 3700 50  0001 C CNN
 F 3 "" H 1050 3700 50  0001 C CNN
 	1    1050 3700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 1050 3700
 $Comp
@@ -1162,7 +1162,7 @@ F 1 "+5V" H 1465 3873 50  0000 C CNN
 F 2 "" H 1450 3700 50  0001 C CNN
 F 3 "" H 1450 3700 50  0001 C CNN
 	1    1450 3700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1450 3900 1450 4050
@@ -1179,7 +1179,7 @@ F 1 "BSS138" V 4640 6200 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 6125 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4300 6200 50  0001 L CNN
 	1    4300 6200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:R_Small R15
@@ -1190,7 +1190,7 @@ F 1 "10k" V 4200 6050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 6050 50  0001 C CNN
 F 3 "~" H 4100 6050 50  0001 C CNN
 	1    4100 6050
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L Device:R_Small R16
@@ -1201,7 +1201,7 @@ F 1 "10k" V 4600 6050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4500 6050 50  0001 C CNN
 F 3 "~" H 4500 6050 50  0001 C CNN
 	1    4500 6050
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	4100 6150 4100 6300
@@ -1218,7 +1218,7 @@ F 1 "+3.3V" H 4115 6123 50  0000 C CNN
 F 2 "" H 4100 5950 50  0001 C CNN
 F 3 "" H 4100 5950 50  0001 C CNN
 	1    4100 5950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 4100 5950
 $Comp
@@ -1230,7 +1230,7 @@ F 1 "+5V" H 4515 6123 50  0000 C CNN
 F 2 "" H 4500 5950 50  0001 C CNN
 F 3 "" H 4500 5950 50  0001 C CNN
 	1    4500 5950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4500 6150 4500 6300
@@ -1243,7 +1243,7 @@ F 1 "+5V" H 1565 6723 50  0000 C CNN
 F 2 "" H 1550 6550 50  0001 C CNN
 F 3 "" H 1550 6550 50  0001 C CNN
 	1    1550 6550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 1550 6550
 $Comp
@@ -1255,7 +1255,7 @@ F 1 "+5V" V 5715 6428 50  0000 L CNN
 F 2 "" H 5700 6300 50  0001 C CNN
 F 3 "" H 5700 6300 50  0001 C CNN
 	1    5700 6300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Connection ~ 4500 6300
 Wire Wire Line
@@ -1274,7 +1274,7 @@ F 1 "+5V" V 10365 1428 50  0000 L CNN
 F 2 "" H 10350 1300 50  0001 C CNN
 F 3 "" H 10350 1300 50  0001 C CNN
 	1    10350 1300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+5V #PWR013
@@ -1285,7 +1285,7 @@ F 1 "+5V" V 10365 1978 50  0000 L CNN
 F 2 "" H 10350 1850 50  0001 C CNN
 F 3 "" H 10350 1850 50  0001 C CNN
 	1    10350 1850
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+5V #PWR019
@@ -1296,7 +1296,7 @@ F 1 "+5V" V 10365 2528 50  0000 L CNN
 F 2 "" H 10350 2400 50  0001 C CNN
 F 3 "" H 10350 2400 50  0001 C CNN
 	1    10350 2400
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+5V #PWR026
@@ -1307,7 +1307,7 @@ F 1 "+5V" V 10365 3078 50  0000 L CNN
 F 2 "" H 10350 2950 50  0001 C CNN
 F 3 "" H 10350 2950 50  0001 C CNN
 	1    10350 2950
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+5V #PWR028
@@ -1318,7 +1318,7 @@ F 1 "+5V" V 10365 3628 50  0000 L CNN
 F 2 "" H 10350 3500 50  0001 C CNN
 F 3 "" H 10350 3500 50  0001 C CNN
 	1    10350 3500
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+5V #PWR034
@@ -1329,7 +1329,7 @@ F 1 "+5V" V 10365 4178 50  0000 L CNN
 F 2 "" H 10350 4050 50  0001 C CNN
 F 3 "" H 10350 4050 50  0001 C CNN
 	1    10350 4050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:+5V #PWR039
@@ -1340,7 +1340,7 @@ F 1 "+5V" V 10365 4678 50  0000 L CNN
 F 2 "" H 10350 4550 50  0001 C CNN
 F 3 "" H 10350 4550 50  0001 C CNN
 	1    10350 4550
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x05 J4
@@ -1351,7 +1351,7 @@ F 1 "Max7219" H 9280 2551 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9200 2600 50  0001 C CNN
 F 3 "~" H 9200 2600 50  0001 C CNN
 	1    9200 2600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR017
@@ -1362,7 +1362,7 @@ F 1 "GND" H 8755 2227 50  0000 C CNN
 F 2 "" H 8750 2400 50  0001 C CNN
 F 3 "" H 8750 2400 50  0001 C CNN
 	1    8750 2400
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L power:+5V #PWR018
@@ -1373,7 +1373,7 @@ F 1 "+5V" H 9015 2573 50  0000 C CNN
 F 2 "" H 9000 2400 50  0001 C CNN
 F 3 "" H 9000 2400 50  0001 C CNN
 	1    9000 2400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 9000 2800 2    50   ~ 0
 MAXCLK
@@ -1400,7 +1400,7 @@ F 1 "GND" H 1405 1077 50  0000 C CNN
 F 2 "" H 1400 1250 50  0001 C CNN
 F 3 "" H 1400 1250 50  0001 C CNN
 	1    1400 1250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 1400 850  0    50   ~ 0
 OUT0
@@ -1415,7 +1415,7 @@ F 1 "NCV8403" H 1504 1005 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 1500 975 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4" H 1300 1050 50  0001 L CNN
 	1    1300 1050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Transistor_FET:IPD50R3K0CE Q2
@@ -1426,7 +1426,7 @@ F 1 "NCV8403" H 2804 1005 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 2800 975 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4" H 2600 1050 50  0001 L CNN
 	1    2600 1050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Transistor_FET:IPD50R3K0CE Q3
@@ -1437,7 +1437,7 @@ F 1 "NCV8403" H 4354 1005 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 4350 975 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4" H 4150 1050 50  0001 L CNN
 	1    4150 1050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Transistor_FET:IPD50R3K0CE Q4
@@ -1448,7 +1448,7 @@ F 1 "NCV8403" H 5904 1005 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 5900 975 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4" H 5700 1050 50  0001 L CNN
 	1    5700 1050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Transistor_FET:IPD50R3K0CE Q5
@@ -1459,7 +1459,7 @@ F 1 "NCV8403" H 7454 1005 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 7450 975 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4" H 7250 1050 50  0001 L CNN
 	1    7250 1050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Transistor_FET:IPD50R3K0CE Q7
@@ -1470,7 +1470,7 @@ F 1 "NCV8403" H 1304 2055 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 1300 2025 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4" H 1100 2100 50  0001 L CNN
 	1    1100 2100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Transistor_FET:IPD50R3K0CE Q6
@@ -1481,7 +1481,7 @@ F 1 "NCV8403" H 9004 1005 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 9000 975 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4" H 8800 1050 50  0001 L CNN
 	1    8800 1050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Transistor_FET:IPD50R3K0CE Q12
@@ -1492,7 +1492,7 @@ F 1 "NCV8403" H 2804 2055 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 2800 2025 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4" H 2600 2100 50  0001 L CNN
 	1    2600 2100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 6050 2750
 $EndSCHEMATC

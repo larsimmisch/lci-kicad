@@ -5,7 +5,7 @@
 	(uuid "2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a")
 	(paper "A4")
 	(title_block
-		(title "garduino")
+		(title "waterpi")
 		(rev "v1")
 		(company "lars@ibp.de")
 	)
@@ -9086,7 +9086,7 @@
 			(uuid "37a4acba-f5da-4485-ae93-8137afa009bb")
 		)
 		(instances
-			(project "garduino"
+			(project "waterpi"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "J21")
 					(unit 1)
@@ -9152,7 +9152,7 @@
 			(uuid "c2baddbf-ba8d-4b0e-94e3-f7a55f15cbda")
 		)
 		(instances
-			(project "garduino"
+			(project "waterpi"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "#PWR020")
 					(unit 1)
@@ -9217,7 +9217,7 @@
 			(uuid "fe0c1d24-4ccb-46b2-95af-7d155f8452ed")
 		)
 		(instances
-			(project "garduino"
+			(project "waterpi"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "#PWR016")
 					(unit 1)
@@ -9461,7 +9461,7 @@
 			(uuid "aba9fb21-55c4-47cc-9ef9-6e5a46bef3e7")
 		)
 		(instances
-			(project "garduino"
+			(project "waterpi"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "#PWR013")
 					(unit 1)
@@ -9530,7 +9530,7 @@
 			(uuid "96098f3c-a986-46d6-b419-84be9bbe2b37")
 		)
 		(instances
-			(project "garduino"
+			(project "waterpi"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "C3")
 					(unit 1)
@@ -9595,7 +9595,7 @@
 			(uuid "11a34bb0-ebb8-4e4e-88f8-d549d3e7c0c8")
 		)
 		(instances
-			(project "garduino"
+			(project "waterpi"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "#PWR07")
 					(unit 1)
@@ -9661,7 +9661,7 @@
 			(uuid "26180121-ed71-4e5c-be42-af3c27d53026")
 		)
 		(instances
-			(project "garduino"
+			(project "waterpi"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "#PWR049")
 					(unit 1)
@@ -9727,7 +9727,7 @@
 			(uuid "d6733e03-4272-4fbc-a108-b7aa6d56fc85")
 		)
 		(instances
-			(project "garduino"
+			(project "waterpi"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "#PWR017")
 					(unit 1)
@@ -9796,7 +9796,7 @@
 			(uuid "fb54bd9f-5377-49d6-a972-cde75eb80621")
 		)
 		(instances
-			(project "garduino"
+			(project "waterpi"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "C4")
 					(unit 1)
@@ -9862,7 +9862,7 @@
 			(uuid "097ae9b3-2f42-40e2-be80-319f99d0ea0b")
 		)
 		(instances
-			(project "garduino"
+			(project "waterpi"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "#PWR050")
 					(unit 1)
@@ -9927,7 +9927,7 @@
 			(uuid "c147eee7-7b5c-455e-a411-c5973b4f9bb3")
 		)
 		(instances
-			(project "garduino"
+			(project "waterpi"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "#PWR019")
 					(unit 1)
