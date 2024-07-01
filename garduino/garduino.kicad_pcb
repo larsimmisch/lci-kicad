@@ -3824,8 +3824,8 @@
 				)
 			)
 		)
-		(property "Value" "12v"
-			(at 0 5.31 0)
+		(property "Value" "12v+"
+			(at 0.048 5.174 0)
 			(layer "F.SilkS")
 			(uuid "34b6969a-2fdc-4ce7-87b4-f3910ce6aa49")
 			(effects
@@ -6167,6 +6167,7 @@
 		(property "Reference" "Q1"
 			(at 0 -4.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fda1fd75-57e5-41e2-9516-9a1cfe713ba0")
 			(effects
 				(font
@@ -6550,6 +6551,7 @@
 		(property "Reference" "Q3"
 			(at 0 -4.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b4a08c83-a200-42dd-ac6d-8d6dbdd13fe9")
 			(effects
 				(font
@@ -6933,6 +6935,7 @@
 		(property "Reference" "Q6"
 			(at 0 -4.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "07a8eb76-f7db-4cc1-8e09-5d81155696a0")
 			(effects
 				(font
@@ -7316,6 +7319,7 @@
 		(property "Reference" "Q7"
 			(at 0 -4.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "21e54e3f-4330-48fa-b165-81ed7aa3a15f")
 			(effects
 				(font
@@ -7699,6 +7703,7 @@
 		(property "Reference" "Q9"
 			(at 0 -4.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d84f7ff0-3ef3-4582-bebf-d159152ec3f3")
 			(effects
 				(font
@@ -8082,6 +8087,7 @@
 		(property "Reference" "Q2"
 			(at 0 -4.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b1147fc0-d000-4da2-a34a-cc0fe884270e")
 			(effects
 				(font
@@ -8465,6 +8471,7 @@
 		(property "Reference" "Q4"
 			(at 0 -4.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a166de59-daa9-42b6-9acb-0905a00d496d")
 			(effects
 				(font
@@ -8848,6 +8855,7 @@
 		(property "Reference" "Q5"
 			(at 0 -4.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a06260b9-7477-43e1-b2bf-3456fd1365a7")
 			(effects
 				(font
@@ -11002,15 +11010,17 @@
 		(layer "Edge.Cuts")
 		(uuid "dafb734c-e700-49e9-92d9-9634ee53147e")
 	)
-	(gr_text "+"
-		(at 92.202 128.778 0)
+	(gr_text "waterpi 1.0"
+		(at 96 97.75 270)
 		(layer "F.SilkS")
-		(uuid "1814da59-d45f-43a3-a057-f0e633e87f17")
+		(uuid "6cd32b44-3f55-475f-9a01-e1a01e6c867f")
 		(effects
 			(font
 				(size 1.5 1.5)
 				(thickness 0.3)
+				(bold yes)
 			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "Select one of these board edges depending \nupon the type of socket that is used."
