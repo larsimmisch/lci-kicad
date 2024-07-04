@@ -3580,12 +3580,6 @@
 		)
 	)
 	(junction
-		(at 119.38 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "221f94d1-6dc3-4435-944b-eca0ed9e67f1")
-	)
-	(junction
 		(at 39.37 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3774,16 +3768,6 @@
 			(type default)
 		)
 		(uuid "8241d663-1f62-4c26-8ee1-32ff8e3fd24d")
-	)
-	(wire
-		(pts
-			(xy 111.76 87.63) (xy 119.38 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83bf704b-b1f6-40a9-944e-dbd52addbb85")
 	)
 	(wire
 		(pts
@@ -10306,6 +10290,72 @@
 			(project "waterpi"
 				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 111.76 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf5ae9f0-5b43-4a5a-b920-22f6da29f4b9")
+		(property "Reference" "#PWR034"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 112.141 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64e0e55f-1975-4686-94d0-af5a772a119c")
+		)
+		(instances
+			(project "waterpi"
+				(path "/2a88fe87-76f2-4b3c-835b-0e8ca2d29d4a"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
